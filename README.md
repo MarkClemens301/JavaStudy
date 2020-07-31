@@ -15,7 +15,7 @@ Java编程第一步，HelloWorld
 
 **代码**见：./JavaStudy/BasicGrammar/Hello/HelloWorld.java
 
-[HelloWorld.java](./BasicGrammar/Hello/HelloWorld.java)
+[HelloWorldJava.java](./BasicGrammar/Hello/HelloWorldJava.java)
 
 **在命令行执行：**
 
