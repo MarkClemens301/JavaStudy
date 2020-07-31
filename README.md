@@ -28,5 +28,5 @@ java HelloWorld.class //执行Java程序
 
 # Basic Grammmar
 
-Remains to be updated...
+Remains to be updated.
 
