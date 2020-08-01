@@ -2,9 +2,11 @@
 
 Create by Mark Clemens, a java learner and user.
 
+
 # About
 
 A project for beginners to learn Java
+
 
 # Contents
 
@@ -13,6 +15,8 @@ A project for beginners to learn Java
 [HelloWorld.java](./BasicGrammar/Hello/HelloWorld.java)
 
 [HelloWorldJava.java](./BasicGrammar/Hello/HelloWorldJava.java)
+
+[ScannerInput.java](./BasicGrammar/Hello/ScannerInput.java)
 
 
 # HelloWorld
@@ -35,4 +39,3 @@ java HelloWorld.class //执行Java程序
 # Basic Grammmar
 
 Remains to be updated.
-
