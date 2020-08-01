@@ -6,6 +6,14 @@ Create by Mark Clemens, a java learner and user.
 
 A project for beginners to learn Java
 
+# Contents
+
+**Hello**
+
+[HelloWorld.java](./BasicGrammar/Hello/HelloWorld.java)
+
+[HelloWorldJava.java](./BasicGrammar/Hello/HelloWorldJava.java)
+
 
 # HelloWorld
 
@@ -13,9 +21,7 @@ Java编程第一步，HelloWorld
 
 在IDEA或者记事本中编辑，**HelloWorld.java**
 
-**代码**见：./JavaStudy/BasicGrammar/Hello/HelloWorld.java
-
-[HelloWorldJava.java](./BasicGrammar/Hello/HelloWorldJava.java)
+**代码**见：[HelloWorldJava.java](./BasicGrammar/Hello/HelloWorldJava.java)
 
 **在命令行执行：**
 
