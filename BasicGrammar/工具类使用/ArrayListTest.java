@@ -3,6 +3,7 @@ package 工具类使用;
 import org.junit.Test;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 
@@ -19,6 +20,8 @@ public class ArrayListTest {
         init();
         System.out.println();
         sets();
+        System.out.println();
+        sorts();
     }
 
     public void init() {
@@ -45,6 +48,18 @@ public class ArrayListTest {
     }
 
     public void sorts() {
+        for (int i = 0; i < row; i++) {
+            data.get(i).sort(Integer::compareTo);
+            //Collections.reverse(data.get(i));
+            System.out.println(data.get(i));
+        }
+    }
 
+    public void revers() {
+        for (int i = 0; i < row; i++) {
+            //data.get(i).sort(Integer::compareTo);
+            Collections.reverse(data.get(i));
+            System.out.println(data.get(i));
+        }
     }
 }
