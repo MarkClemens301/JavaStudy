@@ -52,25 +52,24 @@ BasicGrammar\工具类使用\UseArrays.java
 ```
 
 ```bash
-——
-│  BasicGrammar.iml
-│  pom.xml
-│
-├─Hello
-│      HelloWorld.java
-│      HelloWorldJava.java
-│      ScannerInput.java
-│
-├─src
-│  ├─main
-│  │  ├─java
-│  │  └─resources
-│  └─test
-│      └─java
-├─target
-│  └─generated-sources
-│      └─annotations
-└─工具类使用
-        ArrayListTest.java
-        UseArrays.java
+D:.
+├─.idea
+│  └─inspectionProfiles
+├─BasicGrammar
+│  ├─Hello
+│  ├─src
+│  │  ├─main
+│  │  │  ├─java
+│  │  │  └─resources
+│  │  └─test
+│  │      └─java
+│  ├─target
+│  │  └─generated-sources
+│  │      └─annotations
+│  └─工具类使用
+└─ClassOut
+    └─production
+        └─BasicGrammar
+            ├─Hello
+            └─工具类使用
 ```
