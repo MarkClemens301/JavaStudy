@@ -7,7 +7,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-public class UseArrays {
+public class UseArraysTool {
     private static int[] arr = new int[5]; //静态成员变量
 
     static { //静态代码块
@@ -20,7 +20,7 @@ public class UseArrays {
     //}
 
     public static void main(String[] args) {
-        UseArrays main = new UseArrays();
+        UseArraysTool main = new UseArraysTool();
         System.out.println("RUN");
 
         //int[] arr = new int[3];

@@ -1,11 +1,11 @@
-# JavaLearn
+# JavaStudy <JavaLearn>
 
 Create by Mark Clemens, a java learner and user.
 
 
 # About
 
-A project for beginners to learn Java
+A project for beginners to learn Java.
 
 
 # Contents
