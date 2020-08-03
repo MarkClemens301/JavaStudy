@@ -81,8 +81,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BasicGrammar/工具类使用/ArrayListTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+            <state relative-caret-position="525">
+              <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -171,7 +171,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1596428635335" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1596428804724" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="D:/Program Files/Java/junit4.13/junit-4.13-beta-1.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -193,7 +193,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ArrayListTest.test_sort">
+  <component name="RunManager" selected="JUnit.ArrayListTest">
     <configuration name="ScannerInput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Hello.ScannerInput" />
       <module name="BasicGrammar" />
@@ -276,8 +276,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ArrayListTest.test_sort" />
         <item itemvalue="JUnit.ArrayListTest" />
+        <item itemvalue="JUnit.ArrayListTest.test_sort" />
         <item itemvalue="JUnit.UseArrays.test_max" />
         <item itemvalue="Application.UseArrays" />
         <item itemvalue="Application.ScannerInput" />
@@ -300,7 +300,7 @@
       <workItem from="1596249082683" duration="1941000" />
       <workItem from="1596335068533" duration="7052000" />
       <workItem from="1596361450085" duration="1049000" />
-      <workItem from="1596426948965" duration="1683000" />
+      <workItem from="1596426948965" duration="1850000" />
     </task>
     <task id="LOCAL-00001" summary="2020-7-31 test">
       <created>1596204697283</created>
@@ -337,19 +337,17 @@
       <option name="project" value="LOCAL" />
       <updated>1596428160885</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="2020-8-3 initial size and test">
+      <created>1596428664930</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1596428664930</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ArrayListTest_test_sort - 2020.08.03 at 12h 14m 10s.xml">
-      <configuration name="ArrayListTest.test_sort" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ArrayListTest_test_sort - 2020.08.03 at 12h 15m 08s.xml">
-      <configuration name="ArrayListTest.test_sort" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ArrayListTest - 2020.08.03 at 12h 15m 18s.xml">
-      <configuration name="ArrayListTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ArrayListTest - 2020.08.03 at 12h 16m 51s.xml">
       <configuration name="ArrayListTest" configurationId="JUnit" />
     </history-entry>
@@ -371,9 +369,18 @@
     <history-entry file="ArrayListTest_test_sort - 2020.08.03 at 12h 23m 41s.xml">
       <configuration name="ArrayListTest.test_sort" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ArrayListTest_test_sort - 2020.08.03 at 12h 23m 57s.xml">
+      <configuration name="ArrayListTest.test_sort" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArrayListTest_test_sort - 2020.08.03 at 12h 26m 15s.xml">
+      <configuration name="ArrayListTest.test_sort" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArrayListTest - 2020.08.03 at 12h 26m 28s.xml">
+      <configuration name="ArrayListTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19453000" />
+    <option name="totallyTimeSpent" value="19620000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -430,7 +437,8 @@
     <MESSAGE value="2020-8-1 test Scanner update readme" />
     <MESSAGE value="2020-8-2 add the use of java util class" />
     <MESSAGE value="2020-8-3 add 2D ArrayList test" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020-8-3 add 2D ArrayList test" />
+    <MESSAGE value="2020-8-3 initial size and test" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020-8-3 initial size and test" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/BasicGrammar/target/classes/pom.xml" />
@@ -521,8 +529,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BasicGrammar/工具类使用/ArrayListTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+        <state relative-caret-position="525">
+          <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

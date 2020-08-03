@@ -23,9 +23,9 @@ public class ArrayListTest {
 
     public void init() {
         for (int i = 0; i < row; i++) {
-            data.add(new ArrayList<Integer>());
+            data.add(new ArrayList<Integer>()); // TODO: 2020/8/3 LIST's 1-D INITIALLY
             for (int j = 0; j < col; j++) {
-                data.get(i).add(j, 0);
+                data.get(i).add(j, -1); // TODO: 2020/8/3 LIST.GET.ADD
             }
         }
         for (List<Integer> list : data) {
@@ -36,11 +36,15 @@ public class ArrayListTest {
     public void sets() {
         for (int i = 0; i < row; i++) {
             for (int j = 0; j < col; j++) {
-                data.get(i).set(j, rd.nextInt(SEED));
+                data.get(i).set(j, rd.nextInt(SEED)); // TODO: 2020/8/3 LIST.GET.SET
             }
         }
         for (List<Integer> list : data) {
             System.out.println(list);
         }
+    }
+
+    public void sorts() {
+
     }
 }
