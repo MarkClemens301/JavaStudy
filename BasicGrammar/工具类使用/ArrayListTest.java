@@ -7,30 +7,40 @@ import java.util.List;
 import java.util.Random;
 
 public class ArrayListTest {
-    private List<List<Integer>> data = new ArrayList<>();
+    private List<List<Integer>> data = new ArrayList<>(16); //这里初始容量的设置，没有意义
+    private int row = 2, col = 3;
     private static final int SEED = 100;
     private Random rd = new Random();
-
-    public void init() {
-        for (int i = 0; i < 5; i++) {
-            data.add(new ArrayList<Integer>());
-            for (int j = 0; j < 3; j++) {
-                data.get(i).add(j, 10);
-            }
-        }
-    }
 
     @Test
     public void test_sort() {
         //测试二维动态数组的存储和更新
+        System.out.println("initial size = " + data.size());
         init();
-        for (List<Integer> list : data) System.out.println(list);
         System.out.println();
         sets();
-        for (List<Integer> list : data) System.out.println(list);
+    }
+
+    public void init() {
+        for (int i = 0; i < row; i++) {
+            data.add(new ArrayList<Integer>());
+            for (int j = 0; j < col; j++) {
+                data.get(i).add(j, 0);
+            }
+        }
+        for (List<Integer> list : data) {
+            System.out.println(list);
+        }
     }
 
     public void sets() {
-        for (int i = 0; i < 5; i++) for (int j = 0; j < 3; j++) data.get(i).set(j, rd.nextInt(SEED));
+        for (int i = 0; i < row; i++) {
+            for (int j = 0; j < col; j++) {
+                data.get(i).set(j, rd.nextInt(SEED));
+            }
+        }
+        for (List<Integer> list : data) {
+            System.out.println(list);
+        }
     }
 }
