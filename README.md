@@ -18,14 +18,15 @@ A project for beginners to learn Java
 
 [ScannerInput.java](./BasicGrammar/Hello/ScannerInput.java)
 
+[...](./BasicGrammar/Hello)
 
 # HelloWorld
 
 Java编程第一步，HelloWorld
 
-在IDEA或者记事本中编辑，**HelloWorld.java**
+在IDEA或者记事本中编辑代码，**HelloWorld.java**
 
-**代码**见：[HelloWorldJava.java](./BasicGrammar/Hello/HelloWorldJava.java)
+**代码**：[HelloWorldJava.java](./BasicGrammar/Hello/HelloWorldJava.java)
 
 **在命令行执行：**
 
