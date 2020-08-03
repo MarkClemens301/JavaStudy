@@ -11,7 +11,7 @@ public class ArrayListTest {
     private List<List<Integer>> data = new ArrayList<>(16); //这里初始容量的设置，没有意义
     private int row = 2, col = 3;
     private static final int SEED = 100;
-    private Random rd = new Random();
+    public Random rd = new Random();
 
     @Test
     public void test_sort() {
@@ -24,7 +24,7 @@ public class ArrayListTest {
     }
 
     public void init() {
-        System.out.println("init");
+        System.out.println("init/add");
         for (int i = 0; i < row; i++) {
             data.add(new ArrayList<Integer>()); // TODO: 2020/8/3 LIST's 1-D INITIALLY
             for (int j = 0; j < col; j++) {
