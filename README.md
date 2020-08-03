@@ -39,3 +39,38 @@ java HelloWorld.class //执行Java程序
 # Basic Grammmar
 
 Remains to be updated.
+
+
+# Files Structure
+
+```bash
+BasicGrammar\Hello\HelloWorld.java
+BasicGrammar\Hello\HelloWorldJava.java
+BasicGrammar\Hello\ScannerInput.java
+BasicGrammar\工具类使用\ArrayListTest.java
+BasicGrammar\工具类使用\UseArrays.java
+```
+
+```bash
+——
+│  BasicGrammar.iml
+│  pom.xml
+│
+├─Hello
+│      HelloWorld.java
+│      HelloWorldJava.java
+│      ScannerInput.java
+│
+├─src
+│  ├─main
+│  │  ├─java
+│  │  └─resources
+│  └─test
+│      └─java
+├─target
+│  └─generated-sources
+│      └─annotations
+└─工具类使用
+        ArrayListTest.java
+        UseArrays.java
+```
