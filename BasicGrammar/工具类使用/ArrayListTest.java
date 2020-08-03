@@ -18,13 +18,13 @@ public class ArrayListTest {
         //测试二维动态数组的存储和更新
         System.out.println("initial size = " + data.size());
         init();
-        System.out.println();
         sets();
-        System.out.println();
         sorts();
+        revers();
     }
 
     public void init() {
+        System.out.println("init");
         for (int i = 0; i < row; i++) {
             data.add(new ArrayList<Integer>()); // TODO: 2020/8/3 LIST's 1-D INITIALLY
             for (int j = 0; j < col; j++) {
@@ -34,9 +34,11 @@ public class ArrayListTest {
         for (List<Integer> list : data) {
             System.out.println(list);
         }
+        System.out.println();
     }
 
     public void sets() {
+        System.out.println("set");
         for (int i = 0; i < row; i++) {
             for (int j = 0; j < col; j++) {
                 data.get(i).set(j, rd.nextInt(SEED)); // TODO: 2020/8/3 LIST.GET.SET
@@ -45,21 +47,24 @@ public class ArrayListTest {
         for (List<Integer> list : data) {
             System.out.println(list);
         }
+        System.out.println();
     }
 
     public void sorts() {
+        System.out.println("sort");
         for (int i = 0; i < row; i++) {
             data.get(i).sort(Integer::compareTo);
-            //Collections.reverse(data.get(i));
             System.out.println(data.get(i));
         }
+        System.out.println();
     }
 
     public void revers() {
+        System.out.println("reverse");
         for (int i = 0; i < row; i++) {
-            //data.get(i).sort(Integer::compareTo);
             Collections.reverse(data.get(i));
             System.out.println(data.get(i));
         }
+        System.out.println();
     }
 }
