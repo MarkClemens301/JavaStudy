@@ -10,7 +10,7 @@ A project for beginners to learn Java
 
 # Contents
 
-**Hello**
+## Hello
 
 [HelloWorld.java](./BasicGrammar/Hello/HelloWorld.java)
 

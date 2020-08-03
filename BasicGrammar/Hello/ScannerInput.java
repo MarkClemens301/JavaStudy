@@ -7,7 +7,8 @@ public class ScannerInput {
         Scanner sc = new Scanner(System.in);
         /*
         Scanner是一个扫描器，读取键盘输入到缓冲区
-        next读到空白符时结束：空格，制表符，回车
+        next读到空白符时结束：空格，制表符，回车。
+        nextInt同next，但只读取数值，并返回数值。
         nextLine读到回车时结束，不要用在其他next之后，否则读入的是空回车。
          */
 

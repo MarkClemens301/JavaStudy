@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b1a51bc-5d2d-4290-820a-2890820de1c3" name="Default Changelist" comment="">
+    <list default="true" id="8b1a51bc-5d2d-4290-820a-2890820de1c3" name="Default Changelist" comment="2020-8-2 add the use of java util class">
+      <change afterPath="$PROJECT_DIR$/BasicGrammar/工具类使用/ArrayListTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicGrammar/Hello/ScannerInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/BasicGrammar/Hello/ScannerInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicGrammar/工具类使用/UseArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/BasicGrammar/工具类使用/UseArrays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/BasicGrammar/target/" />
@@ -45,12 +48,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="425">
-                <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <first_editor relative-caret-position="475">
+                <caret line="19" selection-start-line="19" selection-end-line="19" />
               </first_editor>
               <second_editor />
             </state>
@@ -60,17 +63,34 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BasicGrammar/Hello/ScannerInput.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="23" column="61" lean-forward="true" selection-start-line="23" selection-start-column="61" selection-end-line="23" selection-end-column="61" />
+            <state relative-caret-position="200">
+              <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+        <entry file="file://$PROJECT_DIR$/BasicGrammar/工具类使用/UseArrays.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="482" column="20" lean-forward="true" selection-start-line="482" selection-start-column="20" selection-end-line="482" selection-end-column="20" />
+            <state relative-caret-position="391">
+              <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BasicGrammar/工具类使用/ArrayListTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="466">
+              <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#675#676#0" expanded="true" />
+                <element signature="e#779#780#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -100,16 +120,18 @@
         <option value="$PROJECT_DIR$/BasicGrammar/Hello/HelloWorld.java" />
         <option value="$PROJECT_DIR$/BasicGrammar/Hello/HelloWorldJava.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/BasicGrammar/Hello/ScannerInput.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/BasicGrammar/Hello/ScannerInput.java" />
+        <option value="$PROJECT_DIR$/BasicGrammar/工具类使用/UseArrays.java" />
+        <option value="$PROJECT_DIR$/BasicGrammar/工具类使用/ArrayListTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="185" />
-    <option name="y" value="5" />
-    <option name="width" value="1523" />
-    <option name="height" value="939" />
+    <option name="x" value="831" />
+    <option name="y" value="145" />
+    <option name="width" value="1230" />
+    <option name="height" value="866" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -139,12 +161,7 @@
               <item name="JavaStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaStudy" type="462c0819:PsiDirectoryNode" />
               <item name="BasicGrammar" type="462c0819:PsiDirectoryNode" />
-              <item name="Hello" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaStudy" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+              <item name="工具类使用" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaStudy" type="b2602c69:ProjectViewProjectNode" />
@@ -159,7 +176,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1596250406519" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1596428124663" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="D:/Program Files/Java/junit4.13/junit-4.13-beta-1.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -167,7 +184,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -181,33 +198,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ScannerInput">
-    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Hello.HelloWorld" />
-      <module name="BasicGrammar" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Hello.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HelloWorldJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Hello.HelloWorldJava" />
-      <module name="BasicGrammar" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Hello.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ArrayListTest">
     <configuration name="ScannerInput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Hello.ScannerInput" />
       <module name="BasicGrammar" />
@@ -221,35 +212,80 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloWorldJava.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UseArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="工具类使用.UseArrays" />
       <module name="BasicGrammar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Hello.*" />
+          <option name="PATTERN" value="工具类使用.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Hello" />
-      <option name="MAIN_CLASS_NAME" value="Hello.HelloWorldJava" />
-      <option name="METHOD_NAME" value="test1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BasicGrammar" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="工具类使用.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="工具类使用" />
+      <option name="MAIN_CLASS_NAME" value="工具类使用.ArrayListTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayListTest.test_sort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BasicGrammar" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="工具类使用.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="工具类使用" />
+      <option name="MAIN_CLASS_NAME" value="工具类使用.ArrayListTest" />
+      <option name="METHOD_NAME" value="test_sort" />
       <option name="TEST_OBJECT" value="method" />
-      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UseArrays.test_max" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BasicGrammar" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="工具类使用.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="工具类使用" />
+      <option name="MAIN_CLASS_NAME" value="工具类使用.UseArrays" />
+      <option name="METHOD_NAME" value="test_max" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.HelloWorldJava" />
-      <item itemvalue="Application.HelloWorld" />
-      <item itemvalue="JUnit.HelloWorldJava.test1" />
       <item itemvalue="Application.ScannerInput" />
+      <item itemvalue="Application.UseArrays" />
+      <item itemvalue="JUnit.UseArrays.test_max" />
+      <item itemvalue="JUnit.ArrayListTest.test_sort" />
+      <item itemvalue="JUnit.ArrayListTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ArrayListTest" />
+        <item itemvalue="JUnit.ArrayListTest.test_sort" />
+        <item itemvalue="JUnit.UseArrays.test_max" />
+        <item itemvalue="Application.UseArrays" />
         <item itemvalue="Application.ScannerInput" />
-        <item itemvalue="Application.HelloWorld" />
-        <item itemvalue="Application.HelloWorldJava" />
-        <item itemvalue="JUnit.HelloWorldJava.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -266,7 +302,10 @@
       <workItem from="1596188968308" duration="7458000" />
       <workItem from="1596204675772" duration="248000" />
       <workItem from="1596204928912" duration="22000" />
-      <workItem from="1596249082683" duration="1323000" />
+      <workItem from="1596249082683" duration="1941000" />
+      <workItem from="1596335068533" duration="7052000" />
+      <workItem from="1596361450085" duration="1049000" />
+      <workItem from="1596426948965" duration="1173000" />
     </task>
     <task id="LOCAL-00001" summary="2020-7-31 test">
       <created>1596204697283</created>
@@ -289,49 +328,65 @@
       <option name="project" value="LOCAL" />
       <updated>1596250253925</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="2020-8-1 test Scanner update readme">
+      <created>1596250432760</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1596250432760</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HelloWorldJava_test1 - 2020.07.31 at 18h 01m 31s.xml">
-      <configuration name="HelloWorldJava.test1" configurationId="JUnit" />
+    <history-entry file="UseArrays_test_max - 2020.08.02 at 16h 27m 45s.xml">
+      <configuration name="UseArrays.test_max" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HelloWorldJava_test1 - 2020.07.31 at 18h 03m 20s.xml">
-      <configuration name="HelloWorldJava.test1" configurationId="JUnit" />
+    <history-entry file="UseArrays_test_max - 2020.08.02 at 16h 28m 13s.xml">
+      <configuration name="UseArrays.test_max" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HelloWorldJava_test1 - 2020.07.31 at 18h 04m 14s.xml">
-      <configuration name="HelloWorldJava.test1" configurationId="JUnit" />
+    <history-entry file="UseArrays_test_max - 2020.08.02 at 16h 28m 44s.xml">
+      <configuration name="UseArrays.test_max" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HelloWorldJava_test1 - 2020.07.31 at 18h 04m 30s.xml">
-      <configuration name="HelloWorldJava.test1" configurationId="JUnit" />
+    <history-entry file="UseArrays_test_max - 2020.08.02 at 16h 29m 08s.xml">
+      <configuration name="UseArrays.test_max" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HelloWorldJava_test1 - 2020.07.31 at 18h 05m 02s.xml">
-      <configuration name="HelloWorldJava.test1" configurationId="JUnit" />
+    <history-entry file="ArrayListTest_test_sort - 2020.08.03 at 12h 09m 35s.xml">
+      <configuration name="ArrayListTest.test_sort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HelloWorldJava_test1 - 2020.07.31 at 18h 08m 31s.xml">
-      <configuration name="HelloWorldJava.test1" configurationId="JUnit" />
+    <history-entry file="ArrayListTest_test_sort - 2020.08.03 at 12h 11m 38s.xml">
+      <configuration name="ArrayListTest.test_sort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HelloWorldJava_test1 - 2020.07.31 at 18h 08m 46s.xml">
-      <configuration name="HelloWorldJava.test1" configurationId="JUnit" />
+    <history-entry file="ArrayListTest_test_sort - 2020.08.03 at 12h 13m 48s.xml">
+      <configuration name="ArrayListTest.test_sort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HelloWorldJava_test1 - 2020.07.31 at 18h 09m 37s.xml">
-      <configuration name="HelloWorldJava.test1" configurationId="JUnit" />
+    <history-entry file="ArrayListTest_test_sort - 2020.08.03 at 12h 14m 10s.xml">
+      <configuration name="ArrayListTest.test_sort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HelloWorldJava_test1 - 2020.07.31 at 18h 18m 50s.xml">
-      <configuration name="HelloWorldJava.test1" configurationId="JUnit" />
+    <history-entry file="ArrayListTest_test_sort - 2020.08.03 at 12h 15m 08s.xml">
+      <configuration name="ArrayListTest.test_sort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HelloWorldJava_test1 - 2020.07.31 at 18h 25m 39s.xml">
-      <configuration name="HelloWorldJava.test1" configurationId="JUnit" />
+    <history-entry file="ArrayListTest - 2020.08.03 at 12h 15m 18s.xml">
+      <configuration name="ArrayListTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9051000" />
+    <option name="totallyTimeSpent" value="18943000" />
+  </component>
+  <component name="TodoView" selected-index="4">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21386667" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2208" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -340,12 +395,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32939914" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32939914" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32939914" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32939914" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32939914" />
@@ -353,7 +408,7 @@
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.32939914" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.2496" />
       <window_info anchor="right" id="Maven" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="leetcode" order="5" side_tool="true" weight="0.3296" />
@@ -370,7 +425,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2020-7-31 test" />
     <MESSAGE value="2020-8-1 test Scanner&#10;notice: next and nextLine" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020-8-1 test Scanner&#10;notice: next and nextLine" />
+    <MESSAGE value="2020-8-1 test Scanner update readme" />
+    <MESSAGE value="2020-8-2 add the use of java util class" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020-8-2 add the use of java util class" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/BasicGrammar/target/classes/pom.xml" />
@@ -393,10 +450,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BasicGrammar/Hello/HelloWorldJava.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        <state relative-caret-position="25">
+          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="529" column="36" selection-start-line="529" selection-start-column="36" selection-end-line="529" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -418,34 +482,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="482" column="20" lean-forward="true" selection-start-line="482" selection-start-column="20" selection-end-line="482" selection-end-column="20" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="475">
+            <caret line="19" selection-start-line="19" selection-end-line="19" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BasicGrammar/Hello/ScannerInput.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="23" column="61" lean-forward="true" selection-start-line="23" selection-start-column="61" selection-end-line="23" selection-end-column="61" />
+        <state relative-caret-position="200">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="425">
-            <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/BasicGrammar/工具类使用/UseArrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BasicGrammar/Hello/HelloWorldJava.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BasicGrammar/工具类使用/ArrayListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#675#676#0" expanded="true" />
+            <element signature="e#779#780#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
