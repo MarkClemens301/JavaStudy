@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/BasicGrammar/工具类使用/SortOfCustomer.java" line="22" />
-    <bookmark url="file://$PROJECT_DIR$/BasicGrammar/工具类使用/SortOfCustomer.java" line="12" />
+    <bookmark url="file://$PROJECT_DIR$/BasicGrammar/工具类使用/SortOfCustomer.java" line="35" />
+    <bookmark url="file://$PROJECT_DIR$/BasicGrammar/工具类使用/SortOfCustomer.java" line="13" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b1a51bc-5d2d-4290-820a-2890820de1c3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BasicGrammar/工具类使用/SortOfCustomer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicGrammar/工具类使用/SortOfCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/BasicGrammar/工具类使用/SortOfCustomer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/BasicGrammar/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -100,8 +100,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BasicGrammar/工具类使用/SortOfCustomer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="22" column="41" lean-forward="true" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+            <state relative-caret-position="225">
+              <caret line="28" column="63" selection-start-line="28" selection-start-column="63" selection-end-line="28" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -199,7 +199,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1596590527518" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1596590854820" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="D:/Program Files/Java/junit4.13/junit-4.13-beta-1.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -284,7 +284,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UseArrays.test_max" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SortOfCustomer.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BasicGrammar" />
       <extension name="coverage">
         <pattern>
@@ -293,27 +293,27 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="工具类使用" />
-      <option name="MAIN_CLASS_NAME" value="工具类使用.UseArrays" />
-      <option name="METHOD_NAME" value="test_max" />
+      <option name="MAIN_CLASS_NAME" value="工具类使用.SortOfCustomer" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.UseArrays.test_max" />
       <item itemvalue="JUnit.ArrayListTest.test_sort" />
       <item itemvalue="JUnit.ArrayListTest" />
       <item itemvalue="JUnit.SortOfCustomer.test" />
       <item itemvalue="JUnit.SortOfCustomer" />
+      <item itemvalue="JUnit.SortOfCustomer.test1" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.SortOfCustomer" />
+        <item itemvalue="JUnit.SortOfCustomer.test1" />
         <item itemvalue="JUnit.SortOfCustomer.test" />
         <item itemvalue="JUnit.ArrayListTest" />
         <item itemvalue="JUnit.ArrayListTest.test_sort" />
-        <item itemvalue="JUnit.UseArrays.test_max" />
       </list>
     </recent_temporary>
   </component>
@@ -336,7 +336,7 @@
       <workItem from="1596426948965" duration="5291000" />
       <workItem from="1596432268540" duration="1043000" />
       <workItem from="1596444457292" duration="139000" />
-      <workItem from="1596590018287" duration="488000" />
+      <workItem from="1596590018287" duration="829000" />
     </task>
     <task id="LOCAL-00001" summary="2020-7-31 test">
       <created>1596204697283</created>
@@ -436,22 +436,17 @@
       <option name="project" value="LOCAL" />
       <updated>1596444595371</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="2020-8-5 自定义排序测试 lambda表达式">
+      <created>1596590569375</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1596590569375</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ArrayListTest_test_sort - 2020.08.03 at 12h 23m 57s.xml">
-      <configuration name="ArrayListTest.test_sort" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ArrayListTest_test_sort - 2020.08.03 at 12h 26m 15s.xml">
-      <configuration name="ArrayListTest.test_sort" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ArrayListTest - 2020.08.03 at 12h 26m 28s.xml">
-      <configuration name="ArrayListTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ArrayListTest_test_sort - 2020.08.03 at 12h 31m 10s.xml">
-      <configuration name="ArrayListTest.test_sort" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ArrayListTest_test_sort - 2020.08.03 at 12h 31m 23s.xml">
       <configuration name="ArrayListTest.test_sort" configurationId="JUnit" />
     </history-entry>
@@ -470,9 +465,21 @@
     <history-entry file="SortOfCustomer_test - 2020.08.05 at 09h 20m 57s.xml">
       <configuration name="SortOfCustomer.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SortOfCustomer_test - 2020.08.05 at 09h 21m 52s.xml">
+      <configuration name="SortOfCustomer.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SortOfCustomer - 2020.08.05 at 09h 22m 09s.xml">
+      <configuration name="SortOfCustomer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SortOfCustomer_test1 - 2020.08.05 at 09h 26m 45s.xml">
+      <configuration name="SortOfCustomer.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SortOfCustomer - 2020.08.05 at 09h 27m 01s.xml">
+      <configuration name="SortOfCustomer" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24731000" />
+    <option name="totallyTimeSpent" value="25072000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -538,7 +545,8 @@
     <MESSAGE value="2020-8-3 更新文件目录" />
     <MESSAGE value="2020-8-3 更新文件目录 v2" />
     <MESSAGE value="2020-8-3 更新文件目录 v3" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020-8-3 更新文件目录 v3" />
+    <MESSAGE value="2020-8-5 自定义排序测试 lambda表达式" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020-8-5 自定义排序测试 lambda表达式" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/BasicGrammar/target/classes/pom.xml" />
@@ -639,8 +647,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BasicGrammar/工具类使用/SortOfCustomer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="22" column="41" lean-forward="true" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+        <state relative-caret-position="225">
+          <caret line="28" column="63" selection-start-line="28" selection-start-column="63" selection-end-line="28" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
