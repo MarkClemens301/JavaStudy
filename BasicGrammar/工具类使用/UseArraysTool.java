@@ -2,13 +2,11 @@ package 工具类使用;
 
 import org.junit.Test;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 public class UseArraysTool {
     private static int[] arr = new int[5]; //静态成员变量
+    private Random r = new Random();
 
     static { //静态代码块
         for (int i = 0; i < arr.length; i++) arr[i] = i * i;
@@ -37,6 +35,25 @@ public class UseArraysTool {
      * 以下使用Junit进行测试。
      * 环境配置过程，参考谷歌搜索。
      */
+
+    @Test
+    public void test1() {
+        Queue<Integer> quque = new PriorityQueue<>();
+        //存入堆中
+        for (int i = 0; i < 10; i++) {
+            int val = r.nextInt(10);
+            System.out.print(val + " ");
+            quque.offer(val);
+        }
+        System.out.println();
+        //排序
+        int size = quque.size();
+        for (int i = 0; i < size; i++) {
+            System.out.print(quque.poll() + " ");
+        }
+        System.out.println();
+    }
+
     @Test
     public void test_max() {
         //寻找数组中的最大值、数组的排序
