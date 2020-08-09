@@ -38,10 +38,10 @@ public class UseArraysTool {
 
     @Test
     public void test1() {
-        Queue<Integer> quque = new PriorityQueue<>();
+        Queue<Integer> quque = new PriorityQueue<>(); //默认为小根堆
         //存入堆中
         for (int i = 0; i < 10; i++) {
-            int val = r.nextInt(10);
+            int val = r.nextInt(10); //产生10以内的随机数（整数）
             System.out.print(val + " ");
             quque.offer(val);
         }
