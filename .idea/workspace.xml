@@ -76,8 +76,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BasicGrammar/工具类使用/UseArraysTool.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="43" column="43" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="43" />
+            <state relative-caret-position="250">
+              <caret line="45" column="40" lean-forward="true" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -212,7 +212,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1596937782735" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1596937868729" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="D:/Program Files/Java/junit4.13/junit-4.13-beta-1.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -351,7 +351,7 @@
       <workItem from="1596590018287" duration="1478000" />
       <workItem from="1596680554779" duration="899000" />
       <workItem from="1596879387779" duration="956000" />
-      <workItem from="1596937733418" duration="49000" />
+      <workItem from="1596937733418" duration="136000" />
     </task>
     <task id="LOCAL-00001" summary="2020-7-31 test">
       <created>1596204697283</created>
@@ -486,13 +486,17 @@
       <option name="project" value="LOCAL" />
       <updated>1596879728637</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="2020-8-9 小根堆注释">
+      <created>1596937804954</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1596937804954</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SortOfCustomer_test - 2020.08.05 at 09h 21m 52s.xml">
-      <configuration name="SortOfCustomer.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SortOfCustomer - 2020.08.05 at 09h 22m 09s.xml">
       <configuration name="SortOfCustomer" configurationId="JUnit" />
     </history-entry>
@@ -520,9 +524,12 @@
     <history-entry file="UseArraysTool_test1 - 2020.08.08 at 17h 41m 36s.xml">
       <configuration name="UseArraysTool.test1" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="UseArraysTool_test1 - 2020.08.09 at 09h 49m 49s.xml">
+      <configuration name="UseArraysTool.test1" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27625000" />
+    <option name="totallyTimeSpent" value="27712000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -545,12 +552,12 @@
       <window_info id="Favorites" order="5" sideWeight="0.5008" side_tool="true" weight="0.2208" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32939914" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32939914" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32939914" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32939914" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32939914" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32939914" />
@@ -593,7 +600,8 @@
     <MESSAGE value="2020-8-5 面试手撕代码测试" />
     <MESSAGE value="2020-8-6 面试手撕代码测试" />
     <MESSAGE value="2020-8-8 小根堆测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020-8-8 小根堆测试" />
+    <MESSAGE value="2020-8-9 小根堆注释" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020-8-9 小根堆注释" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/BasicGrammar/target/classes/pom.xml" />
@@ -704,8 +712,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BasicGrammar/工具类使用/UseArraysTool.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="43" column="43" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="43" />
+        <state relative-caret-position="250">
+          <caret line="45" column="40" lean-forward="true" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

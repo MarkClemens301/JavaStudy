@@ -38,7 +38,8 @@ public class UseArraysTool {
 
     @Test
     public void test1() {
-        Queue<Integer> quque = new PriorityQueue<>(); //默认为小根堆
+        Queue<Integer> quque = new PriorityQueue<>((x, y) -> (y - x)); //小根堆改为大根堆的写法，需要用到java8新特性：lambda表达式
+        //Queue<Integer> quque = new PriorityQueue<>(); //默认为小根堆
         //存入堆中
         for (int i = 0; i < 10; i++) {
             int val = r.nextInt(10); //产生10以内的随机数（整数）
