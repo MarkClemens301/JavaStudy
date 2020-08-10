@@ -27,7 +27,7 @@ public class UseArraysTool {
     }
 
     //将数组转化成字符串
-    public String array2String(int[] arr) {
+    public String array2String(int[] arr) { //数组2字符串
         return Arrays.toString(arr);
     }
 
@@ -37,7 +37,7 @@ public class UseArraysTool {
      */
 
     @Test
-    public void test1() {
+    public void test1() { //队列 优先队列 堆（数据结构）
         Queue<Integer> quque = new PriorityQueue<>((x, y) -> (y - x)); //小根堆改为大根堆的写法，需要用到java8新特性：lambda表达式
         //Queue<Integer> quque = new PriorityQueue<>(); //默认为小根堆
         //存入堆中
@@ -47,7 +47,7 @@ public class UseArraysTool {
             quque.offer(val);
         }
         System.out.println();
-        //排序
+        //排序（利用小根堆）
         int size = quque.size();
         for (int i = 0; i < size; i++) {
             System.out.print(quque.poll() + " ");
@@ -56,11 +56,11 @@ public class UseArraysTool {
     }
 
     @Test
-    public void test_max() {
-        //寻找数组中的最大值、数组的排序
+    public void test_max() { //数组最大值、数组排序
         List<Integer> list = new ArrayList<>();
         for (int num : arr) list.add(num);
         int max = Collections.max(list); //搜索最大值
+        //Collections.sort(list); //自然排序
         System.out.println("max = " + max);
     }
 }
