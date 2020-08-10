@@ -14,8 +14,11 @@ public class List2Array {
             list.add((double) i);
         }
         Double[] arr = null;
-        arr = list.toArray(new Double[0]);//todo list转为array
 
+        arr = list.toArray(new Double[0]);//todo list转为array
+        System.out.println(Arrays.toString(arr));
+
+        Arrays.sort(arr, (x, y) -> y.compareTo(x)); //排序 todo 递减排序
         System.out.println(Arrays.toString(arr));
     }
 }

@@ -44,9 +44,10 @@ public class ArraysListTool {
         for (int i = 0; i < 10; i++) {
             int val = r.nextInt(10); //产生10以内的随机数（整数）
             System.out.print(val + " ");
-            quque.offer(val);
+            quque.offer(val); //入队
         }
         System.out.println();
+
         //排序（利用小根堆）
         int size = quque.size();
         for (int i = 0; i < size; i++) {
@@ -59,7 +60,9 @@ public class ArraysListTool {
     public void test_max() { //数组最大值、数组排序
         List<Integer> list = new ArrayList<>();
         for (int num : arr) list.add(num);
+
         int max = Collections.max(list); //搜索最大值
+
         //Collections.sort(list); //自然排序
         System.out.println("max = " + max);
     }
