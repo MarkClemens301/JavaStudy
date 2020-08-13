@@ -100,8 +100,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BasicGrammar/工具类使用/Sort自定义排序.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="1000">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -124,8 +124,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BasicGrammar/工具类使用/List2Array.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="20" column="54" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
+            <state relative-caret-position="407">
+              <caret line="33" column="55" selection-start-line="33" selection-start-column="55" selection-end-line="33" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -172,9 +172,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="948" />
-    <option name="y" value="33" />
-    <option name="width" value="974" />
+    <option name="x" value="954" />
+    <option name="y" value="30" />
+    <option name="width" value="973" />
     <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -184,11 +184,12 @@
     <navigator proportions="" version="1">
       <showMembers ProjectPane="false" />
       <showExcludedFiles Scope="false" ProjectPane="false" />
+      <autoscrollFromSource ProjectPane="true" />
       <sortByType ProjectPane="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -221,13 +222,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1597162040526" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1597334297261" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="D:/Program Files/Java/junit4.13/junit-4.13-beta-1.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -372,7 +373,8 @@
       <workItem from="1596879387779" duration="956000" />
       <workItem from="1596937733418" duration="205000" />
       <workItem from="1597031420772" duration="2557000" />
-      <workItem from="1597161961606" duration="42000" />
+      <workItem from="1597161961606" duration="251000" />
+      <workItem from="1597334003582" duration="294000" />
     </task>
     <task id="LOCAL-00001" summary="2020-7-31 test">
       <created>1596204697283</created>
@@ -542,25 +544,17 @@
       <option name="project" value="LOCAL" />
       <updated>1597034530897</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="2020-8-12 Collections工具类找最大最小值">
+      <created>1597162067702</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1597162067702</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UseArraysTool_test1 - 2020.08.08 at 17h 40m 45s.xml">
-      <configuration name="UseArraysTool.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UseArraysTool_test1 - 2020.08.08 at 17h 41m 22s.xml">
-      <configuration name="UseArraysTool.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UseArraysTool_test1 - 2020.08.08 at 17h 41m 36s.xml">
-      <configuration name="UseArraysTool.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UseArraysTool_test1 - 2020.08.09 at 09h 49m 49s.xml">
-      <configuration name="UseArraysTool.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UseArraysTool_test1 - 2020.08.09 at 09h 51m 09s.xml">
-      <configuration name="UseArraysTool.test1" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="UseArraysTool_test_max - 2020.08.10 at 11h 55m 20s.xml">
       <configuration name="UseArraysTool.test_max" configurationId="JUnit" />
     </history-entry>
@@ -576,9 +570,24 @@
     <history-entry file="List2Array_test - 2020.08.10 at 12h 41m 42s.xml">
       <configuration name="List2Array.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="List2Array_test - 2020.08.12 at 00h 07m 27s.xml">
+      <configuration name="List2Array.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="List2Array_test - 2020.08.13 at 23h 56m 03s.xml">
+      <configuration name="List2Array.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="List2Array_test - 2020.08.13 at 23h 56m 40s.xml">
+      <configuration name="List2Array.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="List2Array_test - 2020.08.13 at 23h 57m 29s.xml">
+      <configuration name="List2Array.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="List2Array_test - 2020.08.13 at 23h 57m 50s.xml">
+      <configuration name="List2Array.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30380000" />
+    <option name="totallyTimeSpent" value="30883000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -593,7 +602,7 @@
     <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992" visible="true" weight="0.24213333" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992" visible="true" weight="0.2448" />
       <window_info id="Designer" order="1" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -601,12 +610,12 @@
       <window_info id="Favorites" order="5" sideWeight="0.5008" side_tool="true" weight="0.2208" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32939914" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32939914" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32939914" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32939914" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32939914" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32939914" />
@@ -618,7 +627,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.2496" />
       <window_info anchor="right" id="Maven" order="4" />
       <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="right" id="leetcode" order="6" side_tool="true" weight="0.3296" />
+      <window_info anchor="right" id="leetcode" order="6" side_tool="true" visible="true" weight="0.17066666" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Key Promoter X" order="8" />
       <window_info anchor="right" id="Database" order="9" />
@@ -655,7 +664,8 @@
     <MESSAGE value="2020-8-10 更新注释" />
     <MESSAGE value="2020-8-10 list2arr" />
     <MESSAGE value="2020-8-10 list2arr 递减排序" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020-8-10 list2arr 递减排序" />
+    <MESSAGE value="2020-8-12 Collections工具类找最大最小值" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020-8-12 Collections工具类找最大最小值" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/BasicGrammar/target/classes/pom.xml" />
@@ -754,6 +764,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/BasicGrammar/工具类使用/Sort自定义排序.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1000">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/BasicGrammar/Test06/MainTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
@@ -764,20 +784,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BasicGrammar/工具类使用/Sort自定义排序.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BasicGrammar/工具类使用/List2Array.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="20" column="54" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
+        <state relative-caret-position="407">
+          <caret line="33" column="55" selection-start-line="33" selection-start-column="55" selection-end-line="33" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
