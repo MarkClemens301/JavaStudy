@@ -6,8 +6,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b1a51bc-5d2d-4290-820a-2890820de1c3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BasicGrammar/工具类使用/AtomicIntegerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicGrammar/工具类使用/AtomicIntegerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/BasicGrammar/工具类使用/AtomicIntegerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/BasicGrammar/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -127,8 +127,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BasicGrammar/工具类使用/AtomicIntegerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+            <state relative-caret-position="475">
+              <caret line="25" column="68" selection-start-line="25" selection-start-column="68" selection-end-line="25" selection-end-column="68" />
               <folding>
                 <element signature="e#367#368#0" expanded="true" />
                 <element signature="e#383#384#0" expanded="true" />
@@ -235,7 +235,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1597466166854" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1597466548992" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="D:/Program Files/Java/junit4.13/junit-4.13-beta-1.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -379,7 +379,7 @@
       <workItem from="1597031420772" duration="2557000" />
       <workItem from="1597161961606" duration="251000" />
       <workItem from="1597334003582" duration="480000" />
-      <workItem from="1597465765576" duration="396000" />
+      <workItem from="1597465765576" duration="778000" />
     </task>
     <task id="LOCAL-00001" summary="2020-7-31 test">
       <created>1596204697283</created>
@@ -563,7 +563,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597334356979</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="2020-8-15 AtomicInteger 线程安全日期">
+      <created>1597466191896</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1597466191896</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -599,7 +606,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31465000" />
+    <option name="totallyTimeSpent" value="31847000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -652,7 +659,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="2020-8-1 test Scanner&#10;notice: next and nextLine" />
     <MESSAGE value="2020-8-1 test Scanner update readme" />
     <MESSAGE value="2020-8-2 add the use of java util class" />
     <MESSAGE value="2020-8-3 add 2D ArrayList test" />
@@ -677,7 +683,8 @@
     <MESSAGE value="2020-8-10 list2arr 递减排序" />
     <MESSAGE value="2020-8-12 Collections工具类找最大最小值" />
     <MESSAGE value="2020-8-13 列表转换为基本类型数组（不是包装类型数组）" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020-8-13 列表转换为基本类型数组（不是包装类型数组）" />
+    <MESSAGE value="2020-8-15 AtomicInteger 线程安全日期" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020-8-15 AtomicInteger 线程安全日期" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/BasicGrammar/target/classes/pom.xml" />
@@ -808,8 +815,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BasicGrammar/工具类使用/AtomicIntegerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        <state relative-caret-position="475">
+          <caret line="25" column="68" selection-start-line="25" selection-start-column="68" selection-end-line="25" selection-end-column="68" />
           <folding>
             <element signature="e#367#368#0" expanded="true" />
             <element signature="e#383#384#0" expanded="true" />
