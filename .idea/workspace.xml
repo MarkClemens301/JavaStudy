@@ -6,8 +6,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b1a51bc-5d2d-4290-820a-2890820de1c3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/BasicGrammar/工具类使用/AtomicIntegerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BasicGrammar/工具类使用/List2Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/BasicGrammar/工具类使用/List2Array.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/BasicGrammar/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,15 +21,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BasicGrammar/Hello/HelloWorldJava.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BasicGrammar/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -121,13 +112,28 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BasicGrammar/工具类使用/List2Array.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="33" column="55" selection-start-line="33" selection-start-column="55" selection-end-line="33" selection-end-column="55" />
+            <state relative-caret-position="125">
+              <caret line="28" column="26" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BasicGrammar/工具类使用/AtomicIntegerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+              <folding>
+                <element signature="e#367#368#0" expanded="true" />
+                <element signature="e#383#384#0" expanded="true" />
+                <element signature="e#440#441#0" expanded="true" />
+                <element signature="e#482#483#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -168,6 +174,7 @@
         <option value="$PROJECT_DIR$/BasicGrammar/工具类使用/Sort自定义排序.java" />
         <option value="$PROJECT_DIR$/BasicGrammar/工具类使用/ArraysListTool.java" />
         <option value="$PROJECT_DIR$/BasicGrammar/工具类使用/List2Array.java" />
+        <option value="$PROJECT_DIR$/BasicGrammar/工具类使用/AtomicIntegerTest.java" />
       </list>
     </option>
   </component>
@@ -228,7 +235,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1597334297261" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1597466166854" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="D:/Program Files/Java/junit4.13/junit-4.13-beta-1.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -251,7 +258,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.List2Array.test">
+  <component name="RunManager" selected="Application.AtomicIntegerTest">
+    <configuration name="AtomicIntegerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="工具类使用.AtomicIntegerTest" />
+      <module name="BasicGrammar" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="工具类使用.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="List2Array.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BasicGrammar" />
       <extension name="coverage">
@@ -300,22 +320,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UseArraysTool.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BasicGrammar" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="工具类使用.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="工具类使用" />
-      <option name="MAIN_CLASS_NAME" value="工具类使用.UseArraysTool" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="UseArraysTool.test_max" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BasicGrammar" />
       <extension name="coverage">
@@ -333,19 +337,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.UseArraysTool.test1" />
       <item itemvalue="JUnit.UseArraysTool.test_max" />
       <item itemvalue="JUnit.Sort自定义排序.test" />
       <item itemvalue="JUnit.Sort自定义排序.test1" />
       <item itemvalue="JUnit.List2Array.test" />
+      <item itemvalue="Application.AtomicIntegerTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AtomicIntegerTest" />
         <item itemvalue="JUnit.List2Array.test" />
         <item itemvalue="JUnit.Sort自定义排序.test1" />
         <item itemvalue="JUnit.Sort自定义排序.test" />
         <item itemvalue="JUnit.UseArraysTool.test_max" />
-        <item itemvalue="JUnit.UseArraysTool.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -374,7 +378,8 @@
       <workItem from="1596937733418" duration="205000" />
       <workItem from="1597031420772" duration="2557000" />
       <workItem from="1597161961606" duration="251000" />
-      <workItem from="1597334003582" duration="294000" />
+      <workItem from="1597334003582" duration="480000" />
+      <workItem from="1597465765576" duration="396000" />
     </task>
     <task id="LOCAL-00001" summary="2020-7-31 test">
       <created>1596204697283</created>
@@ -551,13 +556,17 @@
       <option name="project" value="LOCAL" />
       <updated>1597162067702</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="2020-8-13 列表转换为基本类型数组（不是包装类型数组）">
+      <created>1597334356979</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1597334356979</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UseArraysTool_test_max - 2020.08.10 at 11h 55m 20s.xml">
-      <configuration name="UseArraysTool.test_max" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Sort自定义排序_test - 2020.08.10 at 12h 01m 30s.xml">
       <configuration name="Sort自定义排序.test" configurationId="JUnit" />
     </history-entry>
@@ -585,9 +594,12 @@
     <history-entry file="List2Array_test - 2020.08.13 at 23h 57m 50s.xml">
       <configuration name="List2Array.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="List2Array_test - 2020.08.13 at 23h 58m 20s.xml">
+      <configuration name="List2Array.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30883000" />
+    <option name="totallyTimeSpent" value="31465000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -602,7 +614,7 @@
     <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992" visible="true" weight="0.2448" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992" visible="true" weight="0.24746667" />
       <window_info id="Designer" order="1" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -615,7 +627,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32939914" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32939914" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3290461" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32939914" />
@@ -640,7 +652,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="2020-7-31 test" />
     <MESSAGE value="2020-8-1 test Scanner&#10;notice: next and nextLine" />
     <MESSAGE value="2020-8-1 test Scanner update readme" />
     <MESSAGE value="2020-8-2 add the use of java util class" />
@@ -665,7 +676,8 @@
     <MESSAGE value="2020-8-10 list2arr" />
     <MESSAGE value="2020-8-10 list2arr 递减排序" />
     <MESSAGE value="2020-8-12 Collections工具类找最大最小值" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020-8-12 Collections工具类找最大最小值" />
+    <MESSAGE value="2020-8-13 列表转换为基本类型数组（不是包装类型数组）" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020-8-13 列表转换为基本类型数组（不是包装类型数组）" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/BasicGrammar/target/classes/pom.xml" />
@@ -786,10 +798,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BasicGrammar/工具类使用/List2Array.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="33" column="55" selection-start-line="33" selection-start-column="55" selection-end-line="33" selection-end-column="55" />
+        <state relative-caret-position="125">
+          <caret line="28" column="26" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BasicGrammar/工具类使用/AtomicIntegerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+          <folding>
+            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
           </folding>
         </state>
       </provider>
