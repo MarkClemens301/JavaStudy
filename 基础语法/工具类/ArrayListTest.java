@@ -1,4 +1,4 @@
-package 工具类使用;
+package 工具类;
 
 import org.junit.Test;
 

@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/BasicGrammar/BasicGrammar.iml" filepath="$PROJECT_DIR$/BasicGrammar/BasicGrammar.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/JavaStudy.iml" filepath="$PROJECT_DIR$/.idea/JavaStudy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/基础语法/基础语法.iml" filepath="$PROJECT_DIR$/基础语法/基础语法.iml" />
+      <module fileurl="file://$PROJECT_DIR$/设计模式/设计模式.iml" filepath="$PROJECT_DIR$/设计模式/设计模式.iml" />
     </modules>
   </component>
 </project>

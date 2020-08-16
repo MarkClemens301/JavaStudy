@@ -1,15 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/BasicGrammar/工具类使用/Sort自定义排序.java" line="35" />
-    <bookmark url="file://$PROJECT_DIR$/BasicGrammar/工具类使用/Sort自定义排序.java" line="13" />
+    <bookmark url="file://$PROJECT_DIR$/基础语法/工具类/Sort自定义排序.java" line="35" />
+    <bookmark url="file://$PROJECT_DIR$/基础语法/工具类/Sort自定义排序.java" line="13" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b1a51bc-5d2d-4290-820a-2890820de1c3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/设计模式/DM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/设计模式/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/设计模式/设计模式.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/JavaStudy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JavaStudy.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BasicGrammar/排序算法/quickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/BasicGrammar/排序算法/quickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicGrammar/BasicGrammar.iml" beforeDir="false" afterPath="$PROJECT_DIR$/基础语法/基础语法.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicGrammar/Hello/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/基础语法/Hello/HelloWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicGrammar/Hello/HelloWorldJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/基础语法/Hello/HelloWorldJava.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicGrammar/Hello/ScannerInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/基础语法/Hello/ScannerInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicGrammar/Test06/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/基础语法/Test06/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicGrammar/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/基础语法/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicGrammar/工具类使用/ArrayListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/基础语法/工具类/ArrayListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicGrammar/工具类使用/ArraysListTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/基础语法/工具类/ArraysListTool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicGrammar/工具类使用/AtomicIntegerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/基础语法/工具类/AtomicIntegerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicGrammar/工具类使用/List2Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/基础语法/工具类/List2Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicGrammar/工具类使用/Sort自定义排序.java" beforeDir="false" afterPath="$PROJECT_DIR$/基础语法/工具类/Sort自定义排序.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicGrammar/排序算法/quickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/基础语法/排序算法/quickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/BasicGrammar/target/" />
+    <ignored path="$PROJECT_DIR$/设计模式/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,32 +42,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BasicGrammar/Hello/HelloWorld.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-              <folding>
-                <element signature="e#85#86#0" expanded="true" />
-                <element signature="e#145#146#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="75">
-                <caret line="3" selection-start-line="3" selection-end-line="3" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BasicGrammar/Hello/ScannerInput.java">
+        <entry file="file://$PROJECT_DIR$/基础语法/Hello/ScannerInput.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="200">
               <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
@@ -56,10 +51,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BasicGrammar/工具类使用/ArraysListTool.java">
+        <entry file="file://$PROJECT_DIR$/基础语法/工具类/ArraysListTool.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1500">
-              <caret line="64" selection-start-line="64" selection-end-line="64" />
+            <state relative-caret-position="307">
+              <caret line="44" column="12" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -68,9 +63,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BasicGrammar/工具类使用/ArrayListTest.java">
+        <entry file="file://$PROJECT_DIR$/基础语法/工具类/ArrayListTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="975">
+            <state relative-caret-position="1100">
               <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -80,9 +75,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BasicGrammar/工具类使用/Sort自定义排序.java">
+        <entry file="file://$PROJECT_DIR$/基础语法/工具类/Sort自定义排序.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1000">
+            <state relative-caret-position="1050">
               <caret line="42" selection-start-line="42" selection-end-line="42" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -92,9 +87,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BasicGrammar/Test06/MainTest.java">
+        <entry file="file://$PROJECT_DIR$/基础语法/Test06/MainTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
+            <state relative-caret-position="300">
               <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -104,9 +99,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BasicGrammar/工具类使用/List2Array.java">
+        <entry file="file://$PROJECT_DIR$/基础语法/工具类/List2Array.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
+            <state relative-caret-position="700">
               <caret line="28" column="26" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -116,21 +111,39 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BasicGrammar/工具类使用/AtomicIntegerTest.java">
+        <entry file="file://$PROJECT_DIR$/基础语法/工具类/AtomicIntegerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="507">
+            <state relative-caret-position="600">
               <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/BasicGrammar/排序算法/quickSort.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/基础语法/排序算法/quickSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+            <state relative-caret-position="75">
+              <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/设计模式/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/设计模式/DM.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              <folding>
+                <element signature="e#61#62#0" expanded="true" />
+                <element signature="e#97#98#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -173,6 +186,8 @@
         <option value="$PROJECT_DIR$/BasicGrammar/工具类使用/List2Array.java" />
         <option value="$PROJECT_DIR$/BasicGrammar/工具类使用/AtomicIntegerTest.java" />
         <option value="$PROJECT_DIR$/BasicGrammar/排序算法/quickSort.java" />
+        <option value="$PROJECT_DIR$/设计模式/pom.xml" />
+        <option value="$PROJECT_DIR$/设计模式/DM.java" />
       </list>
     </option>
   </component>
@@ -194,7 +209,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -206,7 +220,18 @@
             <path>
               <item name="JavaStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="BasicGrammar" type="462c0819:PsiDirectoryNode" />
+              <item name="基础语法" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="基础语法" type="462c0819:PsiDirectoryNode" />
+              <item name="工具类" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="设计模式" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaStudy" type="b2602c69:ProjectViewProjectNode" />
@@ -216,12 +241,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1597550960991" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1597558715844" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="D:/Program Files/Java/junit4.13/junit-4.13-beta-1.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -230,7 +256,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -244,13 +270,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.quickSort">
+  <component name="RunManager" selected="Application.DM">
     <configuration name="AtomicIntegerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="工具类使用.AtomicIntegerTest" />
-      <module name="BasicGrammar" />
+      <option name="MAIN_CLASS_NAME" value="工具类.AtomicIntegerTest" />
+      <module name="基础语法" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="工具类使用.*" />
+          <option name="PATTERN" value="工具类.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -258,32 +284,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="List2Array.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BasicGrammar" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="工具类使用.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="工具类使用" />
-      <option name="MAIN_CLASS_NAME" value="工具类使用.List2Array" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration name="DM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DM" />
+      <module name="设计模式" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sort自定义排序.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BasicGrammar" />
+    <configuration name="ArraysListTool.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="基础语法" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="工具类使用.*" />
+          <option name="PATTERN" value="工具类.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="工具类使用" />
-      <option name="MAIN_CLASS_NAME" value="工具类使用.Sort自定义排序" />
+      <option name="PACKAGE_NAME" value="工具类" />
+      <option name="MAIN_CLASS_NAME" value="工具类.ArraysListTool" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -291,7 +308,7 @@
       </method>
     </configuration>
     <configuration name="quickSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BasicGrammar" />
+      <module name="基础语法" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="排序算法.*" />
@@ -306,7 +323,7 @@
       </method>
     </configuration>
     <configuration name="quickSort.t" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BasicGrammar" />
+      <module name="基础语法" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="排序算法.*" />
@@ -321,20 +338,67 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="基础语法" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="基础语法" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.AtomicIntegerTest" />
-      <item itemvalue="JUnit.Sort自定义排序.test1" />
-      <item itemvalue="JUnit.List2Array.test" />
       <item itemvalue="JUnit.quickSort.t" />
       <item itemvalue="JUnit.quickSort" />
+      <item itemvalue="Application.DM" />
+      <item itemvalue="JUnit.ArraysListTool.test1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DM" />
+        <item itemvalue="JUnit.ArraysListTool.test1" />
         <item itemvalue="JUnit.quickSort" />
         <item itemvalue="JUnit.quickSort.t" />
         <item itemvalue="Application.AtomicIntegerTest" />
-        <item itemvalue="JUnit.List2Array.test" />
-        <item itemvalue="JUnit.Sort自定义排序.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -365,7 +429,8 @@
       <workItem from="1597161961606" duration="251000" />
       <workItem from="1597334003582" duration="480000" />
       <workItem from="1597465765576" duration="931000" />
-      <workItem from="1597549402919" duration="1557000" />
+      <workItem from="1597549402919" duration="1661000" />
+      <workItem from="1597558477825" duration="238000" />
     </task>
     <task id="LOCAL-00001" summary="2020-7-31 test">
       <created>1596204697283</created>
@@ -570,7 +635,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597549805394</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="2020-8-16 排序算法 手写原地快排">
+      <created>1597551003850</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1597551003850</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -606,7 +678,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33557000" />
+    <option name="totallyTimeSpent" value="33899000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -619,9 +691,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992" visible="true" weight="0.25013334" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992" visible="true" weight="0.23093334" />
       <window_info id="Designer" order="1" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -629,7 +700,7 @@
       <window_info id="Favorites" order="5" sideWeight="0.5008" side_tool="true" weight="0.2208" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32939914" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32939914" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32939914" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -659,7 +730,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="2020-8-3 add 2D ArrayList test" />
     <MESSAGE value="2020-8-3 initial size and test" />
     <MESSAGE value="2020-8-3 initial add new Object&lt;&gt;" />
     <MESSAGE value="2020-8-3 2-D list sort" />
@@ -684,7 +754,8 @@
     <MESSAGE value="2020-8-15 AtomicInteger 线程安全日期" />
     <MESSAGE value="2020-8-15 AtomicInteger 线程安全容器 前加加后加加..." />
     <MESSAGE value="2020-8-16 排序算法 pkg" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020-8-16 排序算法 pkg" />
+    <MESSAGE value="2020-8-16 排序算法 手写原地快排" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020-8-16 排序算法 手写原地快排" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/BasicGrammar/target/classes/pom.xml" />
@@ -700,7 +771,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BasicGrammar/BasicGrammar.iml">
+    <entry file="file://$PROJECT_DIR$/基础语法/基础语法.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="3" column="39" lean-forward="true" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
@@ -721,23 +792,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BasicGrammar/Hello/HelloWorldJava.java">
+    <entry file="file://$PROJECT_DIR$/基础语法/Hello/HelloWorldJava.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BasicGrammar/pom.xml">
+    <entry file="file://$PROJECT_DIR$/基础语法/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BasicGrammar/Hello/HelloWorld.java">
+    <entry file="file://$PROJECT_DIR$/基础语法/Hello/HelloWorld.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
+        <state relative-caret-position="175">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="e#85#86#0" expanded="true" />
@@ -756,26 +827,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BasicGrammar/Hello/ScannerInput.java">
+    <entry file="file://$PROJECT_DIR$/基础语法/Hello/ScannerInput.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BasicGrammar/工具类使用/ArraysListTool.java">
+    <entry file="file://$PROJECT_DIR$/基础语法/工具类/ArrayListTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1500">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BasicGrammar/工具类使用/ArrayListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
+        <state relative-caret-position="1100">
           <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -783,9 +844,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BasicGrammar/工具类使用/Sort自定义排序.java">
+    <entry file="file://$PROJECT_DIR$/基础语法/工具类/Sort自定义排序.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1000">
+        <state relative-caret-position="1050">
           <caret line="42" selection-start-line="42" selection-end-line="42" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -793,9 +854,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BasicGrammar/Test06/MainTest.java">
+    <entry file="file://$PROJECT_DIR$/基础语法/Test06/MainTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
+        <state relative-caret-position="300">
           <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -803,9 +864,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BasicGrammar/工具类使用/List2Array.java">
+    <entry file="file://$PROJECT_DIR$/基础语法/工具类/List2Array.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
+        <state relative-caret-position="700">
           <caret line="28" column="26" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -813,19 +874,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BasicGrammar/工具类使用/AtomicIntegerTest.java">
+    <entry file="file://$PROJECT_DIR$/基础语法/工具类/AtomicIntegerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
+        <state relative-caret-position="600">
           <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BasicGrammar/排序算法/quickSort.java">
+    <entry file="file://$PROJECT_DIR$/基础语法/排序算法/quickSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        <state relative-caret-position="75">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/设计模式/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/基础语法/工具类/ArraysListTool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="44" column="12" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/设计模式/DM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#61#62#0" expanded="true" />
+            <element signature="e#97#98#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -882,7 +967,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>BasicGrammar</last-edited>
+          <last-edited>基础语法</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

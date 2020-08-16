@@ -48,8 +48,8 @@ Remains to be updated.
 BasicGrammar\Hello\HelloWorld.java
 BasicGrammar\Hello\HelloWorldJava.java
 BasicGrammar\Hello\ScannerInput.java
-BasicGrammar\工具类使用\ArrayListTest.java
-BasicGrammar\工具类使用\UseArrays.java
+BasicGrammar\工具类\ArrayListTest.java
+BasicGrammar\工具类\UseArrays.java
 ```
 
 ```bash
@@ -67,10 +67,10 @@ D:.
 │  ├─target
 │  │  └─generated-sources
 │  │      └─annotations
-│  └─工具类使用
+│  └─工具类
 └─ClassOut
     └─production
         └─BasicGrammar
             ├─Hello
-            └─工具类使用
+            └─工具类
 ```
