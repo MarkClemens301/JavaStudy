@@ -48,7 +48,7 @@ public class ArraysListTool {
         }
         System.out.println();
 
-        //排序（利用小根堆）
+        //排序算法（利用小根堆）
         int size = quque.size();
         for (int i = 0; i < size; i++) {
             System.out.print(quque.poll() + " ");
