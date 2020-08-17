@@ -28,7 +28,7 @@ public class ArrayListTest {
         for (int i = 0; i < row; i++) {
             data.add(new ArrayList<Integer>()); // TODO: 2020/8/3 LIST's 1-D INITIALLY
             for (int j = 0; j < col; j++) {
-                data.get(i).add(j, -1); // TODO: 2020/8/3 LIST.GET.ADD
+                data.get(i).add(j, -1); // TODO: 2020/8/3 LIST.GET.ADD  二维动态数组，像普通数组一样使用，初始化add
             }
         }
         for (List<Integer> list : data) {
@@ -41,7 +41,7 @@ public class ArrayListTest {
         System.out.println("set");
         for (int i = 0; i < row; i++) {
             for (int j = 0; j < col; j++) {
-                data.get(i).set(j, rd.nextInt(SEED)); // TODO: 2020/8/3 LIST.GET.SET
+                data.get(i).set(j, rd.nextInt(SEED)); // TODO: 2020/8/3 LIST.GET.SET  二维动态数组，像普通数组一样使用，赋值set
             }
         }
         for (List<Integer> list : data) {
