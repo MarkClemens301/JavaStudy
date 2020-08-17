@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="基础语法" />
         <module name="多线程" />
+        <module name="核心基础" />
         <module name="设计模式" />
       </profile>
     </annotationProcessing>
