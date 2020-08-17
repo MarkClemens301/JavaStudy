@@ -1,4 +1,4 @@
-package 工具类;
+package 原子类;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
@@ -27,6 +27,7 @@ public class AtomicIntegerTest {
     }
 
     public static void main(String[] args) {
+        System.out.println("原子类");
         ;
     }
 

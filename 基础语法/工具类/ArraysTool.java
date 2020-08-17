@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import java.util.*;
 
-public class ArraysListTool {
+public class ArraysTool {
     private static int[] arr = new int[5]; //静态成员变量
     private Random r = new Random();
 
@@ -18,7 +18,7 @@ public class ArraysListTool {
     //}
 
     public static void main(String[] args) {
-        ArraysListTool main = new ArraysListTool();
+        ArraysTool main = new ArraysTool();
         System.out.println("RUN");
 
         //int[] arr = new int[3];

@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/JavaStudy.iml" filepath="$PROJECT_DIR$/.idea/JavaStudy.iml" />
       <module fileurl="file://$PROJECT_DIR$/基础语法/基础语法.iml" filepath="$PROJECT_DIR$/基础语法/基础语法.iml" />
+      <module fileurl="file://$PROJECT_DIR$/多线程/多线程.iml" filepath="$PROJECT_DIR$/多线程/多线程.iml" />
       <module fileurl="file://$PROJECT_DIR$/设计模式/设计模式.iml" filepath="$PROJECT_DIR$/设计模式/设计模式.iml" />
     </modules>
   </component>
