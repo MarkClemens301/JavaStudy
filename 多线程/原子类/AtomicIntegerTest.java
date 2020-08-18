@@ -1,6 +1,7 @@
 package 原子类;
 
 import java.util.concurrent.atomic.AtomicInteger;
+import java.util.concurrent.atomic.AtomicLong;
 
 public class AtomicIntegerTest {
     /*
@@ -8,6 +9,7 @@ public class AtomicIntegerTest {
     比synchronized更加高效
     获取、比较、设置
      */
+    private static AtomicLong al = new AtomicLong();
     private static AtomicInteger serialNum = new AtomicInteger(5);
 
     static {
