@@ -74,7 +74,8 @@ public class ArraysTool {
             nums[i] = r.nextInt(10);
         }
         System.out.println(Arrays.toString(nums));
-        int max = Arrays.stream(nums).max().orElse(0); //stream效率较低
+        int max = Arrays.stream(nums).max().orElse(0);
+        //使用 Stream 求最大值会导致运行时间过长，可以改成冒泡求max
         System.out.println("max = " + max);
     }
 }
