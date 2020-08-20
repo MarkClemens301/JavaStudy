@@ -7,7 +7,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 
-public class ArrayListTest {
+public class ListTest {
     private List<List<Integer>> data = new ArrayList<>(16); //这里初始容量的设置，没有意义
     private int row = 2, col = 3;
     private static final int SEED = 100;

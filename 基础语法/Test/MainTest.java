@@ -1,10 +1,9 @@
-package Test06;
+package Test;
 
 
 //package main
 //注意不要添加包名称，否则会报错。
 
-import java.io.*;
 import java.util.*;
 
 class Test {
