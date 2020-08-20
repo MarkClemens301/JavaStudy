@@ -66,4 +66,15 @@ public class ArraysTool {
         //Collections.sort(list); //自然排序
         System.out.println("max = " + max);
     }
+
+    @Test
+    public void test_arr_max() {
+        int[] nums = new int[10];
+        for (int i = 0; i < nums.length; i++) {
+            nums[i] = r.nextInt(10);
+        }
+        System.out.println(Arrays.toString(nums));
+        int max = Arrays.stream(nums).max().orElse(0); //stream效率较低
+        System.out.println("max = " + max);
+    }
 }
