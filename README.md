@@ -44,12 +44,24 @@ Remains to be updated.
 
 # Files Structure
 
-```bash
-BasicGrammar\Hello\HelloWorld.java
-BasicGrammar\Hello\HelloWorldJava.java
-BasicGrammar\Hello\ScannerInput.java
-BasicGrammar\工具类\ArrayListTest.java
-BasicGrammar\工具类\UseArrays.java
+
+```bash 2020-08
+README.md
+基础语法
+    Hello
+    target
+    Test
+    工具类
+    排序算法
+多线程
+    原子类
+数据结构与算法
+    排序
+    数据结构
+    算法
+核心基础
+设计模式
+    DM01_单例模式
 ```
 
 ```bash
@@ -94,3 +106,4 @@ D:.
 - Linux内存管理
     - 页式内存管理
 
+## TODO
