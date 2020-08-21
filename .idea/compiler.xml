@@ -14,11 +14,5 @@
         <module name="设计模式" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="多线程" target="1.5" />
-      <module name="数据结构与算法" target="1.5" />
-      <module name="核心基础" target="1.5" />
-      <module name="设计模式" target="1.5" />
-    </bytecodeTargetLevel>
   </component>
 </project>
