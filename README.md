@@ -1,14 +1,13 @@
 # JavaStudy <JavaLearn>
 
+一个学习与复习用的repos.
+
 Create by Mark Clemens, a java learner and user.
 
 
-# About
+## About
 
 A project for beginners to learn Java.
-
-
-# Contents
 
 ## Hello
 
@@ -20,7 +19,7 @@ A project for beginners to learn Java.
 
 [...](./BasicGrammar/Hello)
 
-# HelloWorld
+## HelloWorld
 
 Java编程第一步，HelloWorld
 
@@ -37,13 +36,9 @@ java HelloWorld.class //执行Java程序
 执行完成。
 
 
-# Basic Grammmar
+# 目录 <Contents>
 
-Remains to be updated.
-
-
-# Files Structure
-
+## 文件结构 <Files Structure>
 
 ```bash 2020-08
 README.md
@@ -70,15 +65,6 @@ D:.
 │  └─inspectionProfiles
 ├─BasicGrammar
 │  ├─Hello
-│  ├─src
-│  │  ├─main
-│  │  │  ├─java
-│  │  │  └─resources
-│  │  └─test
-│  │      └─java
-│  ├─target
-│  │  └─generated-sources
-│  │      └─annotations
 │  └─工具类
 └─ClassOut
     └─production
@@ -86,6 +72,10 @@ D:.
             ├─Hello
             └─工具类
 ```
+
+## 基础语法
+
+<Remains to be updated.>
 
 
 ## 操作系统
@@ -106,4 +96,7 @@ D:.
 - Linux内存管理
     - 页式内存管理
 
+
 ## TODO
+
+算法.非递归快排 --review
