@@ -20,6 +20,8 @@ public class 归并排序 {
     @Test
     public void test() {
         int[] a = {26, 5, 98, 108, 28, 99, 100, 56, 34, 1};
+        mergeSort(a);
+        System.out.println(Arrays.toString(a));
     }
 
     public void mergeSort(int[] arr) {
@@ -47,6 +49,7 @@ public class 归并排序 {
                 tmp[tId++] = arr[left++];
             } else {
                 tmp[tId++] = arr[r1++];
+            }
         }
         //左边的归并
         while (left <= mid) {
