@@ -18,10 +18,19 @@ end
  */
 public class 归并排序 {
     @Test
-    public void test() {
-        int[] a = {26, 5, 98, 108, 28, 99, 100, 56, 34, 1};
-        mergeSort(a);
-        System.out.println(Arrays.toString(a));
+    public void tests() {
+        int[] arr = {26, 5, 98, 108, 28, 99, 100, 56, 34, 1};
+        //26, 5, 98, 108, 28,| 99, 100, 56, 34, 1
+        //26, 5, 98,| 108, 28,| 99, 100, 56,| 34, 1
+        sortTest(arr);
+        //int[] arr1 = {10, 5, 6, 9, 8, 8, 53, 5, 6, 4478, 55, 55, 66, 6, 88, 8, 668, 8, 589, 9, 95, 4};
+        //sortTest(arr1);
+    }
+
+    private void sortTest(int[] arr) {
+        System.out.println("Before: " + Arrays.toString(arr));
+        mergeSort(arr);
+        System.out.println("After: " + Arrays.toString(arr));
     }
 
     public void mergeSort(int[] arr) {
@@ -31,7 +40,7 @@ public class 归并排序 {
 
     public void mergeSort(int[] arr, int left, int right) {
         if (left >= right) return;
-        int mid = (left + right) / 2;
+        int mid = (left + right) / 2; //mid划归左区间
         //二路归并排序
         mergeSort(arr, left, mid);
         mergeSort(arr, mid + 1, right);
@@ -39,9 +48,11 @@ public class 归并排序 {
     }
 
     private void merge(int[] arr, int left, int mid, int right) {
+        boolean needPrint = true; //todo 打印每次归并结果
         int len = right - left + 1;
-        int[] tmp = new int[len]; //arr.length 这里创建了临时空间 O(N)
+        int[] tmp = new int[len]; //arr.length 这里创建了临时空间 O(N); 优化
         int tmpId = 0;
+        //二路
         int l1 = left;
         int r1 = mid + 1;
         //逐个归并
@@ -58,6 +69,8 @@ public class 归并排序 {
         //临时数组拷贝到原数组
         for (int i = left; i <= right; i++) {
             arr[i] = tmp[i - left];
+            if (needPrint) System.out.print(arr[i] + " "); //ts
         }
+        if (needPrint) System.out.println(); //ts
     }
 }
