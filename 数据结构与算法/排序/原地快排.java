@@ -8,8 +8,14 @@ public class 原地快排 {
     @Test
     public void t() {
         int[] array = {20, 3, 5, 0, 32, 22, 11, 8, 7, 9};
+        //quickSort(array);
+        sortTest(array);
+    }
+
+    public void sortTest(int[] array) {
+        System.out.println("Before: " + Arrays.toString(array));
         quickSort(array);
-        System.out.println(Arrays.toString(array));
+        System.out.println("After: " + Arrays.toString(array));
     }
 
     public void quickSort(int[] nums) {
@@ -17,11 +23,14 @@ public class 原地快排 {
     }
 
     private void quickSort(int[] nums, int left, int right) {
+        boolean needPrint = true; //todo 打印每次pivot结果
         //if (left >= right) return;
         left = Math.max(left, 0);
         right = Math.min(right, nums.length - 1);
         if (left < right) {
             int partitionIndex = partition(nums, left, right);
+            if (needPrint)
+                System.out.println(left + " " + "; " + partitionIndex + "; " + " " + right);
             quickSort(nums, left, partitionIndex - 1);
             quickSort(nums, partitionIndex + 1, right);
         }

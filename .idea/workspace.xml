@@ -14,11 +14,12 @@
     <bookmark url="file://$PROJECT_DIR$/数据结构与算法/排序/归并排序.java" line="52" />
     <bookmark url="file://$PROJECT_DIR$/数据结构与算法/排序/归并排序.java" line="42" />
     <bookmark url="file://$PROJECT_DIR$/数据结构与算法/排序/归并排序.java" line="50" />
+    <bookmark url="file://$PROJECT_DIR$/数据结构与算法/排序/原地快排.java" line="42" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b1a51bc-5d2d-4290-820a-2890820de1c3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据结构与算法/排序/归并排序.java" beforeDir="false" afterPath="$PROJECT_DIR$/数据结构与算法/排序/归并排序.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/数据结构与算法/排序/原地快排.java" beforeDir="false" afterPath="$PROJECT_DIR$/数据结构与算法/排序/原地快排.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/BasicGrammar/target/" />
     <ignored path="$PROJECT_DIR$/设计模式/target/" />
@@ -57,13 +58,15 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/数据结构与算法/排序/原地快排.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+            <state relative-caret-position="225">
+              <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#404#405#0" expanded="true" />
+                <element signature="e#455#456#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -117,11 +120,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/数据结构与算法/排序/归并排序.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="50" column="41" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="41" />
+            <state relative-caret-position="309">
+              <caret line="50" column="8" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -184,11 +187,11 @@
         <option value="$PROJECT_DIR$/基础语法/工具类/StreamTool.java" />
         <option value="$PROJECT_DIR$/数据结构与算法/pom.xml" />
         <option value="$PROJECT_DIR$/基础语法/pom.xml" />
-        <option value="$PROJECT_DIR$/数据结构与算法/排序/原地快排.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/基础语法/工具类/StringTool.java" />
         <option value="$PROJECT_DIR$/数据结构与算法/排序/原地快排_非递归栈.java" />
         <option value="$PROJECT_DIR$/数据结构与算法/排序/归并排序.java" />
+        <option value="$PROJECT_DIR$/数据结构与算法/排序/原地快排.java" />
       </list>
     </option>
   </component>
@@ -269,7 +272,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598206750041" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598207660411" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="D:/Program Files/Java/junit4.13/junit-4.13-beta-1.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -292,7 +295,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.归并排序">
+  <component name="RunManager" selected="JUnit.原地快排.t">
     <configuration name="归并排序" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="数据结构与算法" />
       <extension name="coverage">
@@ -308,7 +311,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="原地快排_非递归栈" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="原地快排" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="数据结构与算法" />
       <extension name="coverage">
         <pattern>
@@ -317,13 +320,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="排序" />
-      <option name="MAIN_CLASS_NAME" value="排序.原地快排_非递归栈" />
+      <option name="MAIN_CLASS_NAME" value="排序.原地快排" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="原地快排_非递归栈.t" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="原地快排.t" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="数据结构与算法" />
       <extension name="coverage">
         <pattern>
@@ -332,7 +335,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="排序" />
-      <option name="MAIN_CLASS_NAME" value="排序.原地快排_非递归栈" />
+      <option name="MAIN_CLASS_NAME" value="排序.原地快排" />
       <option name="METHOD_NAME" value="t" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -372,19 +375,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.原地快排_非递归栈.t" />
-      <item itemvalue="JUnit.原地快排_非递归栈" />
       <item itemvalue="JUnit.归并排序" />
       <item itemvalue="JUnit.归并排序.test" />
       <item itemvalue="JUnit.归并排序.tests" />
+      <item itemvalue="JUnit.原地快排.t" />
+      <item itemvalue="JUnit.原地快排" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.原地快排.t" />
+        <item itemvalue="JUnit.原地快排" />
         <item itemvalue="JUnit.归并排序" />
         <item itemvalue="JUnit.归并排序.tests" />
         <item itemvalue="JUnit.归并排序.test" />
-        <item itemvalue="JUnit.原地快排_非递归栈.t" />
-        <item itemvalue="JUnit.原地快排_非递归栈" />
       </list>
     </recent_temporary>
   </component>
@@ -429,14 +432,7 @@
       <workItem from="1597971427526" duration="2970000" />
       <workItem from="1598091269889" duration="470000" />
       <workItem from="1598148749970" duration="4045000" />
-      <workItem from="1598198624562" duration="5304000" />
-    </task>
-    <task id="LOCAL-00011" summary="2020-8-3 update readme; add dirs structure">
-      <created>1596432210254</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1596432210254</updated>
+      <workItem from="1598198624562" duration="6216000" />
     </task>
     <task id="LOCAL-00012" summary="2020-8-3 更新文件目录">
       <created>1596432464286</created>
@@ -774,43 +770,50 @@
       <option name="project" value="LOCAL" />
       <updated>1598205738780</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="2020-8-24 归并排序 打印每次归并操作">
+      <created>1598206775408</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1598206775408</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="归并排序_tests - 2020.08.24 at 02h 05m 06s.xml">
-      <configuration name="归并排序.tests" configurationId="JUnit" />
+    <history-entry file="原地快排 - 2020.08.24 at 02h 29m 10s.xml">
+      <configuration name="原地快排" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="归并排序_tests - 2020.08.24 at 02h 06m 32s.xml">
-      <configuration name="归并排序.tests" configurationId="JUnit" />
+    <history-entry file="原地快排 - 2020.08.24 at 02h 30m 08s.xml">
+      <configuration name="原地快排" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="归并排序_tests - 2020.08.24 at 02h 06m 43s.xml">
-      <configuration name="归并排序.tests" configurationId="JUnit" />
+    <history-entry file="原地快排 - 2020.08.24 at 02h 31m 15s.xml">
+      <configuration name="原地快排" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="归并排序 - 2020.08.24 at 02h 07m 44s.xml">
-      <configuration name="归并排序" configurationId="JUnit" />
+    <history-entry file="原地快排 - 2020.08.24 at 02h 31m 40s.xml">
+      <configuration name="原地快排" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="归并排序 - 2020.08.24 at 02h 08m 51s.xml">
-      <configuration name="归并排序" configurationId="JUnit" />
+    <history-entry file="原地快排 - 2020.08.24 at 02h 32m 21s.xml">
+      <configuration name="原地快排" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="归并排序 - 2020.08.24 at 02h 08m 58s.xml">
-      <configuration name="归并排序" configurationId="JUnit" />
+    <history-entry file="原地快排 - 2020.08.24 at 02h 32m 54s.xml">
+      <configuration name="原地快排" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="归并排序 - 2020.08.24 at 02h 11m 27s.xml">
-      <configuration name="归并排序" configurationId="JUnit" />
+    <history-entry file="原地快排 - 2020.08.24 at 02h 33m 01s.xml">
+      <configuration name="原地快排" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="归并排序 - 2020.08.24 at 02h 11m 39s.xml">
-      <configuration name="归并排序" configurationId="JUnit" />
+    <history-entry file="原地快排_t - 2020.08.24 at 02h 33m 47s.xml">
+      <configuration name="原地快排.t" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="归并排序 - 2020.08.24 at 02h 15m 16s.xml">
-      <configuration name="归并排序" configurationId="JUnit" />
+    <history-entry file="原地快排_t - 2020.08.24 at 02h 33m 59s.xml">
+      <configuration name="原地快排.t" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="归并排序 - 2020.08.24 at 02h 18m 34s.xml">
-      <configuration name="归并排序" configurationId="JUnit" />
+    <history-entry file="原地快排_t - 2020.08.24 at 02h 34m 10s.xml">
+      <configuration name="原地快排.t" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56318000" />
+    <option name="totallyTimeSpent" value="57230000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -825,7 +828,7 @@
     <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992" visible="true" weight="0.1328" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992" visible="true" weight="0.1328" />
       <window_info id="Designer" order="1" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -833,7 +836,7 @@
       <window_info id="Favorites" order="5" sideWeight="0.5008" side_tool="true" weight="0.2208" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32939914" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33154505" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33154505" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -913,7 +916,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="2020-8-17 设计模式：单例模式与Spring" />
     <MESSAGE value="2020-8-17 多线程/JUC：原子类" />
     <MESSAGE value="2020-8-17 二维动态数组" />
     <MESSAGE value="2020-8-17 单例模式的缺点" />
@@ -938,7 +940,8 @@
     <MESSAGE value="2020-8-24 归并排序 手写" />
     <MESSAGE value="2020-8-24 归并排序 测试" />
     <MESSAGE value="2020-8-24 归并排序 空间优化" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020-8-24 归并排序 空间优化" />
+    <MESSAGE value="2020-8-24 归并排序 打印每次归并操作" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020-8-24 归并排序 打印每次归并操作" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/BasicGrammar/target/classes/pom.xml" />
@@ -1161,16 +1164,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/数据结构与算法/排序/原地快排.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/数据结构与算法/排序/原地快排_非递归栈.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-141">
@@ -1183,10 +1176,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/数据结构与算法/排序/归并排序.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="50" column="41" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="41" />
+        <state relative-caret-position="309">
+          <caret line="50" column="8" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构与算法/排序/原地快排.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
           </folding>
         </state>
       </provider>
