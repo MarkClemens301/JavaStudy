@@ -39,30 +39,25 @@ public class 归并排序 {
     }
 
     private void merge(int[] arr, int left, int mid, int right) {
-        int[] tmp = new int[arr.length]; //这里创建了临时空间 O(N)
+        int len = right - left + 1;
+        int[] tmp = new int[len]; //arr.length 这里创建了临时空间 O(N)
+        int tmpId = 0;
+        int l1 = left;
         int r1 = mid + 1;
-        int tId = left;
-        int cId = left;
         //逐个归并
-        while (left <= mid && r1 <= right) {
-            if (arr[left] <= arr[r1]) {
-                tmp[tId++] = arr[left++];
+        while (l1 <= mid && r1 <= right) {
+            if (arr[l1] <= arr[r1]) {
+                tmp[tmpId++] = arr[l1++];
             } else {
-                tmp[tId++] = arr[r1++];
+                tmp[tmpId++] = arr[r1++];
             }
         }
-        //左边的归并
-        while (left <= mid) {
-            tmp[tId++] = arr[left++];
-        }
-        //右边的归并
-        while (r1 <= right) {
-            tmp[tId++] = arr[r1++];
-        }
+        //剩余的继续归并（左边或右边）
+        while (l1 <= mid) tmp[tmpId++] = arr[l1++];
+        while (r1 <= right) tmp[tmpId++] = arr[r1++];
         //临时数组拷贝到原数组
-        while (cId <= right) {
-            arr[cId] = tmp[cId];
-            cId++;
+        for (int i = left; i <= right; i++) {
+            arr[i] = tmp[i - left];
         }
     }
 }
