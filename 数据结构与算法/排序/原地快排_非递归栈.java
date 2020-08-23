@@ -27,7 +27,7 @@ public class 原地快排_非递归栈 {
         stack.push(left);
         stack.push(right);
         while (!stack.isEmpty()) {
-            int high = stack.pop();
+            int high = stack.pop(); //注意：先取出的是左边界
             int low = stack.pop();
             int pivot = partition(nums, low, high);
             if (low < pivot - 1) { //务必判断这个条件，否则溢出
@@ -40,7 +40,7 @@ public class 原地快排_非递归栈 {
             }
         }
     }
-    // TODO: 2020/8/21 用栈实现的非递归快排，下回再写
+    // TODO: 2020/8/21 用栈实现的非递归快排，下回再写 2020-8-23 adds
 
     private int partition(int[] nums, int left, int right) {
         int pivot = left, index = pivot + 1;
