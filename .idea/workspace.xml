@@ -9,11 +9,11 @@
     <bookmark url="file://$PROJECT_DIR$/基础语法/工具类/StreamTool.java" line="33" />
     <bookmark url="file://$PROJECT_DIR$/数据结构与算法/排序/原地快排_非递归栈.java" />
     <bookmark url="file://$PROJECT_DIR$/基础语法/工具类/StringTool.java" line="19" />
-    <bookmark url="file://$PROJECT_DIR$/数据结构与算法/排序/原地快排_非递归栈.java" line="22" />
-    <bookmark url="file://$PROJECT_DIR$/数据结构与算法/排序/原地快排_非递归栈.java" line="23" />
+    <bookmark url="file://$PROJECT_DIR$/数据结构与算法/排序/原地快排_非递归栈.java" line="29" />
+    <bookmark url="file://$PROJECT_DIR$/数据结构与算法/排序/原地快排_非递归栈.java" line="30" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b1a51bc-5d2d-4290-820a-2890820de1c3" name="Default Changelist" comment="2020-8-23 非递归原地快排，手写">
+    <list default="true" id="8b1a51bc-5d2d-4290-820a-2890820de1c3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/数据结构与算法/排序/原地快排_非递归栈.java" beforeDir="false" afterPath="$PROJECT_DIR$/数据结构与算法/排序/原地快排_非递归栈.java" afterDir="false" />
     </list>
@@ -81,8 +81,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/数据结构与算法/排序/原地快排_非递归栈.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+            <state relative-caret-position="121">
+              <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -247,7 +247,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598151530841" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598152013453" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="D:/Program Files/Java/junit4.13/junit-4.13-beta-1.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -270,7 +270,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.原地快排_非递归栈">
+  <component name="RunManager" selected="JUnit.原地快排_非递归栈.t">
     <configuration name="All in 数据结构与算法" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="数据结构与算法" />
       <option name="PACKAGE_NAME" value="" />
@@ -351,8 +351,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.原地快排_非递归栈" />
         <item itemvalue="JUnit.原地快排_非递归栈.t" />
+        <item itemvalue="JUnit.原地快排_非递归栈" />
         <item itemvalue="JUnit.StringTool.test" />
         <item itemvalue="JUnit.All in 数据结构与算法" />
         <item itemvalue="JUnit.原地快排.t" />
@@ -399,14 +399,7 @@
       <workItem from="1597884655204" duration="3030000" />
       <workItem from="1597971427526" duration="2970000" />
       <workItem from="1598091269889" duration="470000" />
-      <workItem from="1598148749970" duration="2779000" />
-    </task>
-    <task id="LOCAL-00006" summary="2020-8-3 initial size and test">
-      <created>1596428664930</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1596428664930</updated>
+      <workItem from="1598148749970" duration="3253000" />
     </task>
     <task id="LOCAL-00007" summary="2020-8-3 initial add new Object&lt;&gt;">
       <created>1596428839789</created>
@@ -744,22 +737,17 @@
       <option name="project" value="LOCAL" />
       <updated>1598149855889</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="2020-8-23 非递归原地快排，手写">
+      <created>1598151537815</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1598151537815</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StreamTool_test_count_null - 2020.08.20 at 09h 39m 26s.xml">
-      <configuration name="StreamTool.test_count_null" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_数据结构与算法 - 2020.08.21 at 09h 19m 35s.xml">
-      <configuration name="All in 数据结构与算法" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_数据结构与算法 - 2020.08.21 at 09h 21m 47s.xml">
-      <configuration name="All in 数据结构与算法" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StringTool_test - 2020.08.23 at 10h 18m 04s.xml">
-      <configuration name="StringTool.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="StringTool_test - 2020.08.23 at 10h 21m 34s.xml">
       <configuration name="StringTool.test" configurationId="JUnit" />
     </history-entry>
@@ -778,9 +766,21 @@
     <history-entry file="原地快排_非递归栈 - 2020.08.23 at 10h 57m 58s.xml">
       <configuration name="原地快排_非递归栈" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="原地快排_非递归栈_t - 2020.08.23 at 11h 03m 06s.xml">
+      <configuration name="原地快排_非递归栈.t" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="原地快排_非递归栈_t - 2020.08.23 at 11h 04m 02s.xml">
+      <configuration name="原地快排_非递归栈.t" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="原地快排_非递归栈 - 2020.08.23 at 11h 06m 14s.xml">
+      <configuration name="原地快排_非递归栈" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="原地快排_非递归栈_t - 2020.08.23 at 11h 06m 43s.xml">
+      <configuration name="原地快排_非递归栈.t" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49748000" />
+    <option name="totallyTimeSpent" value="50222000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -803,7 +803,7 @@
       <window_info id="Favorites" order="5" sideWeight="0.5008" side_tool="true" weight="0.2208" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32939914" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3347779" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3347779" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -811,7 +811,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32502708" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32936078" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -1143,8 +1143,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/数据结构与算法/排序/原地快排_非递归栈.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        <state relative-caret-position="121">
+          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

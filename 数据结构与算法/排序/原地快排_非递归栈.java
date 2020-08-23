@@ -8,9 +8,16 @@ import java.util.Stack;
 public class 原地快排_非递归栈 {
     @Test
     public void t() {
-        int[] array = {20, 3, 5, 0, 32, 22, 11, 8, 7, 9};
-        quickSort(array);
-        System.out.println(Arrays.toString(array));
+        int[] arr = {20, 3, 5, 0, 32, 22, 11, 8, 7, 9};
+        quickSortTest(arr);
+        quickSortTest(new int[]{1, 25, 5, 6, 9});
+        quickSortTest(new int[]{20, 3, 5, 0, 32, 22, 11, 8, 7, 9});
+    }
+
+    private void quickSortTest(int[] nums) {
+        quickSort(nums);
+        String s = Arrays.toString(nums);
+        System.out.println(s.replaceAll("\\[|\\]|,", ""));
     }
 
     public void quickSort(int[] nums) {
