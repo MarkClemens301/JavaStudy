@@ -47,6 +47,7 @@ public class 归并排序 {
         merge(arr, left, mid, right);
     }
 
+    //归并的时候进行排序，merge与快排的partition类似
     private void merge(int[] arr, int left, int mid, int right) {
         boolean needPrint = true; //todo 打印每次归并结果
         int len = right - left + 1;
