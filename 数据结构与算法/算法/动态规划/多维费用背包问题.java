@@ -21,15 +21,20 @@ public class 多维费用背包问题 {
         String[] ss = {"10", "0001", "111001", "1", "0"};
         int m = 5, n = 3;
         int res = findMaxForm(ss, m, n);
+        //int res = findMaxForm(null, m, n); //恶意测试
         System.out.println("res = " + res);
     }
 
     //dp[m][n] = Math.max(1 + dp[m-#0][n-#1], dp[m][n]) 存放StringCount
     public int findMaxForm(String[] strs, int m, int n) {
+        //adds 需要对输入进行合法性检查
+        if (strs == null || strs.length == 0) {
+            return 0;
+        }
         int[][] dp = new int[m + 1][n + 1]; //压缩维度为：N 商品/字符串的个数
         dp[0][0] = 0; //初始没有字符串
 
-        for (String str : strs) { //逐个商品 dp
+        for (String str : strs) { //逐个商品 dp  <！str不能为null>
             int zero = 0, one = 0;
             for (char c : str.toCharArray()) {
                 if (c == '0') zero++;
