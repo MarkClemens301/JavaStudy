@@ -25,7 +25,14 @@ public class 多维费用背包问题 {
         System.out.println("res = " + res);
     }
 
-    //dp[m][n] = Math.max(1 + dp[m-#0][n-#1], dp[m][n]) 存放StringCount
+    /*
+    参数
+    i,m,n 为物品数目、0维容量、1维容量
+    状态转移方程
+    f(i,m,n) = max( f(i-1, m, n), 1 + f(i, m-#0, n-#1) )
+    压缩
+    dp[m][n] = Math.max(1 + dp[m-#0][n-#1], dp[m][n]) 存放StringCount
+    */
     public int findMaxForm(String[] strs, int m, int n) {
         //adds 需要对输入进行合法性检查
         if (strs == null || strs.length == 0) {

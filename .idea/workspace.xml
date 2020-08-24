@@ -11,16 +11,18 @@
     <bookmark url="file://$PROJECT_DIR$/基础语法/工具类/StringTool.java" line="19" />
     <bookmark url="file://$PROJECT_DIR$/数据结构与算法/排序/原地快排_非递归栈.java" line="29" />
     <bookmark url="file://$PROJECT_DIR$/数据结构与算法/排序/原地快排_非递归栈.java" line="30" />
-    <bookmark url="file://$PROJECT_DIR$/数据结构与算法/排序/归并排序.java" line="52" />
+    <bookmark url="file://$PROJECT_DIR$/数据结构与算法/排序/归并排序.java" line="53" />
     <bookmark url="file://$PROJECT_DIR$/数据结构与算法/排序/归并排序.java" line="42" />
-    <bookmark url="file://$PROJECT_DIR$/数据结构与算法/排序/归并排序.java" line="50" />
+    <bookmark url="file://$PROJECT_DIR$/数据结构与算法/排序/归并排序.java" line="51" />
     <bookmark url="file://$PROJECT_DIR$/数据结构与算法/排序/原地快排.java" line="42" />
     <bookmark url="file://$PROJECT_DIR$/数据结构与算法/排序/归并排序.java" />
     <bookmark url="file://$PROJECT_DIR$/数据结构与算法/排序/原地快排.java" />
+    <bookmark url="file://$PROJECT_DIR$/数据结构与算法/算法/动态规划/多维费用背包问题.java" line="31" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b1a51bc-5d2d-4290-820a-2890820de1c3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/数据结构与算法/算法/动态规划/多维费用背包问题.java" beforeDir="false" afterPath="$PROJECT_DIR$/数据结构与算法/算法/动态规划/多维费用背包问题.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/BasicGrammar/target/" />
     <ignored path="$PROJECT_DIR$/设计模式/target/" />
@@ -119,11 +121,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/数据结构与算法/排序/归并排序.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+            <state relative-caret-position="75">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -136,11 +138,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/数据结构与算法/算法/动态规划/多维费用背包问题.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="335">
-              <caret line="37" column="34" lean-forward="true" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
+              <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -206,9 +208,9 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/基础语法/工具类/StringTool.java" />
         <option value="$PROJECT_DIR$/数据结构与算法/排序/原地快排_非递归栈.java" />
-        <option value="$PROJECT_DIR$/数据结构与算法/排序/归并排序.java" />
         <option value="$PROJECT_DIR$/数据结构与算法/排序/原地快排.java" />
         <option value="$PROJECT_DIR$/数据结构与算法/算法/动态规划/多费用背包问题.java" />
+        <option value="$PROJECT_DIR$/数据结构与算法/排序/归并排序.java" />
         <option value="$PROJECT_DIR$/数据结构与算法/算法/动态规划/多维费用背包问题.java" />
       </list>
     </option>
@@ -269,6 +271,19 @@
             <path>
               <item name="JavaStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="数据结构与算法" type="462c0819:PsiDirectoryNode" />
+              <item name="算法" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="数据结构与算法" type="462c0819:PsiDirectoryNode" />
+              <item name="算法" type="462c0819:PsiDirectoryNode" />
+              <item name="动态规划" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaStudy" type="462c0819:PsiDirectoryNode" />
               <item name="核心基础" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -290,7 +305,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598284661661" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598286951634" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="D:/Program Files/Java/junit4.13/junit-4.13-beta-1.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -467,14 +482,7 @@
       <workItem from="1598091269889" duration="470000" />
       <workItem from="1598148749970" duration="4045000" />
       <workItem from="1598198624562" duration="6401000" />
-      <workItem from="1598283607853" duration="1053000" />
-    </task>
-    <task id="LOCAL-00015" summary="2020-8-5 自定义排序测试 lambda表达式">
-      <created>1596590569375</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1596590569375</updated>
+      <workItem from="1598283607853" duration="2105000" />
     </task>
     <task id="LOCAL-00016" summary="2020-8-5 自定义排序测试 String组合排序">
       <created>1596590874113</created>
@@ -812,7 +820,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598284548157</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="2020-8-24 归并排序merge和快排partition">
+      <created>1598284741946</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1598284741946</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -848,7 +863,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58468000" />
+    <option name="totallyTimeSpent" value="59520000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -951,7 +966,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="2020-8-17 核心基础模块，准备进行复习" />
     <MESSAGE value="2020-8-18 AtomicLong" />
     <MESSAGE value="2020-8-19 进程和线程" />
     <MESSAGE value="2020-8-20 更改文件结构" />
@@ -976,7 +990,8 @@
     <MESSAGE value="2020-8-24 原地快排、归并排序，过程输出测试" />
     <MESSAGE value="2020-8-24 背包问题之多维费用 dp压缩" />
     <MESSAGE value="2020-8-24 背包问题之多维费用 dp压缩  +输入检查" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020-8-24 背包问题之多维费用 dp压缩  +输入检查" />
+    <MESSAGE value="2020-8-24 归并排序merge和快排partition" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020-8-24 归并排序merge和快排partition" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/BasicGrammar/target/classes/pom.xml" />
@@ -1219,20 +1234,20 @@
     <entry file="file://$PROJECT_DIR$/数据结构与算法/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/数据结构与算法/算法/动态规划/多维费用背包问题.java">
+    <entry file="file://$PROJECT_DIR$/数据结构与算法/排序/归并排序.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="37" column="34" lean-forward="true" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
+        <state relative-caret-position="75">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/数据结构与算法/排序/归并排序.java">
+    <entry file="file://$PROJECT_DIR$/数据结构与算法/算法/动态规划/多维费用背包问题.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+        <state relative-caret-position="335">
+          <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
