@@ -21,8 +21,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b1a51bc-5d2d-4290-820a-2890820de1c3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/基础语法/工具类/Comparator_Lambda.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/基础语法/工具类/Comparator_Lambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/基础语法/工具类/Comparator_Lambda.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/BasicGrammar/target/" />
     <ignored path="$PROJECT_DIR$/设计模式/target/" />
@@ -144,8 +144,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/基础语法/工具类/Comparator_Lambda.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="59" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
+            <state relative-caret-position="24">
+              <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
               <folding>
                 <element signature="e#465#466#0" expanded="true" />
                 <element signature="e#505#506#0" expanded="true" />
@@ -310,7 +310,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598417418658" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598417602526" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="D:/Program Files/Java/junit4.13/junit-4.13-beta-1.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -501,14 +501,7 @@
       <workItem from="1598148749970" duration="4045000" />
       <workItem from="1598198624562" duration="6401000" />
       <workItem from="1598283607853" duration="2446000" />
-      <workItem from="1598416930743" duration="488000" />
-    </task>
-    <task id="LOCAL-00017" summary="2020-8-5 面试手撕代码测试">
-      <created>1596680763715</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1596680763715</updated>
+      <workItem from="1598416930743" duration="672000" />
     </task>
     <task id="LOCAL-00018" summary="2020-8-6 面试手撕代码测试">
       <created>1596680847307</created>
@@ -846,7 +839,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598287017571</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="2020-8-26 lambda表达式创建Comparator会偏慢">
+      <created>1598417451229</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1598417451229</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -882,7 +882,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60349000" />
+    <option name="totallyTimeSpent" value="60533000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -985,7 +985,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="2020-8-19 进程和线程" />
     <MESSAGE value="2020-8-20 更改文件结构" />
     <MESSAGE value="2020-8-20 Arrays.stream()...." />
     <MESSAGE value="2020-8-20 stream().filter(..).count()" />
@@ -1010,7 +1009,8 @@
     <MESSAGE value="2020-8-24 背包问题之多维费用 dp压缩  +输入检查" />
     <MESSAGE value="2020-8-24 归并排序merge和快排partition" />
     <MESSAGE value="2020-8-25 多维费用背包，注释" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020-8-25 多维费用背包，注释" />
+    <MESSAGE value="2020-8-26 lambda表达式创建Comparator会偏慢" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020-8-26 lambda表达式创建Comparator会偏慢" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/BasicGrammar/target/classes/pom.xml" />
@@ -1278,8 +1278,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/基础语法/工具类/Comparator_Lambda.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="59" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
+        <state relative-caret-position="24">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
           <folding>
             <element signature="e#465#466#0" expanded="true" />
             <element signature="e#505#506#0" expanded="true" />
