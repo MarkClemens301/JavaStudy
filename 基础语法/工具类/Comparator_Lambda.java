@@ -16,7 +16,6 @@ public class Comparator_Lambda {
         long t2 = System.currentTimeMillis();
         System.out.println("(t2 - t1) = " + (t2 - t1));
 
-
         //普通创建Comparator语句，建议
         nums = new Integer[]{1, 5, 9, 8, 5, 3, 5, 5, 6, 9};
         Arrays.sort(nums, new Comparator<Integer>() {

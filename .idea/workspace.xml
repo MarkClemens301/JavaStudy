@@ -23,6 +23,7 @@
     <list default="true" id="8b1a51bc-5d2d-4290-820a-2890820de1c3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/基础语法/工具类/Comparator_Lambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/基础语法/工具类/Comparator_Lambda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/基础语法/工具类/StringTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/基础语法/工具类/StringTool.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/BasicGrammar/target/" />
     <ignored path="$PROJECT_DIR$/设计模式/target/" />
@@ -43,7 +44,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/基础语法/工具类/List2Array.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
+            <state relative-caret-position="625">
               <caret line="30" column="23" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -64,11 +65,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/基础语法/工具类/StringTool.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+            <state relative-caret-position="625">
+              <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -96,7 +97,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/数据结构与算法/算法/动态规划/多维费用背包问题.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
+            <state relative-caret-position="550">
               <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -108,7 +109,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/基础语法/工具类/Sort自定义排序.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-317">
+            <state relative-caret-position="100">
               <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -120,7 +121,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/基础语法/工具类/ArraysTool.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
+            <state relative-caret-position="1375">
               <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -132,7 +133,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/基础语法/工具类/ListTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="618">
+            <state relative-caret-position="1250">
               <caret line="55" column="16" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -141,15 +142,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/基础语法/工具类/Comparator_Lambda.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-              <folding>
-                <element signature="e#465#466#0" expanded="true" />
-                <element signature="e#505#506#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="350">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -210,21 +207,21 @@
         <option value="$PROJECT_DIR$/数据结构与算法/pom.xml" />
         <option value="$PROJECT_DIR$/基础语法/pom.xml" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/基础语法/工具类/StringTool.java" />
         <option value="$PROJECT_DIR$/数据结构与算法/排序/原地快排_非递归栈.java" />
         <option value="$PROJECT_DIR$/数据结构与算法/排序/原地快排.java" />
         <option value="$PROJECT_DIR$/数据结构与算法/算法/动态规划/多费用背包问题.java" />
         <option value="$PROJECT_DIR$/数据结构与算法/排序/归并排序.java" />
         <option value="$PROJECT_DIR$/数据结构与算法/算法/动态规划/多维费用背包问题.java" />
         <option value="$PROJECT_DIR$/基础语法/工具类/Comparator_Lambda.java" />
+        <option value="$PROJECT_DIR$/基础语法/工具类/StringTool.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="953" />
-    <option name="y" value="30" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="803" />
+    <option name="y" value="34" />
     <option name="width" value="974" />
-    <option name="height" value="1057" />
+    <option name="height" value="1058" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -238,6 +235,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -303,14 +302,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598417602526" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598524615733" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="D:/Program Files/Java/junit4.13/junit-4.13-beta-1.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -333,7 +330,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Comparator_Lambda">
+  <component name="RunManager" selected="JUnit.StringTool.test2">
     <configuration name="Comparator_Lambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="工具类.Comparator_Lambda" />
       <module name="基础语法" />
@@ -358,6 +355,22 @@
       <option name="PACKAGE_NAME" value="排序" />
       <option name="MAIN_CLASS_NAME" value="排序.归并排序" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringTool.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="基础语法" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="工具类.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="工具类" />
+      <option name="MAIN_CLASS_NAME" value="工具类.StringTool" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -388,22 +401,6 @@
       <option name="PACKAGE_NAME" value="排序" />
       <option name="MAIN_CLASS_NAME" value="排序.原地快排" />
       <option name="METHOD_NAME" value="t" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="归并排序.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="数据结构与算法" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="排序.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="排序" />
-      <option name="MAIN_CLASS_NAME" value="排序.归并排序" />
-      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -442,19 +439,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Comparator_Lambda" />
       <item itemvalue="JUnit.归并排序" />
-      <item itemvalue="JUnit.归并排序.test" />
       <item itemvalue="JUnit.归并排序.tests" />
       <item itemvalue="JUnit.原地快排.t" />
-      <item itemvalue="Application.Comparator_Lambda" />
+      <item itemvalue="JUnit.StringTool.test2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StringTool.test2" />
         <item itemvalue="Application.Comparator_Lambda" />
         <item itemvalue="JUnit.归并排序" />
         <item itemvalue="JUnit.原地快排.t" />
         <item itemvalue="JUnit.归并排序.tests" />
-        <item itemvalue="JUnit.归并排序.test" />
       </list>
     </recent_temporary>
   </component>
@@ -501,14 +498,8 @@
       <workItem from="1598148749970" duration="4045000" />
       <workItem from="1598198624562" duration="6401000" />
       <workItem from="1598283607853" duration="2446000" />
-      <workItem from="1598416930743" duration="672000" />
-    </task>
-    <task id="LOCAL-00018" summary="2020-8-6 面试手撕代码测试">
-      <created>1596680847307</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1596680847307</updated>
+      <workItem from="1598416930743" duration="759000" />
+      <workItem from="1598524546206" duration="69000" />
     </task>
     <task id="LOCAL-00019" summary="2020-8-8 小根堆测试">
       <created>1596879728637</created>
@@ -846,7 +837,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598417451229</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="2020-8-26 lambda表达式 排序时，很慢">
+      <created>1598417665634</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1598417665634</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -882,7 +880,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60533000" />
+    <option name="totallyTimeSpent" value="60689000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -894,17 +892,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
+    <frame x="803" y="34" width="974" height="1058" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49787235" visible="true" weight="0.1392" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49787235" visible="true" weight="0.2924425" />
       <window_info id="Designer" order="1" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32939914" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3304721" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33333334" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -985,7 +983,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="2020-8-20 更改文件结构" />
     <MESSAGE value="2020-8-20 Arrays.stream()...." />
     <MESSAGE value="2020-8-20 stream().filter(..).count()" />
     <MESSAGE value="2020-8-20 stream().filter(..).count() test" />
@@ -1010,7 +1007,8 @@
     <MESSAGE value="2020-8-24 归并排序merge和快排partition" />
     <MESSAGE value="2020-8-25 多维费用背包，注释" />
     <MESSAGE value="2020-8-26 lambda表达式创建Comparator会偏慢" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020-8-26 lambda表达式创建Comparator会偏慢" />
+    <MESSAGE value="2020-8-26 lambda表达式 排序时，很慢" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020-8-26 lambda表达式 排序时，很慢" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/BasicGrammar/target/classes/pom.xml" />
@@ -1193,20 +1191,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/基础语法/排序算法/quickSort.java">
+    <entry file="file://$PROJECT_DIR$/基础语法/工具类/List2Array.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        <state relative-caret-position="625">
+          <caret line="30" column="23" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/基础语法/工具类/StringTool.java">
+    <entry file="file://$PROJECT_DIR$/基础语法/排序算法/quickSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        <state relative-caret-position="150">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1228,7 +1226,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/数据结构与算法/算法/动态规划/多维费用背包问题.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
+        <state relative-caret-position="550">
           <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1238,28 +1236,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/基础语法/工具类/Sort自定义排序.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-317">
+        <state relative-caret-position="100">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/基础语法/工具类/ListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="618">
-          <caret line="55" column="16" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/基础语法/工具类/List2Array.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="30" column="23" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1268,8 +1246,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/基础语法/工具类/ArraysTool.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
+        <state relative-caret-position="1375">
           <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/基础语法/工具类/ListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1250">
+          <caret line="55" column="16" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1278,11 +1266,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/基础语法/工具类/Comparator_Lambda.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        <state relative-caret-position="350">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/基础语法/工具类/StringTool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
           <folding>
-            <element signature="e#465#466#0" expanded="true" />
-            <element signature="e#505#506#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

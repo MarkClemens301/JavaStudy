@@ -20,6 +20,13 @@ public class StringTool {
         s = s.replaceAll("[\\[,\\]]", "");
         System.out.println("the new: " + s);
     }
+
+    @Test
+    public void test2() {
+        String s = "[1,2,3],[4,5,6]";
+        int id = s.indexOf("],[");
+        System.out.println(id);
+    }
 }
 /*
 在其他语言中，\\ 表示：我想要在正则表达式中插入一个普通的（字面上的）反斜杠，请不要给它任何特殊的意义。
