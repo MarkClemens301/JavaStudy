@@ -21,9 +21,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b1a51bc-5d2d-4290-820a-2890820de1c3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/核心基础/_9常用类/时间API.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/核心基础/_9常用类/String类.java" beforeDir="false" afterPath="$PROJECT_DIR$/核心基础/_9常用类/String类.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/BasicGrammar/target/" />
     <ignored path="$PROJECT_DIR$/设计模式/target/" />
@@ -46,18 +45,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="299">
               <caret line="45" column="41" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/数据结构与算法/算法/动态规划/多维费用背包问题.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -146,14 +133,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/核心基础/_9常用类/时间API.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="200">
+              <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="509">
+              <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -188,7 +184,6 @@
         <option value="$PROJECT_DIR$/BasicGrammar/pom.xml" />
         <option value="$PROJECT_DIR$/BasicGrammar/Hello/HelloWorld.java" />
         <option value="$PROJECT_DIR$/BasicGrammar/Hello/HelloWorldJava.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/BasicGrammar/Hello/ScannerInput.java" />
         <option value="$PROJECT_DIR$/BasicGrammar/工具类使用/UseArrays.java" />
         <option value="$PROJECT_DIR$/BasicGrammar/工具类使用/ArrayListTest.java" />
@@ -223,6 +218,7 @@
         <option value="$PROJECT_DIR$/基础语法/工具类/StringTool.java" />
         <option value="$PROJECT_DIR$/核心基础/_9常用类/String类.java" />
         <option value="$PROJECT_DIR$/核心基础/_9常用类/时间API.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -238,7 +234,7 @@
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <showMembers ProjectPane="false" />
-      <showExcludedFiles Scope="false" ProjectPane="false" />
+      <showExcludedFiles Scope="true" ProjectPane="true" />
       <autoscrollFromSource ProjectPane="true" />
       <sortByType ProjectPane="false" />
       <foldersAlwaysOnTop value="true" />
@@ -251,6 +247,11 @@
             <path>
               <item name="JavaStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaStudy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="基础语法" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaStudy" type="b2602c69:ProjectViewProjectNode" />
@@ -276,6 +277,11 @@
             </path>
             <path>
               <item name="JavaStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaStudy" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -288,7 +294,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598545907038" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598545956629" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="D:/Program Files/Java/junit4.13/junit-4.13-beta-1.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -470,28 +476,7 @@
       <workItem from="1598416930743" duration="759000" />
       <workItem from="1598524546206" duration="299000" />
       <workItem from="1598527885072" duration="27000" />
-      <workItem from="1598542312804" duration="2686000" />
-    </task>
-    <task id="LOCAL-00024" summary="2020-8-10 list2arr 递减排序">
-      <created>1597034530897</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1597034530897</updated>
-    </task>
-    <task id="LOCAL-00025" summary="2020-8-12 Collections工具类找最大最小值">
-      <created>1597162067702</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1597162067702</updated>
-    </task>
-    <task id="LOCAL-00026" summary="2020-8-13 列表转换为基本类型数组（不是包装类型数组）">
-      <created>1597334356979</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1597334356979</updated>
+      <workItem from="1598542312804" duration="2909000" />
     </task>
     <task id="LOCAL-00027" summary="2020-8-15 AtomicInteger 线程安全日期">
       <created>1597466191896</created>
@@ -815,7 +800,28 @@
       <option name="project" value="LOCAL" />
       <updated>1598543887450</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="2020-8-28 Calendar.getInstance();">
+      <created>1598545733041</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1598545733041</updated>
+    </task>
+    <task id="LOCAL-00074" summary="2020-8-28 updata .gitignore">
+      <created>1598545928740</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1598545928740</updated>
+    </task>
+    <task id="LOCAL-00075" summary="2020-8-28 updata .gitignore">
+      <created>1598545934927</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1598545934927</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -851,7 +857,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63632000" />
+    <option name="totallyTimeSpent" value="63855000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -866,19 +872,19 @@
     <frame x="803" y="34" width="974" height="1058" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49787235" visible="true" weight="0.30558598" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49787235" visible="true" weight="0.30558598" />
       <window_info id="Designer" order="1" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32939914" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33333334" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33333334" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.24350649" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.24350649" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32792208" />
@@ -954,7 +960,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="2020-8-21 readme update" />
     <MESSAGE value="2020-8-21 readme update2" />
     <MESSAGE value="2020-8-22 待继续" />
     <MESSAGE value="2020-8-23 String 正则替换" />
@@ -979,7 +984,8 @@
     <MESSAGE value="2020-8-27 String isSame" />
     <MESSAGE value="2020-8-27 String isSame 2" />
     <MESSAGE value="2020-8-28 Calendar.getInstance();" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020-8-28 Calendar.getInstance();" />
+    <MESSAGE value="2020-8-28 updata .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020-8-28 updata .gitignore" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/BasicGrammar/target/classes/pom.xml" />
@@ -987,13 +993,6 @@
     <entry file="file://$PROJECT_DIR$/BasicGrammar/target/classes/target/classes/target/classes/target/classes/target/classes/BasicGrammar.iml" />
     <entry file="file://$PROJECT_DIR$/BasicGrammar/target/classes/target/classes/target/classes/target/classes/target/classes/pom.xml" />
     <entry file="file://$PROJECT_DIR$/ClassOut/production/BasicGrammar/Hello/HelloWorldJava.class" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="451">
@@ -1264,11 +1263,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/核心基础/_9常用类/时间API.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="200">
+          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
         </state>
       </provider>
     </entry>
