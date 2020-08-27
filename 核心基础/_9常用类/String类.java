@@ -7,7 +7,20 @@ import java.util.stream.Collectors;
 
 public class String类 {
     @Test
-    public void test2() {
+    public void test_same() {
+        String s1 = "java";
+        String s2 = "ee";
+        String s3 = "javaee";
+        String s4 = s1 + "ee";
+        System.out.println(s3 == "java" + "ee");//true
+        System.out.println(s3 == s4); //false
+        System.out.println(s3.equals(s4)); //true
+        s1 = "not";
+        System.out.println(s4); //javaee
+    }
+
+    @Test
+    public void test_split() {
         String s = "Abc";
         s = s.concat("45");
         System.out.println(s);
@@ -16,7 +29,7 @@ public class String类 {
     }
 
     @Test
-    public void test1(){
+    public void test_concat() { //只要拼接对象含变量，结果就存堆中。
         String str1 = "123";
 //        int num = (int)str1;//错误的
         int num = Integer.parseInt(str1);
