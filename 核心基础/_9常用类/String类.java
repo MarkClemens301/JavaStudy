@@ -25,6 +25,7 @@ public class String类 {
 
         final String s7 = "java";//常量
         System.out.println(s7+"ee" == s3); //true
+        final String s8 = s1 + "ee";//存在堆中
         System.out.println(s8 == s3);//false
     }
 
