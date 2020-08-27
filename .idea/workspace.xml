@@ -141,8 +141,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/核心基础/_9常用类/String类.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+            <state relative-caret-position="441">
+              <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -273,7 +273,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598543359571" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598543879273" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="D:/Program Files/Java/junit4.13/junit-4.13-beta-1.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -455,14 +455,7 @@
       <workItem from="1598416930743" duration="759000" />
       <workItem from="1598524546206" duration="299000" />
       <workItem from="1598527885072" duration="27000" />
-      <workItem from="1598542312804" duration="1046000" />
-    </task>
-    <task id="LOCAL-00022" summary="2020-8-10 更新注释">
-      <created>1597031772547</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1597031772547</updated>
+      <workItem from="1598542312804" duration="1565000" />
     </task>
     <task id="LOCAL-00023" summary="2020-8-10 list2arr">
       <created>1597034129926</created>
@@ -800,43 +793,50 @@
       <option name="project" value="LOCAL" />
       <updated>1598542913496</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="2020-8-27 String isSame">
+      <created>1598543377267</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1598543377267</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="String类_test1 - 2020.08.27 at 23h 34m 12s.xml">
-      <configuration name="String类.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="String类_test2 - 2020.08.27 at 23h 36m 35s.xml">
-      <configuration name="String类.test2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="String类_test2 - 2020.08.27 at 23h 36m 43s.xml">
-      <configuration name="String类.test2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="String类_test2 - 2020.08.27 at 23h 39m 58s.xml">
-      <configuration name="String类.test2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="String类_test2 - 2020.08.27 at 23h 40m 21s.xml">
-      <configuration name="String类.test2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="String类_test2 - 2020.08.27 at 23h 40m 44s.xml">
-      <configuration name="String类.test2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="String类_test2 - 2020.08.27 at 23h 41m 12s.xml">
-      <configuration name="String类.test2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="String类_test2 - 2020.08.27 at 23h 41m 27s.xml">
-      <configuration name="String类.test2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="String类_test_same - 2020.08.27 at 23h 48m 36s.xml">
+    <history-entry file="String类_test_same - 2020.08.27 at 23h 49m 21s.xml">
       <configuration name="String类.test_same" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="String类_test_same - 2020.08.27 at 23h 49m 09s.xml">
+    <history-entry file="String类_test_same - 2020.08.27 at 23h 50m 56s.xml">
+      <configuration name="String类.test_same" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="String类_test_same - 2020.08.27 at 23h 51m 13s.xml">
+      <configuration name="String类.test_same" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="String类_test_same - 2020.08.27 at 23h 51m 25s.xml">
+      <configuration name="String类.test_same" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="String类_test_same - 2020.08.27 at 23h 51m 58s.xml">
+      <configuration name="String类.test_same" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="String类_test_same - 2020.08.27 at 23h 53m 36s.xml">
+      <configuration name="String类.test_same" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="String类_test_same - 2020.08.27 at 23h 55m 15s.xml">
+      <configuration name="String类.test_same" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="String类_test_same - 2020.08.27 at 23h 56m 17s.xml">
+      <configuration name="String类.test_same" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="String类_test_same - 2020.08.27 at 23h 56m 49s.xml">
+      <configuration name="String类.test_same" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="String类_test_same - 2020.08.27 at 23h 57m 41s.xml">
       <configuration name="String类.test_same" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61992000" />
+    <option name="totallyTimeSpent" value="62511000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -939,7 +939,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="2020-8-21 数据结构与算法 复习模块" />
     <MESSAGE value="2020-8-21 数据结构与算法 原地快排（递归法）" />
     <MESSAGE value="2020-8-21 数据结构与算法 原地快排（非递归法，下次）" />
     <MESSAGE value="2020-8-21 readme update" />
@@ -964,7 +963,8 @@
     <MESSAGE value="2020-8-27 String.indexOf" />
     <MESSAGE value="2020-8-27 String.indexOf 2" />
     <MESSAGE value="2020-8-27 String split(&quot;regex&quot;)" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020-8-27 String split(&quot;regex&quot;)" />
+    <MESSAGE value="2020-8-27 String isSame" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020-8-27 String isSame" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/BasicGrammar/target/classes/pom.xml" />
@@ -1239,8 +1239,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/核心基础/_9常用类/String类.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+        <state relative-caret-position="441">
+          <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

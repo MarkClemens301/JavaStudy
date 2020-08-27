@@ -9,14 +9,23 @@ public class String类 {
     @Test
     public void test_same() {
         String s1 = "java";
-        String s2 = "ee";
         String s3 = "javaee";
-        String s4 = s1 + "ee";
+        String s4 = s1 + "ee"; //javaee
         System.out.println(s3 == "java" + "ee");//true
         System.out.println(s3 == s4); //false
         System.out.println(s3.equals(s4)); //true
+
         s1 = "not";
         System.out.println(s4); //javaee
+
+        String s5 = s4.intern();
+        System.out.println(s5 == s3); //true
+        String s6 = s4.intern() + ""; //含有变量，结果就是在堆中
+        System.out.println(s6 == s3); //false
+
+        final String s7 = "java";//常量
+        System.out.println(s7+"ee" == s3); //true
+        System.out.println(s8 == s3);//false
     }
 
     @Test
