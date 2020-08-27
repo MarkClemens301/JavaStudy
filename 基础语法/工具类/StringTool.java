@@ -24,8 +24,14 @@ public class StringTool {
     @Test
     public void test2() {
         String s = "[1,2,3],[4,5,6]";
+        int i = 0;
+        for (char c : s.toCharArray()) {
+            System.out.println("" + i++ + " " + c);
+        }
         int id = s.indexOf("],[");
-        System.out.println(id);
+        System.out.println("id = " + id);
+        System.out.println(s.substring(0, id));
+        System.out.println(s.substring(id + 3));
     }
 }
 /*

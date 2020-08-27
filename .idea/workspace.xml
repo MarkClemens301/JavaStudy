@@ -22,7 +22,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8b1a51bc-5d2d-4290-820a-2890820de1c3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础语法/工具类/Comparator_Lambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/基础语法/工具类/Comparator_Lambda.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/基础语法/工具类/StringTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/基础语法/工具类/StringTool.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/BasicGrammar/target/" />
@@ -68,8 +67,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/基础语法/工具类/StringTool.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="625">
-              <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+            <state relative-caret-position="297">
+              <caret line="32" column="44" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -307,7 +306,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598524615733" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598524809027" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="D:/Program Files/Java/junit4.13/junit-4.13-beta-1.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -499,14 +498,7 @@
       <workItem from="1598198624562" duration="6401000" />
       <workItem from="1598283607853" duration="2446000" />
       <workItem from="1598416930743" duration="759000" />
-      <workItem from="1598524546206" duration="69000" />
-    </task>
-    <task id="LOCAL-00019" summary="2020-8-8 小根堆测试">
-      <created>1596879728637</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1596879728637</updated>
+      <workItem from="1598524546206" duration="263000" />
     </task>
     <task id="LOCAL-00020" summary="2020-8-9 小根堆注释">
       <created>1596937804954</created>
@@ -844,28 +836,17 @@
       <option name="project" value="LOCAL" />
       <updated>1598417665634</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="2020-8-27 String.indexOf">
+      <created>1598524633811</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1598524633811</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="原地快排 - 2020.08.24 at 02h 32m 21s.xml">
-      <configuration name="原地快排" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="原地快排 - 2020.08.24 at 02h 32m 54s.xml">
-      <configuration name="原地快排" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="原地快排 - 2020.08.24 at 02h 33m 01s.xml">
-      <configuration name="原地快排" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="原地快排_t - 2020.08.24 at 02h 33m 47s.xml">
-      <configuration name="原地快排.t" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="原地快排_t - 2020.08.24 at 02h 33m 59s.xml">
-      <configuration name="原地快排.t" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="原地快排_t - 2020.08.24 at 02h 34m 10s.xml">
-      <configuration name="原地快排.t" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="归并排序 - 2020.08.24 at 02h 36m 44s.xml">
       <configuration name="归并排序" configurationId="JUnit" />
     </history-entry>
@@ -878,9 +859,27 @@
     <history-entry file="多维费用背包问题_test - 2020.08.24 at 23h 55m 14s.xml">
       <configuration name="多维费用背包问题.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="StringTool_test2 - 2020.08.27 at 18h 36m 59s.xml">
+      <configuration name="StringTool.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringTool_test2 - 2020.08.27 at 18h 37m 58s.xml">
+      <configuration name="StringTool.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringTool_test2 - 2020.08.27 at 18h 38m 17s.xml">
+      <configuration name="StringTool.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringTool_test2 - 2020.08.27 at 18h 38m 39s.xml">
+      <configuration name="StringTool.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringTool_test2 - 2020.08.27 at 18h 38m 53s.xml">
+      <configuration name="StringTool.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringTool_test2 - 2020.08.27 at 18h 39m 49s.xml">
+      <configuration name="StringTool.test2" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60689000" />
+    <option name="totallyTimeSpent" value="60883000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -895,14 +894,14 @@
     <frame x="803" y="34" width="974" height="1058" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49787235" visible="true" weight="0.2924425" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49787235" visible="true" weight="0.2924425" />
       <window_info id="Designer" order="1" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32939914" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33333334" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33333334" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -983,7 +982,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="2020-8-20 Arrays.stream()...." />
     <MESSAGE value="2020-8-20 stream().filter(..).count()" />
     <MESSAGE value="2020-8-20 stream().filter(..).count() test" />
     <MESSAGE value="2020-8-21 数据结构与算法 复习模块" />
@@ -1008,7 +1006,8 @@
     <MESSAGE value="2020-8-25 多维费用背包，注释" />
     <MESSAGE value="2020-8-26 lambda表达式创建Comparator会偏慢" />
     <MESSAGE value="2020-8-26 lambda表达式 排序时，很慢" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020-8-26 lambda表达式 排序时，很慢" />
+    <MESSAGE value="2020-8-27 String.indexOf" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020-8-27 String.indexOf" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/BasicGrammar/target/classes/pom.xml" />
@@ -1273,8 +1272,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/基础语法/工具类/StringTool.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+        <state relative-caret-position="297">
+          <caret line="32" column="44" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
