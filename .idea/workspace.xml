@@ -288,7 +288,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598545711902" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598545744161" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="D:/Program Files/Java/junit4.13/junit-4.13-beta-1.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -470,7 +470,7 @@
       <workItem from="1598416930743" duration="759000" />
       <workItem from="1598524546206" duration="299000" />
       <workItem from="1598527885072" duration="27000" />
-      <workItem from="1598542312804" duration="2661000" />
+      <workItem from="1598542312804" duration="2686000" />
     </task>
     <task id="LOCAL-00024" summary="2020-8-10 list2arr 递减排序">
       <created>1597034530897</created>
@@ -819,9 +819,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="String类_test_same - 2020.08.27 at 23h 55m 15s.xml">
-      <configuration name="String类.test_same" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="String类_test_same - 2020.08.27 at 23h 56m 17s.xml">
       <configuration name="String类.test_same" configurationId="JUnit" />
     </history-entry>
@@ -849,9 +846,12 @@
     <history-entry file="时间API_canlendarT - 2020.08.28 at 00h 28m 18s.xml">
       <configuration name="时间API.canlendarT" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="时间API_canlendarT - 2020.08.28 at 00h 28m 33s.xml">
+      <configuration name="时间API.canlendarT" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63607000" />
+    <option name="totallyTimeSpent" value="63632000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -954,7 +954,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="2020-8-21 数据结构与算法 原地快排（非递归法，下次）" />
     <MESSAGE value="2020-8-21 readme update" />
     <MESSAGE value="2020-8-21 readme update2" />
     <MESSAGE value="2020-8-22 待继续" />
@@ -979,7 +978,8 @@
     <MESSAGE value="2020-8-27 String split(&quot;regex&quot;)" />
     <MESSAGE value="2020-8-27 String isSame" />
     <MESSAGE value="2020-8-27 String isSame 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020-8-27 String isSame 2" />
+    <MESSAGE value="2020-8-28 Calendar.getInstance();" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020-8-28 Calendar.getInstance();" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/BasicGrammar/target/classes/pom.xml" />
