@@ -21,6 +21,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b1a51bc-5d2d-4290-820a-2890820de1c3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/核心基础/_9常用类/String类.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/基础语法/工具类/StringTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/基础语法/工具类/StringTool.java" afterDir="false" />
     </list>
@@ -41,46 +42,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/基础语法/工具类/List2Array.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="625">
-              <caret line="30" column="23" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/基础语法/排序算法/quickSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/基础语法/工具类/StringTool.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="32" column="44" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/数据结构与算法/排序/归并排序.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="900">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="299">
+              <caret line="45" column="41" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -144,8 +109,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/基础语法/工具类/Comparator_Lambda.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
+            <state relative-caret-position="425">
               <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/数据结构与算法/排序/原地快排.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/数据结构与算法/排序/原地快排_非递归栈.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="550">
+              <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/核心基础/_9常用类/String类.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -213,6 +214,7 @@
         <option value="$PROJECT_DIR$/数据结构与算法/算法/动态规划/多维费用背包问题.java" />
         <option value="$PROJECT_DIR$/基础语法/工具类/Comparator_Lambda.java" />
         <option value="$PROJECT_DIR$/基础语法/工具类/StringTool.java" />
+        <option value="$PROJECT_DIR$/核心基础/_9常用类/String类.java" />
       </list>
     </option>
   </component>
@@ -234,7 +236,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -246,47 +247,13 @@
             <path>
               <item name="JavaStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="基础语法" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="基础语法" type="462c0819:PsiDirectoryNode" />
-              <item name="工具类" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="多线程" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="数据结构与算法" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="数据结构与算法" type="462c0819:PsiDirectoryNode" />
-              <item name="排序" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="数据结构与算法" type="462c0819:PsiDirectoryNode" />
-              <item name="算法" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="数据结构与算法" type="462c0819:PsiDirectoryNode" />
-              <item name="算法" type="462c0819:PsiDirectoryNode" />
-              <item name="动态规划" type="462c0819:PsiDirectoryNode" />
+              <item name="核心基础" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaStudy" type="462c0819:PsiDirectoryNode" />
               <item name="核心基础" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaStudy" type="b2602c69:ProjectViewProjectNode" />
@@ -301,12 +268,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598524809027" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598542885804" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="D:/Program Files/Java/junit4.13/junit-4.13-beta-1.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -329,7 +297,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StringTool.test2">
+  <component name="RunManager" selected="JUnit.String类.test2">
     <configuration name="Comparator_Lambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="工具类.Comparator_Lambda" />
       <module name="基础语法" />
@@ -343,17 +311,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="归并排序" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="数据结构与算法" />
+    <configuration name="StringTool.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="基础语法" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="排序.*" />
+          <option name="PATTERN" value="工具类.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="排序" />
-      <option name="MAIN_CLASS_NAME" value="排序.归并排序" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="工具类" />
+      <option name="MAIN_CLASS_NAME" value="工具类.StringTool" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -368,6 +337,38 @@
       </extension>
       <option name="PACKAGE_NAME" value="工具类" />
       <option name="MAIN_CLASS_NAME" value="工具类.StringTool" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="String类.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="核心基础" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_9常用类.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="_9常用类" />
+      <option name="MAIN_CLASS_NAME" value="_9常用类.String类" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="String类.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="核心基础" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_9常用类.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="_9常用类" />
+      <option name="MAIN_CLASS_NAME" value="_9常用类.String类" />
       <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -389,68 +390,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="原地快排.t" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="数据结构与算法" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="排序.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="排序" />
-      <option name="MAIN_CLASS_NAME" value="排序.原地快排" />
-      <option name="METHOD_NAME" value="t" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="多维费用背包问题.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="数据结构与算法" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="算法.动态规划.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="算法.动态规划" />
-      <option name="MAIN_CLASS_NAME" value="算法.动态规划.多维费用背包问题" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="归并排序.tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="数据结构与算法" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="排序.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="排序" />
-      <option name="MAIN_CLASS_NAME" value="排序.归并排序" />
-      <option name="METHOD_NAME" value="tests" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.Comparator_Lambda" />
-      <item itemvalue="JUnit.归并排序" />
-      <item itemvalue="JUnit.归并排序.tests" />
-      <item itemvalue="JUnit.原地快排.t" />
       <item itemvalue="JUnit.StringTool.test2" />
+      <item itemvalue="JUnit.StringTool.test1" />
+      <item itemvalue="JUnit.String类.test1" />
+      <item itemvalue="JUnit.String类.test2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.String类.test2" />
+        <item itemvalue="JUnit.String类.test1" />
+        <item itemvalue="JUnit.StringTool.test1" />
         <item itemvalue="JUnit.StringTool.test2" />
         <item itemvalue="Application.Comparator_Lambda" />
-        <item itemvalue="JUnit.归并排序" />
-        <item itemvalue="JUnit.原地快排.t" />
-        <item itemvalue="JUnit.归并排序.tests" />
       </list>
     </recent_temporary>
   </component>
@@ -498,14 +451,9 @@
       <workItem from="1598198624562" duration="6401000" />
       <workItem from="1598283607853" duration="2446000" />
       <workItem from="1598416930743" duration="759000" />
-      <workItem from="1598524546206" duration="263000" />
-    </task>
-    <task id="LOCAL-00020" summary="2020-8-9 小根堆注释">
-      <created>1596937804954</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1596937804954</updated>
+      <workItem from="1598524546206" duration="299000" />
+      <workItem from="1598527885072" duration="27000" />
+      <workItem from="1598542312804" duration="573000" />
     </task>
     <task id="LOCAL-00021" summary="2020-8-9 小根堆改为大根堆的写法，需要用到java8新特性：lambda表达式">
       <created>1596937880137</created>
@@ -843,43 +791,50 @@
       <option name="project" value="LOCAL" />
       <updated>1598524633811</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="2020-8-27 String.indexOf 2">
+      <created>1598524826554</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1598524826554</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="归并排序 - 2020.08.24 at 02h 36m 44s.xml">
-      <configuration name="归并排序" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="多维费用背包问题_test - 2020.08.24 at 23h 52m 23s.xml">
-      <configuration name="多维费用背包问题.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="多维费用背包问题_test - 2020.08.24 at 23h 55m 05s.xml">
-      <configuration name="多维费用背包问题.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="多维费用背包问题_test - 2020.08.24 at 23h 55m 14s.xml">
-      <configuration name="多维费用背包问题.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StringTool_test2 - 2020.08.27 at 18h 36m 59s.xml">
-      <configuration name="StringTool.test2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StringTool_test2 - 2020.08.27 at 18h 37m 58s.xml">
-      <configuration name="StringTool.test2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StringTool_test2 - 2020.08.27 at 18h 38m 17s.xml">
-      <configuration name="StringTool.test2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StringTool_test2 - 2020.08.27 at 18h 38m 39s.xml">
-      <configuration name="StringTool.test2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StringTool_test2 - 2020.08.27 at 18h 38m 53s.xml">
-      <configuration name="StringTool.test2" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="StringTool_test2 - 2020.08.27 at 18h 39m 49s.xml">
       <configuration name="StringTool.test2" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="StringTool_test2 - 2020.08.27 at 18h 40m 11s.xml">
+      <configuration name="StringTool.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringTool_test1 - 2020.08.27 at 23h 32m 13s.xml">
+      <configuration name="StringTool.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="String类_test1 - 2020.08.27 at 23h 34m 12s.xml">
+      <configuration name="String类.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="String类_test2 - 2020.08.27 at 23h 36m 35s.xml">
+      <configuration name="String类.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="String类_test2 - 2020.08.27 at 23h 36m 43s.xml">
+      <configuration name="String类.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="String类_test2 - 2020.08.27 at 23h 39m 58s.xml">
+      <configuration name="String类.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="String类_test2 - 2020.08.27 at 23h 40m 21s.xml">
+      <configuration name="String类.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="String类_test2 - 2020.08.27 at 23h 40m 44s.xml">
+      <configuration name="String类.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="String类_test2 - 2020.08.27 at 23h 41m 12s.xml">
+      <configuration name="String类.test2" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60883000" />
+    <option name="totallyTimeSpent" value="61519000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -894,7 +849,7 @@
     <frame x="803" y="34" width="974" height="1058" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49787235" visible="true" weight="0.2924425" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49787235" visible="true" weight="0.30558598" />
       <window_info id="Designer" order="1" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -906,7 +861,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.24356224" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.24350649" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32792208" />
@@ -982,7 +937,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="2020-8-20 stream().filter(..).count()" />
     <MESSAGE value="2020-8-20 stream().filter(..).count() test" />
     <MESSAGE value="2020-8-21 数据结构与算法 复习模块" />
     <MESSAGE value="2020-8-21 数据结构与算法 原地快排（递归法）" />
@@ -1007,7 +961,8 @@
     <MESSAGE value="2020-8-26 lambda表达式创建Comparator会偏慢" />
     <MESSAGE value="2020-8-26 lambda表达式 排序时，很慢" />
     <MESSAGE value="2020-8-27 String.indexOf" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020-8-27 String.indexOf" />
+    <MESSAGE value="2020-8-27 String.indexOf 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020-8-27 String.indexOf 2" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/BasicGrammar/target/classes/pom.xml" />
@@ -1160,16 +1115,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/数据结构与算法/排序/原地快排.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1177,16 +1122,6 @@
             <caret line="91" column="4" selection-start-line="91" selection-start-column="4" selection-end-line="91" selection-end-column="4" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据结构与算法/排序/原地快排_非递归栈.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="925">
-          <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1265,15 +1200,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/基础语法/工具类/Comparator_Lambda.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
+        <state relative-caret-position="425">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构与算法/排序/原地快排.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构与算法/排序/原地快排_非递归栈.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/基础语法/工具类/StringTool.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="32" column="44" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
+        <state relative-caret-position="299">
+          <caret line="45" column="41" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/核心基础/_9常用类/String类.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

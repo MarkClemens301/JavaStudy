@@ -33,6 +33,18 @@ public class StringTool {
         System.out.println(s.substring(0, id));
         System.out.println(s.substring(id + 3));
     }
+
+    @Test
+    public void test1() {
+        String str1 = "123";
+//        int num = (int)str1;//错误的
+        int num = Integer.parseInt(str1);
+
+        String str2 = String.valueOf(num);//"123"
+        String str3 = num + "";
+
+        System.out.println(str1 == str3);
+    }
 }
 /*
 在其他语言中，\\ 表示：我想要在正则表达式中插入一个普通的（字面上的）反斜杠，请不要给它任何特殊的意义。
