@@ -14,5 +14,6 @@ public class Array2List {
         //存入对象数组，good
         List<Integer> ls2 = Arrays.asList(new Integer[]{1, 23, 4});
         System.out.println("ls2 = " + ls2);
+        System.out.println("max = " + Collections.max(ls2));
     }
 }
