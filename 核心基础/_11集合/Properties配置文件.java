@@ -16,18 +16,20 @@ public class Properties配置文件 {
         try {
             String file = ".\\_11集合\\jdbc.properties";
 
-            //中文问题
+            //Properties 配置文件，中文编码问题
             isr = new InputStreamReader(new FileInputStream(file), "utf-8");
             Properties pros = new Properties();
             pros.load(isr);//load
 
             String name = pros.getProperty("name");//getProperty
             String password = pros.getProperty("password");//getProperty
+            String note = pros.getProperty("note");//getProperty
             //name = new String(name.getBytes("ISO8859-1"), "utf-8");
 
             System.out.println(pros.toString());//toString
-            System.out.println("name = " + name);
-            System.out.println("password = " + password);
+            //System.out.println("name = " + name);
+            //System.out.println("password = " + password);
+            //System.out.println("note = " + note);
         } catch (IOException e) {
             e.printStackTrace();
         } finally {

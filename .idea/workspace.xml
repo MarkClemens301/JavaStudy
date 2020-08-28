@@ -20,15 +20,14 @@
     <bookmark url="file://$PROJECT_DIR$/数据结构与算法/算法/动态规划/多维费用背包问题.java" line="31" />
     <bookmark url="file://$PROJECT_DIR$/核心基础/_11集合/Properties配置文件.java" line="21" />
     <bookmark url="file://$PROJECT_DIR$/核心基础/_11集合/Properties配置文件.java" line="23" />
+    <bookmark url="file://$PROJECT_DIR$/核心基础/_11集合/Properties配置文件.java" line="28" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b1a51bc-5d2d-4290-820a-2890820de1c3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/核心基础/_11集合/Properties配置文件.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/核心基础/_11集合/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础语法/工具类/Array2List.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/核心基础/_9常用类/MyAnnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/核心基础/_10枚举类/MyAnnotation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/核心基础/_9常用类/枚举类enum.java" beforeDir="false" afterPath="$PROJECT_DIR$/核心基础/_10枚举类/枚举类enum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/核心基础/_11集合/Properties配置文件.java" beforeDir="false" afterPath="$PROJECT_DIR$/核心基础/_11集合/Properties配置文件.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/核心基础/_11集合/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/核心基础/_11集合/jdbc.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/BasicGrammar/target/" />
     <ignored path="$PROJECT_DIR$/设计模式/target/" />
@@ -50,10 +49,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/基础语法/工具类/ArraysTool.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1425">
+              <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/核心基础/_10枚举类/枚举类enum.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="192">
               <caret line="67" column="6" selection-start-line="67" selection-start-column="6" selection-end-line="67" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/基础语法/工具类/Comparator_Lambda.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -70,11 +90,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/核心基础/_11集合/Properties配置文件.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+            <state relative-caret-position="238">
+              <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,8 +105,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/核心基础/_11集合/jdbc.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+            <state relative-caret-position="50">
+              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/基础语法/工具类/List2Array.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="457">
+              <caret line="30" column="23" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/基础语法/工具类/Array2List.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -163,6 +207,7 @@
         <option value="$PROJECT_DIR$/核心基础/_10枚举类/枚举类enum.java" />
         <option value="$PROJECT_DIR$/核心基础/_11集合/jdbc.properties" />
         <option value="$PROJECT_DIR$/核心基础/_11集合/Properties配置文件.java" />
+        <option value="$PROJECT_DIR$/基础语法/工具类/Array2List.java" />
       </list>
     </option>
   </component>
@@ -196,6 +241,23 @@
             <path>
               <item name="JavaStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="基础语法" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="基础语法" type="462c0819:PsiDirectoryNode" />
+              <item name="工具类" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="基础语法" type="462c0819:PsiDirectoryNode" />
+              <item name="排序算法" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaStudy" type="462c0819:PsiDirectoryNode" />
               <item name="核心基础" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -213,7 +275,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598611787703" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598612543936" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="D:/Program Files/Java/junit4.13/junit-4.13-beta-1.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -236,22 +298,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Properties配置文件.test">
-    <configuration name="时间API" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="核心基础" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_10枚举类.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="_9常用类" />
-      <option name="MAIN_CLASS_NAME" value="_9常用类.时间API" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Array2List.test">
     <configuration name="时间API.new_API_time" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="核心基础" />
       <extension name="coverage">
@@ -263,6 +310,22 @@
       <option name="PACKAGE_NAME" value="_9常用类" />
       <option name="MAIN_CLASS_NAME" value="_9常用类.时间API" />
       <option name="METHOD_NAME" value="new_API_time" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Array2List.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="基础语法" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="工具类.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="工具类" />
+      <option name="MAIN_CLASS_NAME" value="工具类.Array2List" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -318,18 +381,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.时间API.new_API_time" />
-      <item itemvalue="JUnit.时间API" />
       <item itemvalue="JUnit.枚举类enum.test" />
       <item itemvalue="JUnit.枚举类enum.test2" />
       <item itemvalue="JUnit.Properties配置文件.test" />
+      <item itemvalue="JUnit.Array2List.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Array2List.test" />
         <item itemvalue="JUnit.Properties配置文件.test" />
         <item itemvalue="JUnit.枚举类enum.test" />
         <item itemvalue="JUnit.枚举类enum.test2" />
         <item itemvalue="JUnit.时间API.new_API_time" />
-        <item itemvalue="JUnit.时间API" />
       </list>
     </recent_temporary>
   </component>
@@ -382,14 +445,7 @@
       <workItem from="1598542312804" duration="4770000" />
       <workItem from="1598600063211" duration="2248000" />
       <workItem from="1598604377917" duration="562000" />
-      <workItem from="1598604966391" duration="3766000" />
-    </task>
-    <task id="LOCAL-00033" summary="2020-8-17 设计模式：单例模式（饿汉式）">
-      <created>1597622176000</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1597622176000</updated>
+      <workItem from="1598604966391" duration="4527000" />
     </task>
     <task id="LOCAL-00034" summary="2020-8-17 设计模式：单例模式总结">
       <created>1597623676017</created>
@@ -727,43 +783,50 @@
       <option name="project" value="LOCAL" />
       <updated>1598606459766</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="2020-8-28 Properties 配置文件，中文编码问题">
+      <created>1598611824190</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1598611824190</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Properties配置文件_test - 2020.08.28 at 18h 35m 15s.xml">
+    <history-entry file="Properties配置文件_test - 2020.08.28 at 18h 50m 34s.xml">
       <configuration name="Properties配置文件.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Properties配置文件_test - 2020.08.28 at 18h 35m 39s.xml">
+    <history-entry file="Properties配置文件_test - 2020.08.28 at 18h 51m 35s.xml">
       <configuration name="Properties配置文件.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Properties配置文件_test - 2020.08.28 at 18h 36m 05s.xml">
+    <history-entry file="Properties配置文件_test - 2020.08.28 at 18h 51m 52s.xml">
       <configuration name="Properties配置文件.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Properties配置文件_test - 2020.08.28 at 18h 37m 34s.xml">
-      <configuration name="Properties配置文件.test" configurationId="JUnit" />
+    <history-entry file="Array2List_test - 2020.08.28 at 19h 00m 03s.xml">
+      <configuration name="Array2List.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Properties配置文件_test - 2020.08.28 at 18h 37m 46s.xml">
-      <configuration name="Properties配置文件.test" configurationId="JUnit" />
+    <history-entry file="Array2List_test - 2020.08.28 at 19h 00m 35s.xml">
+      <configuration name="Array2List.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Properties配置文件_test - 2020.08.28 at 18h 38m 11s.xml">
-      <configuration name="Properties配置文件.test" configurationId="JUnit" />
+    <history-entry file="Array2List_test - 2020.08.28 at 19h 00m 49s.xml">
+      <configuration name="Array2List.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Properties配置文件_test - 2020.08.28 at 18h 40m 34s.xml">
-      <configuration name="Properties配置文件.test" configurationId="JUnit" />
+    <history-entry file="Array2List_test - 2020.08.28 at 19h 01m 02s.xml">
+      <configuration name="Array2List.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Properties配置文件_test - 2020.08.28 at 18h 42m 46s.xml">
-      <configuration name="Properties配置文件.test" configurationId="JUnit" />
+    <history-entry file="Array2List_test - 2020.08.28 at 19h 01m 46s.xml">
+      <configuration name="Array2List.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Properties配置文件_test - 2020.08.28 at 18h 48m 58s.xml">
-      <configuration name="Properties配置文件.test" configurationId="JUnit" />
+    <history-entry file="Array2List_test - 2020.08.28 at 19h 02m 18s.xml">
+      <configuration name="Array2List.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Properties配置文件_test - 2020.08.28 at 18h 49m 35s.xml">
-      <configuration name="Properties配置文件.test" configurationId="JUnit" />
+    <history-entry file="Array2List_test - 2020.08.28 at 19h 02m 22s.xml">
+      <configuration name="Array2List.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72292000" />
+    <option name="totallyTimeSpent" value="73053000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -778,7 +841,7 @@
     <frame x="914" y="96" width="1001" height="971" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49787235" weight="0.2319149" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49787235" visible="true" weight="0.2319149" />
       <window_info id="Designer" order="1" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -867,7 +930,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="2020-8-23 非递归原地快排，测试" />
     <MESSAGE value="2020-8-24 归并排序 手写" />
     <MESSAGE value="2020-8-24 归并排序 测试" />
     <MESSAGE value="2020-8-24 归并排序 空间优化" />
@@ -892,7 +954,8 @@
     <MESSAGE value="2020-8-28 枚举类" />
     <MESSAGE value="2020-8-28 枚举类 2" />
     <MESSAGE value="2020-8-28 注解" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020-8-28 注解" />
+    <MESSAGE value="2020-8-28 Properties 配置文件，中文编码问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020-8-28 Properties 配置文件，中文编码问题" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/BasicGrammar/target/classes/pom.xml" />
@@ -1048,16 +1111,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/基础语法/工具类/List2Array.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="30" column="23" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/基础语法/排序算法/quickSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1139,16 +1192,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/基础语法/工具类/ArraysTool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1375">
-          <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/基础语法/工具类/ListTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1250">
@@ -1156,13 +1199,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/基础语法/工具类/Comparator_Lambda.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
@@ -1227,17 +1263,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/核心基础/_11集合/jdbc.properties">
+    <entry file="file://$PROJECT_DIR$/核心基础/_11集合/Properties配置文件.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        <state relative-caret-position="238">
+          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/核心基础/_11集合/Properties配置文件.java">
+    <entry file="file://$PROJECT_DIR$/核心基础/_11集合/jdbc.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        <state relative-caret-position="50">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/基础语法/工具类/Comparator_Lambda.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/基础语法/工具类/ArraysTool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1425">
+          <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/基础语法/工具类/List2Array.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="30" column="23" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/基础语法/工具类/Array2List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
