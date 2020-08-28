@@ -28,7 +28,7 @@ public class 枚举类enum {
     @Test
     public void test2() {
         //valueOf
-        System.out.println(Season1.valueOf("SPRING"));
+        System.out.println(Season1.valueOf("SPRING"));//返回对象
         //System.out.println(Season.valueOf("SPRING")); //enum定义的枚举才有valueOf方法
     }
 }
