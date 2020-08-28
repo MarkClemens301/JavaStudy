@@ -18,10 +18,18 @@ public class 枚举类enum {
         }
         System.out.println("*************");
 
+        //线程状态枚举
         Thread.State[] values1 = Thread.State.values();
         for (int i = 0; i < values1.length; i++) {
             System.out.print(values1[i] + " ");
         }
+    }
+
+    @Test
+    public void test2() {
+        //valueOf
+        System.out.println(Season1.valueOf("SPRING"));
+        //System.out.println(Season.valueOf("SPRING")); //enum定义的枚举才有valueOf方法
     }
 }
 
