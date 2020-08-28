@@ -1,4 +1,4 @@
-package _9常用类;/* 2020/8/28 17:04 */
+package _10枚举类;/* 2020/8/28 17:04 */
 
 import org.junit.Test;
 
