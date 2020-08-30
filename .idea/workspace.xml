@@ -18,14 +18,14 @@
     <bookmark url="file://$PROJECT_DIR$/数据结构与算法/排序/归并排序.java" />
     <bookmark url="file://$PROJECT_DIR$/数据结构与算法/排序/原地快排.java" />
     <bookmark url="file://$PROJECT_DIR$/数据结构与算法/算法/动态规划/多维费用背包问题.java" line="31" />
-    <bookmark url="file://$PROJECT_DIR$/核心基础/_11集合/Properties配置文件.java" line="21" />
     <bookmark url="file://$PROJECT_DIR$/核心基础/_11集合/Properties配置文件.java" line="23" />
-    <bookmark url="file://$PROJECT_DIR$/核心基础/_11集合/Properties配置文件.java" line="28" />
+    <bookmark url="file://$PROJECT_DIR$/核心基础/_11集合/Properties配置文件.java" line="25" />
+    <bookmark url="file://$PROJECT_DIR$/核心基础/_11集合/Properties配置文件.java" line="30" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b1a51bc-5d2d-4290-820a-2890820de1c3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础语法/工具类/Array2List.java" beforeDir="false" afterPath="$PROJECT_DIR$/基础语法/工具类/Array2List.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/核心基础/_11集合/Properties配置文件.java" beforeDir="false" afterPath="$PROJECT_DIR$/核心基础/_11集合/Properties配置文件.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/BasicGrammar/target/" />
     <ignored path="$PROJECT_DIR$/设计模式/target/" />
@@ -49,7 +49,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/基础语法/工具类/ArraysTool.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1425">
+            <state relative-caret-position="1375">
               <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -79,7 +79,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/核心基础/_10枚举类/MyAnnotation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
+            <state relative-caret-position="275">
               <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -88,11 +88,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/核心基础/_11集合/Properties配置文件.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="650">
-              <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+            <state relative-caret-position="86">
+              <caret line="19" column="95" selection-start-line="19" selection-start-column="95" selection-end-line="19" selection-end-column="95" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -112,7 +112,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/基础语法/工具类/List2Array.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="750">
+            <state relative-caret-position="625">
               <caret line="30" column="23" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -121,11 +121,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/基础语法/工具类/Array2List.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+            <state relative-caret-position="375">
+              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -204,12 +204,12 @@
         <option value="$PROJECT_DIR$/核心基础/_10枚举类/MyAnnotation.java" />
         <option value="$PROJECT_DIR$/核心基础/_10枚举类/枚举类enum.java" />
         <option value="$PROJECT_DIR$/核心基础/_11集合/jdbc.properties" />
-        <option value="$PROJECT_DIR$/核心基础/_11集合/Properties配置文件.java" />
         <option value="$PROJECT_DIR$/基础语法/工具类/Array2List.java" />
+        <option value="$PROJECT_DIR$/核心基础/_11集合/Properties配置文件.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="914" />
     <option name="y" value="96" />
     <option name="width" value="1001" />
@@ -273,7 +273,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598634530267" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598793485819" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="D:/Program Files/Java/junit4.13/junit-4.13-beta-1.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -296,7 +296,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Array2List.test">
+  <component name="RunManager" selected="JUnit.Properties配置文件.test">
     <configuration name="时间API.new_API_time" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="核心基础" />
       <extension name="coverage">
@@ -386,8 +386,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Array2List.test" />
         <item itemvalue="JUnit.Properties配置文件.test" />
+        <item itemvalue="JUnit.Array2List.test" />
         <item itemvalue="JUnit.枚举类enum.test" />
         <item itemvalue="JUnit.枚举类enum.test2" />
         <item itemvalue="JUnit.时间API.new_API_time" />
@@ -444,14 +444,8 @@
       <workItem from="1598600063211" duration="2248000" />
       <workItem from="1598604377917" duration="562000" />
       <workItem from="1598604966391" duration="5141000" />
-      <workItem from="1598634477863" duration="53000" />
-    </task>
-    <task id="LOCAL-00035" summary="2020-8-17 设计模式：单例模式与Spring">
-      <created>1597624745818</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1597624745818</updated>
+      <workItem from="1598634477863" duration="688000" />
+      <workItem from="1598792768557" duration="704000" />
     </task>
     <task id="LOCAL-00036" summary="2020-8-17 多线程/JUC：原子类">
       <created>1597625174175</created>
@@ -789,13 +783,17 @@
       <option name="project" value="LOCAL" />
       <updated>1598612553916</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="2020-8-29 arr2list">
+      <created>1598634549019</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1598634549019</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Properties配置文件_test - 2020.08.28 at 18h 51m 35s.xml">
-      <configuration name="Properties配置文件.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Properties配置文件_test - 2020.08.28 at 18h 51m 52s.xml">
       <configuration name="Properties配置文件.test" configurationId="JUnit" />
     </history-entry>
@@ -823,9 +821,12 @@
     <history-entry file="Array2List_test - 2020.08.29 at 01h 08m 37s.xml">
       <configuration name="Array2List.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Array2List_test - 2020.08.29 at 01h 08m 51s.xml">
+      <configuration name="Array2List.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73720000" />
+    <option name="totallyTimeSpent" value="75059000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -837,10 +838,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="914" y="96" width="1001" height="971" extended-state="0" />
+    <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49787235" visible="true" weight="0.23723404" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49787235" weight="0.24255319" />
       <window_info id="Designer" order="1" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -848,12 +849,12 @@
       <window_info anchor="bottom" id="Problems" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32939914" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.33333334" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.33333334" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.39904422" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32855436" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.24970132" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.22424893" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32735962" />
@@ -929,7 +930,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="2020-8-24 归并排序 测试" />
     <MESSAGE value="2020-8-24 归并排序 空间优化" />
     <MESSAGE value="2020-8-24 归并排序 打印每次归并操作" />
     <MESSAGE value="2020-8-24 原地快排、归并排序，过程输出测试" />
@@ -954,7 +954,8 @@
     <MESSAGE value="2020-8-28 注解" />
     <MESSAGE value="2020-8-28 Properties 配置文件，中文编码问题" />
     <MESSAGE value="2020-8-28 Array2List" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020-8-28 Array2List" />
+    <MESSAGE value="2020-8-29 arr2list" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020-8-29 arr2list" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/BasicGrammar/target/classes/pom.xml" />
@@ -1247,7 +1248,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/基础语法/工具类/ArraysTool.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1425">
+        <state relative-caret-position="1375">
           <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1271,18 +1272,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/核心基础/_10枚举类/MyAnnotation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
+        <state relative-caret-position="275">
           <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/核心基础/_11集合/Properties配置文件.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1298,7 +1289,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/基础语法/工具类/List2Array.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
+        <state relative-caret-position="625">
           <caret line="30" column="23" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1308,8 +1299,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/基础语法/工具类/Array2List.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        <state relative-caret-position="375">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/核心基础/_11集合/Properties配置文件.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="19" column="95" selection-start-line="19" selection-start-column="95" selection-end-line="19" selection-end-column="95" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

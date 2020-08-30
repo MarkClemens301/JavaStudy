@@ -17,6 +17,8 @@ public class Properties配置文件 {
             String file = ".\\_11集合\\jdbc.properties";
 
             //Properties 配置文件，中文编码问题
+            new Properties().load(new InputStreamReader(new FileInputStream(file), "utf-8"));//
+
             isr = new InputStreamReader(new FileInputStream(file), "utf-8");
             Properties pros = new Properties();
             pros.load(isr);//load
