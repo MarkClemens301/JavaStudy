@@ -1,11 +1,11 @@
 # JavaStudy <JavaLearn>
 
-一个学习与复习用的repos.
+一个学习与复习用的Repos.
 
 Create by Mark Clemens, a java learner and user.
 
 
-## About
+# Intro
 
 A project for beginners to learn Java.
 
@@ -97,6 +97,15 @@ D:.
     - 页式内存管理
 
 
+## 学习资源
+
+Cyc2018/CS-Note
+Aobing/JavaFamily
+NowCoder
+负雪明烛
+
+
 ## TODO
 
 算法.非递归快排 --review
+设计模式
