@@ -5,7 +5,7 @@ import org.junit.Test;
 import java.util.Arrays;
 import java.util.Stack;
 
-public class 原地快排_非递归栈 {
+public class 原地快排_递归栈 {
     @Test
     public void t() {
         int[] arr = {20, 3, 5, 0, 32, 22, 11, 8, 7, 9};

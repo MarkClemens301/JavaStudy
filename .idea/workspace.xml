@@ -7,10 +7,10 @@
     <bookmark url="file://$PROJECT_DIR$/基础语法/工具类/ArraysTool.java" line="73" />
     <bookmark url="file://$PROJECT_DIR$/基础语法/工具类/StreamTool.java" line="23" />
     <bookmark url="file://$PROJECT_DIR$/基础语法/工具类/StreamTool.java" line="33" />
-    <bookmark url="file://$PROJECT_DIR$/数据结构与算法/排序/原地快排_非递归栈.java" />
+    <bookmark url="file://$PROJECT_DIR$/数据结构与算法/排序/原地快排_递归栈.java" />
     <bookmark url="file://$PROJECT_DIR$/基础语法/工具类/StringTool.java" line="19" />
-    <bookmark url="file://$PROJECT_DIR$/数据结构与算法/排序/原地快排_非递归栈.java" line="29" />
-    <bookmark url="file://$PROJECT_DIR$/数据结构与算法/排序/原地快排_非递归栈.java" line="30" />
+    <bookmark url="file://$PROJECT_DIR$/数据结构与算法/排序/原地快排_递归栈.java" line="29" />
+    <bookmark url="file://$PROJECT_DIR$/数据结构与算法/排序/原地快排_递归栈.java" line="30" />
     <bookmark url="file://$PROJECT_DIR$/数据结构与算法/排序/归并排序.java" line="53" />
     <bookmark url="file://$PROJECT_DIR$/数据结构与算法/排序/归并排序.java" line="42" />
     <bookmark url="file://$PROJECT_DIR$/数据结构与算法/排序/归并排序.java" line="51" />
@@ -24,7 +24,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b1a51bc-5d2d-4290-820a-2890820de1c3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/数据结构与算法/排序/归并排序_递归栈.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/数据结构与算法/排序/原地快排_非递归栈.java" beforeDir="false" afterPath="$PROJECT_DIR$/数据结构与算法/排序/原地快排_递归栈.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/BasicGrammar/target/" />
     <ignored path="$PROJECT_DIR$/设计模式/target/" />
@@ -45,30 +47,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/核心基础/_10枚举类/MyAnnotation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/核心基础/_11集合/Properties配置文件.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/核心基础/_11集合/jdbc.properties">
           <provider selected="true" editor-type-id="text-editor">
@@ -133,10 +111,34 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/数据结构与算法/排序/原地快排_非递归栈.java">
+        <entry file="file://$PROJECT_DIR$/数据结构与算法/排序/原地快排_递归栈.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="999">
-              <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+            <state relative-caret-position="27">
+              <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="89">
+                <caret line="99" column="7" selection-start-line="99" selection-start-column="7" selection-end-line="99" selection-end-column="7" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/数据结构与算法/排序/归并排序.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="295">
+              <caret line="42" column="38" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -145,13 +147,14 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="250">
-                <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/数据结构与算法/排序/归并排序_递归栈.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="125" column="59" lean-forward="true" selection-start-line="125" selection-start-column="59" selection-end-line="125" selection-end-column="59" />
+              <folding>
+                <element signature="e#2755#2756#0" expanded="true" />
+                <element signature="e#2786#2787#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -171,10 +174,12 @@
       <find>Scanne</find>
       <find>tId</find>
       <find>left</find>
+      <find>归并排序_重复</find>
     </findStrings>
     <replaceStrings>
       <replace>tmpId</replace>
       <replace>l1</replace>
+      <replace>归并排序_递归栈</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -230,10 +235,19 @@
         <option value="$PROJECT_DIR$/核心基础/_11集合/Properties配置文件.java" />
         <option value="$PROJECT_DIR$/数据结构与算法/算法/搜索/深度优先搜索.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/数据结构与算法/排序/归并排序_重复.java" />
+        <option value="$PROJECT_DIR$/数据结构与算法/排序/原地快排_递归栈.java" />
+        <option value="$PROJECT_DIR$/数据结构与算法/排序/归并排序_递归栈.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="883" />
     <option name="y" value="78" />
     <option name="width" value="1001" />
@@ -251,7 +265,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -363,12 +376,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598807557278" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599211280153" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="D:/Program Files/Java/junit4.13/junit-4.13-beta-1.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -377,7 +391,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -391,13 +405,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.深度优先搜索">
+  <component name="RunManager" selected="Application.Sort">
     <configuration name="深度优先搜索" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="算法.搜索.深度优先搜索" />
       <module name="数据结构与算法" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="算法.搜索.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="排序.Sort" />
+      <module name="数据结构与算法" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="排序.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="归并排序_递归栈" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="排序.归并排序_递归栈" />
+      <module name="数据结构与算法" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="排序.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -437,52 +477,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="枚举类enum.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="核心基础" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_10枚举类.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="_10枚举类" />
-      <option name="MAIN_CLASS_NAME" value="_10枚举类.枚举类enum" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="枚举类enum.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="核心基础" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_10枚举类.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="_10枚举类" />
-      <option name="MAIN_CLASS_NAME" value="_10枚举类.枚举类enum" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.深度优先搜索" />
-      <item itemvalue="JUnit.枚举类enum.test" />
-      <item itemvalue="JUnit.枚举类enum.test2" />
       <item itemvalue="JUnit.Properties配置文件.test" />
       <item itemvalue="JUnit.Array2List.test" />
+      <item itemvalue="Application.归并排序_递归栈" />
+      <item itemvalue="Application.Sort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Sort" />
+        <item itemvalue="Application.归并排序_递归栈" />
         <item itemvalue="Application.深度优先搜索" />
         <item itemvalue="JUnit.Properties配置文件.test" />
         <item itemvalue="JUnit.Array2List.test" />
-        <item itemvalue="JUnit.枚举类enum.test" />
-        <item itemvalue="JUnit.枚举类enum.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -542,14 +550,8 @@
       <workItem from="1598840428711" duration="524000" />
       <workItem from="1598986577432" duration="195000" />
       <workItem from="1598989173662" duration="166000" />
-      <workItem from="1599064822811" duration="3000" />
-    </task>
-    <task id="LOCAL-00039" summary="2020-8-17 核心基础模块，准备进行复习">
-      <created>1597626920501</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1597626920501</updated>
+      <workItem from="1599064822811" duration="53000" />
+      <workItem from="1599201159844" duration="9064000" />
     </task>
     <task id="LOCAL-00040" summary="2020-8-18 AtomicLong">
       <created>1597733813042</created>
@@ -887,7 +889,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598989289862</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="更新markdown 资源">
+      <created>1599064842974</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1599064842975</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -923,7 +932,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76085000" />
+    <option name="totallyTimeSpent" value="85199000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -935,10 +944,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="883" y="78" width="1001" height="982" extended-state="0" />
+    <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49787235" visible="true" weight="0.27021277" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49787235" visible="true" weight="0.13866666" />
       <window_info id="Designer" order="1" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -946,12 +955,12 @@
       <window_info anchor="bottom" id="Problems" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32939914" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.3321386" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.33154505" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.39904422" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32855436" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.24646227" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.22424893" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32735962" />
@@ -1027,7 +1036,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="2020-8-24 背包问题之多维费用 dp压缩" />
     <MESSAGE value="2020-8-24 背包问题之多维费用 dp压缩  +输入检查" />
     <MESSAGE value="2020-8-24 归并排序merge和快排partition" />
     <MESSAGE value="2020-8-25 多维费用背包，注释" />
@@ -1052,7 +1060,8 @@
     <MESSAGE value="2020-8-30" />
     <MESSAGE value="2020-8-31 深度优先搜索" />
     <MESSAGE value="更新markdown" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新markdown" />
+    <MESSAGE value="更新markdown 资源" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新markdown 资源" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/BasicGrammar/target/classes/pom.xml" />
@@ -1202,16 +1211,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据结构与算法/排序/归并排序.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1405,23 +1404,44 @@
     <entry file="file://$PROJECT_DIR$/数据结构与算法/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/数据结构与算法/排序/原地快排_非递归栈.java">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="89">
+            <caret line="99" column="7" selection-start-line="99" selection-start-column="7" selection-end-line="99" selection-end-column="7" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构与算法/排序/原地快排_递归栈.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="999">
-          <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+        <state relative-caret-position="27">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="250">
-            <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/数据结构与算法/排序/归并排序.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="42" column="38" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构与算法/排序/归并排序_递归栈.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="125" column="59" lean-forward="true" selection-start-line="125" selection-start-column="59" selection-end-line="125" selection-end-column="59" />
+          <folding>
+            <element signature="e#2755#2756#0" expanded="true" />
+            <element signature="e#2786#2787#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
