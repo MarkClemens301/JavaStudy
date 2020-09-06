@@ -6,7 +6,7 @@ import java.util.*; //import java.io.*;
 public class ThreadTest {
     public static void main(String[] args) {
         //my
-        MyThread mt = new MyThread();
+        MyThread mt = new MyThread();//
         System.out.println(mt.getName());
         mt.start();
         //main
