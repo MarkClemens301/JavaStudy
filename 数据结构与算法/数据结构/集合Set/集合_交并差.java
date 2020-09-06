@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import java.util.*;//
 
-public class 集合_交并补 {
+public class 集合_交并差 {
     private Set<Integer> set1, set2, set;
 
     public 集合_交并补() {
@@ -28,5 +28,12 @@ public class 集合_交并补 {
         set.addAll(set1);
         set.retainAll(set2);
         System.out.println("InterSection: " + set);
+    }
+
+    @Test
+    public void 并集() {
+        set.addAll(set1);
+        set.addAll(set2);
+        System.out.println("UnionSet: " + set);
     }
 }
