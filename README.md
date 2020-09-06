@@ -107,6 +107,13 @@ NowCoder
 
 # 杂记
 
+## IDEA快捷键与使用效率
+
+```xml
+Alt-Enter 万能快捷键，试了就知道了
+Alt-Enter 插入/新建/
+Ctrl-Shift-Enter 自动补全
+```
 
 ## IDEA性能配置
 
