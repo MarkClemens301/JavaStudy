@@ -99,7 +99,7 @@
         <entry file="file://$PROJECT_DIR$/多线程/线程创建/ThreadTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="459">
-              <caret line="17" column="51" lean-forward="true" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+              <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -119,8 +119,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/数据结构与算法/数据结构/集合Set/集合_交并补.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+            <state relative-caret-position="520">
+              <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -272,12 +272,6 @@
             <path>
               <item name="JavaStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="数据结构与算法" type="462c0819:PsiDirectoryNode" />
-              <item name="数据结构" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaStudy" type="462c0819:PsiDirectoryNode" />
               <item name="核心基础" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -318,7 +312,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599421288330" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599421575555" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="D:/Program Files/Java/junit4.13/junit-4.13-beta-1.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -327,7 +321,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+    <property name="settings.editor.selected.configurable" value="debugger.dataViews" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -383,6 +377,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="集合_交并补" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="数据结构与算法" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="数据结构.集合Set.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="数据结构.集合Set" />
+      <option name="MAIN_CLASS_NAME" value="数据结构.集合Set.集合_交并补" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="集合_交并补.交集" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="数据结构与算法" />
       <extension name="coverage">
@@ -399,36 +408,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="按词频排序.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="数据结构与算法" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="算法.排序.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="算法.排序" />
-      <option name="MAIN_CLASS_NAME" value="算法.排序.按词频排序" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.ThreadTest" />
       <item itemvalue="Application.RunnableTest" />
-      <item itemvalue="JUnit.按词频排序.test" />
       <item itemvalue="JUnit.按词频排序" />
       <item itemvalue="JUnit.集合_交并补.交集" />
+      <item itemvalue="JUnit.集合_交并补" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.集合_交并补.交集" />
+        <item itemvalue="JUnit.集合_交并补" />
         <item itemvalue="Application.RunnableTest" />
         <item itemvalue="Application.ThreadTest" />
         <item itemvalue="JUnit.按词频排序" />
-        <item itemvalue="JUnit.按词频排序.test" />
       </list>
     </recent_temporary>
   </component>
@@ -495,14 +488,7 @@
       <workItem from="1599393389336" duration="7000" />
       <workItem from="1599419614435" duration="46000" />
       <workItem from="1599419793843" duration="7000" />
-      <workItem from="1599419822097" duration="1446000" />
-    </task>
-    <task id="LOCAL-00047" summary="2020-8-21 数据结构与算法 原地快排（递归法）">
-      <created>1597972939028</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1597972939028</updated>
+      <workItem from="1599419822097" duration="1729000" />
     </task>
     <task id="LOCAL-00048" summary="2020-8-21 数据结构与算法 原地快排（非递归法，下次）">
       <created>1597975531925</created>
@@ -840,43 +826,50 @@
       <option name="project" value="LOCAL" />
       <updated>1599420977805</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="集合求交集">
+      <created>1599421300949</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1599421300949</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Array2List_test - 2020.08.28 at 19h 00m 49s.xml">
-      <configuration name="Array2List.test" configurationId="JUnit" />
+    <history-entry file="集合_交并补_交集 - 2020.09.07 at 03h 41m 42s.xml">
+      <configuration name="集合_交并补.交集" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Array2List_test - 2020.08.28 at 19h 01m 02s.xml">
-      <configuration name="Array2List.test" configurationId="JUnit" />
+    <history-entry file="集合_交并补_交集 - 2020.09.07 at 03h 42m 13s.xml">
+      <configuration name="集合_交并补.交集" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Array2List_test - 2020.08.28 at 19h 01m 46s.xml">
-      <configuration name="Array2List.test" configurationId="JUnit" />
+    <history-entry file="集合_交并补_交集 - 2020.09.07 at 03h 42m 18s.xml">
+      <configuration name="集合_交并补.交集" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Array2List_test - 2020.08.28 at 19h 02m 18s.xml">
-      <configuration name="Array2List.test" configurationId="JUnit" />
+    <history-entry file="集合_交并补_交集 - 2020.09.07 at 03h 42m 40s.xml">
+      <configuration name="集合_交并补.交集" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Array2List_test - 2020.08.28 at 19h 02m 22s.xml">
-      <configuration name="Array2List.test" configurationId="JUnit" />
+    <history-entry file="集合_交并补 - 2020.09.07 at 03h 44m 04s.xml">
+      <configuration name="集合_交并补" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Array2List_test - 2020.08.29 at 01h 08m 37s.xml">
-      <configuration name="Array2List.test" configurationId="JUnit" />
+    <history-entry file="集合_交并补_交集 - 2020.09.07 at 03h 44m 33s.xml">
+      <configuration name="集合_交并补.交集" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Array2List_test - 2020.08.29 at 01h 08m 51s.xml">
-      <configuration name="Array2List.test" configurationId="JUnit" />
+    <history-entry file="集合_交并补 - 2020.09.07 at 03h 45m 12s.xml">
+      <configuration name="集合_交并补" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Properties配置文件_test - 2020.08.30 at 21h 18m 03s.xml">
-      <configuration name="Properties配置文件.test" configurationId="JUnit" />
+    <history-entry file="集合_交并补 - 2020.09.07 at 03h 45m 30s.xml">
+      <configuration name="集合_交并补" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="按词频排序_test - 2020.09.05 at 11h 02m 07s.xml">
-      <configuration name="按词频排序.test" configurationId="JUnit" />
+    <history-entry file="集合_交并补_交集 - 2020.09.07 at 03h 45m 37s.xml">
+      <configuration name="集合_交并补.交集" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="按词频排序 - 2020.09.05 at 11h 04m 56s.xml">
-      <configuration name="按词频排序" configurationId="JUnit" />
+    <history-entry file="集合_交并补_交集 - 2020.09.07 at 03h 46m 11s.xml">
+      <configuration name="集合_交并补.交集" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91763000" />
+    <option name="totallyTimeSpent" value="92046000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -899,7 +892,7 @@
       <window_info anchor="bottom" id="Problems" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32939914" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.3313679" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.3304721" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.39904422" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -907,7 +900,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.22424893" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.32618025" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32618025" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -980,7 +973,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="2020-8-27 String split(&quot;regex&quot;)" />
     <MESSAGE value="2020-8-27 String isSame" />
     <MESSAGE value="2020-8-27 String isSame 2" />
     <MESSAGE value="2020-8-28 Calendar.getInstance();" />
@@ -1005,7 +997,8 @@
     <MESSAGE value="杂记" />
     <MESSAGE value="杂记 IDEA性能配置、快捷键" />
     <MESSAGE value="新增包：动态数组、集合、映射" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增包：动态数组、集合、映射" />
+    <MESSAGE value="集合求交集" />
+    <option name="LAST_COMMIT_MESSAGE" value="集合求交集" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
@@ -1411,14 +1404,14 @@
     <entry file="file://$PROJECT_DIR$/多线程/线程创建/ThreadTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
-          <caret line="17" column="51" lean-forward="true" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+          <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/数据结构与算法/数据结构/集合Set/集合_交并补.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+        <state relative-caret-position="520">
+          <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
