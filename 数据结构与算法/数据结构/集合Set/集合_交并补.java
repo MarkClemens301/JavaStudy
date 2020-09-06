@@ -19,6 +19,9 @@ public class 集合_交并补 {
         System.out.println(set2);
     }
 
+    /*
+    集合居然没有.intersection() 方法？？ 还是得自己写啊。
+     */
     @Test
     public void 交集() {
         //new 集合_交并补();

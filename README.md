@@ -162,6 +162,9 @@ custom IntelliJ IDEA VM options # idea64.exe.vmoptions
 -Deditable.java.test.console=true
 ```
 
+3.停用无关插件
+Settings.Plugins: 搜索并停用Kotlin插件，disable
+
 # TODO
 
 算法.非递归快排 --review
