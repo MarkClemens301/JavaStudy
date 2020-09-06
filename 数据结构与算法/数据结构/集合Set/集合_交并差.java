@@ -7,7 +7,7 @@ import java.util.*;//
 public class 集合_交并差 {
     private Set<Integer> set1, set2, set;
 
-    public 集合_交并补() {
+    public 集合_交并差() {
         System.out.println("Constructor");
         set1 = new HashSet<>();
         set2 = new HashSet<>();
@@ -24,16 +24,30 @@ public class 集合_交并差 {
      */
     @Test
     public void 交集() {
-        //new 集合_交并补();
+        //new 集合_交并差();
         set.addAll(set1);
         set.retainAll(set2);
-        System.out.println("InterSection: " + set);
+        System.out.println("InterSection: " + set);//2 3
     }
 
     @Test
     public void 并集() {
         set.addAll(set1);
         set.addAll(set2);
-        System.out.println("UnionSet: " + set);
+        System.out.println("UnionSet: " + set);//1 2 3 4 5
+    }
+
+    @Test
+    public void 差集() {
+        set.addAll(set1);
+        set.removeAll(set2);
+        System.out.println("DifferentSet: " + set);//1 5
+    }
+
+    @Test
+    public void 测试() {
+        交集();
+        并集();
+        差集();
     }
 }
