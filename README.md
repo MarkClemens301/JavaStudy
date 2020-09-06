@@ -105,7 +105,57 @@ NowCoder
 负雪明烛 算法模板
 
 
-## TODO
+# 杂记
+
+
+## IDEA性能配置
+
+Maven项目运行之前有明显卡顿（编译、Parsing缓慢），严重影响代码体验和测试效率。
+
+*解决方案*：
+
+（具体原因可以谷歌，我也是先查的资料再设置）
+
+1.配置Maven: 
+
+Settings.Maven里Threads(-c option)设置为 `4C`
+
+.Runner里VM Options设置为 `-DarchetypeCatalog=internal`
+
+修改配置文件，适当位置插入如下内容
+...IDEA\plugins\maven\lib\maven3\conf\settings.xml
+```xml
+<offline>true</offline>
+<!-- 增加阿里云镜像 -->
+<mirrors>
+  <mirror>  <!-- 增加阿里云镜像 -->
+    <id>nexus-aliyun</id>  
+    <mirrorOf>central</mirrorOf>    
+    <name>Nexus aliyun</name>  
+    <url>http://maven.aliyun.com/nexus/content/groups/public</url>
+  </mirror>
+</mirrors>
+```
+
+2.配置JVM
+```xml
+custom IntelliJ IDEA VM options # idea64.exe.vmoptions
+-Xms1024m
+-Xmx2048m
+-XX:ReservedCodeCacheSize=500m
+-XX:+UseConcMarkSweepGC
+-XX:SoftRefLRUPolicyMSPerMB=50
+-ea
+-Dsun.io.useCanonCaches=false
+-Djava.net.preferIPv4Stack=true
+-Djdk.http.auth.tunneling.disabledSchemes=""
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:-OmitStackTraceInFastThrow
+-javaagent:D:\Program Files\JetBrains\IntelliJ IDEA 2018.3.5\bin\JetbrainsIdesCrack-4.2-release.jar
+-Deditable.java.test.console=true
+```
+
+# TODO
 
 算法.非递归快排 --review
 设计模式
