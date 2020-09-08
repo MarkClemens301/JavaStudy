@@ -26,10 +26,12 @@
     <bookmark url="file://$PROJECT_DIR$/数据结构与算法/算法/排序/按词频排序.java" line="23" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b1a51bc-5d2d-4290-820a-2890820de1c3" name="Default Changelist" comment="JZ04 二维有序数组查找数字">
-      <change afterPath="$PROJECT_DIR$/数据结构与算法/剑指Offer复习/Solution20.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构与算法/剑指Offer复习/_04二维有序数组查找.java" afterDir="false" />
+    <list default="true" id="8b1a51bc-5d2d-4290-820a-2890820de1c3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/数据结构与算法/Leetcode/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据结构与算法/Leetcode/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据结构与算法/剑指Offer复习/_07重建二叉树.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/数据结构与算法/剑指Offer复习/Solution20.java" beforeDir="false" afterPath="$PROJECT_DIR$/数据结构与算法/剑指Offer复习/Solution20.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/BasicGrammar/target/" />
     <ignored path="$PROJECT_DIR$/设计模式/target/" />
@@ -54,10 +56,9 @@
         <entry file="file://$PROJECT_DIR$/数据结构与算法/算法/排序/按词频排序.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="88">
-              <caret line="22" column="12" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+              <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#924#935#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -66,8 +67,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/数据结构与算法/算法/排序/quickSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+            <state relative-caret-position="1323">
+              <caret line="51" selection-start-line="51" selection-end-line="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,8 +79,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/基础语法/Hello/MainTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+            <state relative-caret-position="567">
+              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -87,7 +88,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/数据结构与算法/剑指Offer复习/_03数组中的重复数字.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-81">
+            <state relative-caret-position="27">
               <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -96,11 +97,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/数据结构与算法/剑指Offer复习/_04二维有序数组查找.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+            <state relative-caret-position="405">
+              <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -111,10 +112,48 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/数据结构与算法/剑指Offer复习/Solution20.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+            <state relative-caret-position="378">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/数据结构与算法/剑指Offer复习/_07重建二叉树.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="305">
+              <caret line="49" column="31" lean-forward="true" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/数据结构与算法/Leetcode/TreeNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+              <folding>
+                <element signature="e#191#192#0" expanded="true" />
+                <element signature="e#229#230#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/数据结构与算法/Leetcode/ListNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+              <folding>
+                <element signature="e#151#152#0" expanded="true" />
+                <element signature="e#170#171#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -149,9 +188,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/BasicGrammar/工具类使用/List2Array.java" />
-        <option value="$PROJECT_DIR$/BasicGrammar/工具类使用/AtomicIntegerTest.java" />
-        <option value="$PROJECT_DIR$/BasicGrammar/排序算法/quickSort.java" />
         <option value="$PROJECT_DIR$/设计模式/pom.xml" />
         <option value="$PROJECT_DIR$/设计模式/DM.java" />
         <option value="$PROJECT_DIR$/多线程/pom.xml" />
@@ -200,6 +236,9 @@
         <option value="$PROJECT_DIR$/数据结构与算法/剑指Offer复习/_04二维数组查找.java" />
         <option value="$PROJECT_DIR$/数据结构与算法/剑指Offer复习/_04二维有序数组查找.java" />
         <option value="$PROJECT_DIR$/数据结构与算法/剑指Offer复习/Solution20.java" />
+        <option value="$PROJECT_DIR$/数据结构与算法/剑指Offer复习/_07重建二叉树.java" />
+        <option value="$PROJECT_DIR$/数据结构与算法/Leetcode/ListNode.java" />
+        <option value="$PROJECT_DIR$/数据结构与算法/Leetcode/TreeNode.java" />
       </list>
     </option>
   </component>
@@ -219,7 +258,7 @@
   <component name="MavenRunner">
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="850" />
     <option name="y" value="63" />
     <option name="width" value="1056" />
@@ -237,6 +276,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -275,6 +316,12 @@
               <item name="JavaStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaStudy" type="462c0819:PsiDirectoryNode" />
               <item name="数据结构与算法" type="462c0819:PsiDirectoryNode" />
+              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="数据结构与算法" type="462c0819:PsiDirectoryNode" />
               <item name="剑指Offer复习" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -286,14 +333,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599547934511" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599586161099" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="D:/Program Files/Java/junit4.13/junit-4.13-beta-1.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -316,22 +361,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit._04二维有序数组查找.t">
-    <configuration name="集合_交并差" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="数据结构与算法" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="数据结构.集合Set.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="数据结构.集合Set" />
-      <option name="MAIN_CLASS_NAME" value="数据结构.集合Set.集合_交并差" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit._07重建二叉树">
     <configuration name="_03数组中的重复数字" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="数据结构与算法" />
       <extension name="coverage">
@@ -379,17 +409,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="集合_交并补.交集" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="_07重建二叉树" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="数据结构与算法" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="数据结构.集合Set.*" />
+          <option name="PATTERN" value="剑指Offer复习.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="数据结构.集合Set" />
-      <option name="MAIN_CLASS_NAME" value="数据结构.集合Set.集合_交并补" />
-      <option name="METHOD_NAME" value="交集" />
+      <option name="PACKAGE_NAME" value="剑指Offer复习" />
+      <option name="MAIN_CLASS_NAME" value="剑指Offer复习._07重建二叉树" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_07重建二叉树.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="数据结构与算法" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="剑指Offer复习.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="剑指Offer复习" />
+      <option name="MAIN_CLASS_NAME" value="剑指Offer复习._07重建二叉树" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -460,19 +505,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.集合_交并补.交集" />
-      <item itemvalue="JUnit.集合_交并差" />
       <item itemvalue="JUnit._03数组中的重复数字.t" />
       <item itemvalue="JUnit._03数组中的重复数字" />
       <item itemvalue="JUnit._04二维有序数组查找.t" />
+      <item itemvalue="JUnit._07重建二叉树" />
+      <item itemvalue="JUnit._07重建二叉树.test1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit._07重建二叉树" />
+        <item itemvalue="JUnit._07重建二叉树.test1" />
         <item itemvalue="JUnit._04二维有序数组查找.t" />
         <item itemvalue="JUnit._03数组中的重复数字.t" />
         <item itemvalue="JUnit._03数组中的重复数字" />
-        <item itemvalue="JUnit.集合_交并差" />
-        <item itemvalue="JUnit.集合_交并补.交集" />
       </list>
     </recent_temporary>
   </component>
@@ -544,21 +589,8 @@
       <workItem from="1599423973535" duration="13000" />
       <workItem from="1599450632347" duration="31000" />
       <workItem from="1599536220238" duration="408000" />
-      <workItem from="1599536735666" duration="3897000" />
-    </task>
-    <task id="LOCAL-00055" summary="2020-8-23 非递归原地快排，手写">
-      <created>1598151537815</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1598151537815</updated>
-    </task>
-    <task id="LOCAL-00056" summary="2020-8-23 非递归原地快排，测试">
-      <created>1598152029680</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1598152029680</updated>
+      <workItem from="1599536735666" duration="4610000" />
+      <workItem from="1599584498119" duration="1659000" />
     </task>
     <task id="LOCAL-00057" summary="2020-8-24 归并排序 手写">
       <created>1598202423297</created>
@@ -889,25 +921,24 @@
       <option name="project" value="LOCAL" />
       <updated>1599539056270</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="JZ04 二维有序数组查找数字">
+      <created>1599547938746</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1599547938747</updated>
+    </task>
+    <task id="LOCAL-00105" summary="JZ04 二维有序数组查找数字">
+      <created>1599548020293</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1599548020293</updated>
+    </task>
+    <option name="localTasksCounter" value="106" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="集合_交并差_差集 - 2020.09.07 at 04h 24m 05s.xml">
-      <configuration name="集合_交并差.差集" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="集合_交并差_测试 - 2020.09.07 at 04h 24m 48s.xml">
-      <configuration name="集合_交并差.测试" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="集合_交并差_测试 - 2020.09.08 at 11h 39m 34s.xml">
-      <configuration name="集合_交并差.测试" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="集合_交并差_测试 - 2020.09.08 at 11h 39m 49s.xml">
-      <configuration name="集合_交并差.测试" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="集合_交并差_测试 - 2020.09.08 at 11h 40m 24s.xml">
-      <configuration name="集合_交并差.测试" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="集合_交并差_测试 - 2020.09.08 at 11h 40m 31s.xml">
       <configuration name="集合_交并差.测试" configurationId="JUnit" />
     </history-entry>
@@ -923,9 +954,24 @@
     <history-entry file="_04二维有序数组查找_t - 2020.09.08 at 14h 45m 25s.xml">
       <configuration name="_04二维有序数组查找.t" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="_07重建二叉树 - 2020.09.09 at 01h 19m 54s.xml">
+      <configuration name="_07重建二叉树" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_07重建二叉树_test1 - 2020.09.09 at 01h 21m 26s.xml">
+      <configuration name="_07重建二叉树.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_07重建二叉树_test1 - 2020.09.09 at 01h 22m 32s.xml">
+      <configuration name="_07重建二叉树.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_07重建二叉树_test1 - 2020.09.09 at 01h 22m 57s.xml">
+      <configuration name="_07重建二叉树.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_07重建二叉树_test1 - 2020.09.09 at 01h 23m 12s.xml">
+      <configuration name="_07重建二叉树.test1" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98508000" />
+    <option name="totallyTimeSpent" value="100880000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -937,10 +983,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="850" y="63" width="1056" height="1007" extended-state="0" />
+    <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49787235" visible="true" weight="0.20201005" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49787235" visible="true" weight="0.10933334" />
       <window_info id="Designer" order="1" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -948,19 +994,19 @@
       <window_info anchor="bottom" id="Problems" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32939914" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.3298969" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.32939914" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.39904422" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32855436" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.22336769" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.20922747" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.325315" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Structure" order="1" visible="true" weight="0.12462311" />
+      <window_info anchor="right" id="Structure" order="1" visible="true" weight="0.066133335" />
       <window_info anchor="right" id="Favorites" order="2" sideWeight="0.50212765" weight="0.13253012" />
       <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.24863088" />
@@ -1028,6 +1074,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="2020-8-28 注解" />
     <MESSAGE value="2020-8-28 Properties 配置文件，中文编码问题" />
@@ -1055,36 +1102,9 @@
     <MESSAGE value="JZ03 数组中的重复数字" />
     <MESSAGE value="JZ04 二维有序数组查找数字" />
     <option name="LAST_COMMIT_MESSAGE" value="JZ04 二维有序数组查找数字" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/设计模式/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/设计模式/DM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="2" column="47" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
-          <folding>
-            <element signature="e#61#62#0" expanded="true" />
-            <element signature="e#118#119#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/设计模式/DM01_单例模式/单例模式.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/stream/AbstractPipeline.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="202" selection-start-line="202" selection-end-line="202" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/核心基础/核心基础.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1416,24 +1436,55 @@
     <entry file="file://$PROJECT_DIR$/核心基础/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/数据结构与算法/剑指Offer复习/_04二维数组查找.java">
+    <entry file="file://$PROJECT_DIR$/数据结构与算法/剑指Offer复习/_04二维数组查找.java" />
+    <entry file="file://$PROJECT_DIR$/数据结构与算法/算法/排序/quickSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        <state relative-caret-position="1323">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/基础语法/Hello/MainTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        <state relative-caret-position="567">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/数据结构与算法/算法/排序/quickSort.java">
+    <entry file="file://$PROJECT_DIR$/数据结构与算法/剑指Offer复习/_04二维有序数组查找.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+        <state relative-caret-position="405">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构与算法/剑指Offer复习/_03数组中的重复数字.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_201/src.zip!/javax/swing/tree/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-351">
+          <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构与算法/剑指Offer复习/Solution20.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1443,38 +1494,39 @@
     <entry file="file://$PROJECT_DIR$/数据结构与算法/算法/排序/按词频排序.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
-          <caret line="22" column="12" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#924#935#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据结构与算法/剑指Offer复习/_03数组中的重复数字.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-81">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/数据结构与算法/剑指Offer复习/Solution20.java">
+    <entry file="file://$PROJECT_DIR$/数据结构与算法/Leetcode/ListNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        <state relative-caret-position="189">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#151#152#0" expanded="true" />
+            <element signature="e#170#171#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/数据结构与算法/剑指Offer复习/_04二维有序数组查找.java">
+    <entry file="file://$PROJECT_DIR$/数据结构与算法/Leetcode/TreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+        <state relative-caret-position="270">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="e#191#192#0" expanded="true" />
+            <element signature="e#229#230#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构与算法/剑指Offer复习/_07重建二叉树.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="49" column="31" lean-forward="true" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1533,7 +1585,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>核心基础</last-edited>
+          <last-edited>数据结构与算法</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
