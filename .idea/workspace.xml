@@ -86,7 +86,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/数据结构与算法/算法/排序/按词频排序.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
+            <state relative-caret-position="594">
               <caret line="26" column="77" selection-start-line="26" selection-start-column="77" selection-end-line="26" selection-end-column="77" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -119,8 +119,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/数据结构与算法/数据结构/集合Set/集合_交并差.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+            <state relative-caret-position="457">
+              <caret line="52" column="32" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -245,8 +245,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -292,7 +292,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599423882423" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599536356452" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="D:/Program Files/Java/junit4.13/junit-4.13-beta-1.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -301,7 +301,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -342,6 +342,22 @@
       <option name="PACKAGE_NAME" value="数据结构.集合Set" />
       <option name="MAIN_CLASS_NAME" value="数据结构.集合Set.集合_交并补" />
       <option name="METHOD_NAME" value="交集" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="集合_交并差.测试" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="数据结构与算法" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="数据结构.集合Set.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="数据结构.集合Set" />
+      <option name="MAIN_CLASS_NAME" value="数据结构.集合Set.集合_交并差" />
+      <option name="METHOD_NAME" value="测试" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -397,17 +413,13 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.集合_交并补.交集" />
-      <item itemvalue="JUnit.集合_交并差.并集" />
       <item itemvalue="JUnit.集合_交并差" />
-      <item itemvalue="JUnit.集合_交并差.差集" />
       <item itemvalue="JUnit.集合_交并差.测试" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.集合_交并差.测试" />
-        <item itemvalue="JUnit.集合_交并差.差集" />
         <item itemvalue="JUnit.集合_交并差" />
-        <item itemvalue="JUnit.集合_交并差.并集" />
         <item itemvalue="JUnit.集合_交并补.交集" />
       </list>
     </recent_temporary>
@@ -476,14 +488,10 @@
       <workItem from="1599419614435" duration="46000" />
       <workItem from="1599419793843" duration="7000" />
       <workItem from="1599419822097" duration="3402000" />
-      <workItem from="1599423476488" duration="406000" />
-    </task>
-    <task id="LOCAL-00051" summary="2020-8-22 待继续">
-      <created>1598091310515</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1598091310515</updated>
+      <workItem from="1599423476488" duration="440000" />
+      <workItem from="1599423973535" duration="13000" />
+      <workItem from="1599450632347" duration="31000" />
+      <workItem from="1599536220238" duration="137000" />
     </task>
     <task id="LOCAL-00052" summary="2020-8-23 String 正则替换">
       <created>1598149099488</created>
@@ -821,13 +829,17 @@
       <option name="project" value="LOCAL" />
       <updated>1599423730325</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="交并补一起测试">
+      <created>1599423895545</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1599423895545</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="集合_交并补 - 2020.09.07 at 03h 44m 04s.xml">
-      <configuration name="集合_交并补" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="集合_交并补_交集 - 2020.09.07 at 03h 44m 33s.xml">
       <configuration name="集合_交并补.交集" configurationId="JUnit" />
     </history-entry>
@@ -855,9 +867,12 @@
     <history-entry file="集合_交并差_差集 - 2020.09.07 at 04h 24m 05s.xml">
       <configuration name="集合_交并差.差集" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="集合_交并差_测试 - 2020.09.07 at 04h 24m 48s.xml">
+      <configuration name="集合_交并差.测试" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94125000" />
+    <option name="totallyTimeSpent" value="94340000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -872,7 +887,7 @@
     <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49787235" visible="true" weight="0.1296" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49787235" visible="true" weight="0.13386667" />
       <window_info id="Designer" order="1" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -880,12 +895,12 @@
       <window_info anchor="bottom" id="Problems" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32939914" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.3304721" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.3304721" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.39904422" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32855436" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.22424893" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.22424893" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32618025" />
@@ -961,7 +976,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="2020-8-28 updata .gitignore 2" />
     <MESSAGE value="2020-8-28 updata .gitignore 3" />
     <MESSAGE value="2020-8-28 java.time.LocalDateTime;" />
     <MESSAGE value="2020-8-28 枚举类" />
@@ -986,7 +1000,8 @@
     <MESSAGE value="集合求交集，测试" />
     <MESSAGE value="加速编译：停用Kotlin插件" />
     <MESSAGE value="集合并集" />
-    <option name="LAST_COMMIT_MESSAGE" value="集合并集" />
+    <MESSAGE value="交并补一起测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="交并补一起测试" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
@@ -1332,6 +1347,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="624">
+            <caret line="165" column="21" selection-start-line="165" selection-start-column="21" selection-end-line="165" selection-end-column="21" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/数据结构与算法/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1361,7 +1386,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/数据结构与算法/算法/排序/按词频排序.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
+        <state relative-caret-position="594">
           <caret line="26" column="77" selection-start-line="26" selection-start-column="77" selection-end-line="26" selection-end-column="77" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1386,20 +1411,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="624">
-            <caret line="165" column="21" selection-start-line="165" selection-start-column="21" selection-end-line="165" selection-end-column="21" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/数据结构与算法/数据结构/集合Set/集合_交并差.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+        <state relative-caret-position="457">
+          <caret line="52" column="32" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

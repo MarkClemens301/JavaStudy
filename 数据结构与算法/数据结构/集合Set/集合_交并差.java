@@ -49,5 +49,7 @@ public class 集合_交并差 {
         交集();
         并集();
         差集();
+        set.clear();
+        System.out.println(set);
     }
 }
