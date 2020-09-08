@@ -1,4 +1,4 @@
-package 排序算法;
+package 算法.排序;
 
 import org.junit.Test;
 
