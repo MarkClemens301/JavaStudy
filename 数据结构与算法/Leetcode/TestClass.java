@@ -7,5 +7,11 @@ public class TestClass {
     public void test() {
         ListNode listNode = new ListNode();
         System.out.println(listNode.val);
+
+        listNode = new ListNode(10);
+        System.out.println(listNode.val);
+
+        TreeNode treeNode = new TreeNode();
+        System.out.println(treeNode.val);
     }
 }
