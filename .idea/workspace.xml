@@ -25,10 +25,7 @@
     <bookmark url="file://$PROJECT_DIR$/多线程/线程创建/ThreadTest.java" line="8" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b1a51bc-5d2d-4290-820a-2890820de1c3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据结构与算法/数据结构/集合Set/集合_交并差.java" beforeDir="false" afterPath="$PROJECT_DIR$/数据结构与算法/数据结构/集合Set/集合_交并差.java" afterDir="false" />
-    </list>
+    <list default="true" id="8b1a51bc-5d2d-4290-820a-2890820de1c3" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/BasicGrammar/target/" />
     <ignored path="$PROJECT_DIR$/设计模式/target/" />
     <ignored path="$PROJECT_DIR$/多线程/target/" />
@@ -119,8 +116,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/数据结构与算法/数据结构/集合Set/集合_交并差.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="52" column="32" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
+            <state relative-caret-position="243">
+              <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -227,7 +224,7 @@
   <component name="MavenRunner">
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="850" />
     <option name="y" value="63" />
     <option name="width" value="1056" />
@@ -292,13 +289,13 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599536356452" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599536608758" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="D:/Program Files/Java/junit4.13/junit-4.13-beta-1.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
@@ -315,7 +312,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.集合_交并差.测试">
+  <component name="RunManager" selected="JUnit.集合_交并补.交集">
     <configuration name="集合_交并差" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="数据结构与算法" />
       <extension name="coverage">
@@ -414,11 +411,9 @@
     <list>
       <item itemvalue="JUnit.集合_交并补.交集" />
       <item itemvalue="JUnit.集合_交并差" />
-      <item itemvalue="JUnit.集合_交并差.测试" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.集合_交并差.测试" />
         <item itemvalue="JUnit.集合_交并差" />
         <item itemvalue="JUnit.集合_交并补.交集" />
       </list>
@@ -491,14 +486,7 @@
       <workItem from="1599423476488" duration="440000" />
       <workItem from="1599423973535" duration="13000" />
       <workItem from="1599450632347" duration="31000" />
-      <workItem from="1599536220238" duration="137000" />
-    </task>
-    <task id="LOCAL-00052" summary="2020-8-23 String 正则替换">
-      <created>1598149099488</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1598149099488</updated>
+      <workItem from="1599536220238" duration="408000" />
     </task>
     <task id="LOCAL-00053" summary="2020-8-23 Java正则表达式（特殊），如匹配&quot;\&quot;(\\)要用&quot;\\\\&quot;">
       <created>1598149732761</created>
@@ -836,22 +824,17 @@
       <option name="project" value="LOCAL" />
       <updated>1599423895545</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <task id="LOCAL-00101" summary="交并补一起测试.">
+      <created>1599536365315</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1599536365316</updated>
+    </task>
+    <option name="localTasksCounter" value="102" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="集合_交并补_交集 - 2020.09.07 at 03h 44m 33s.xml">
-      <configuration name="集合_交并补.交集" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="集合_交并补 - 2020.09.07 at 03h 45m 12s.xml">
-      <configuration name="集合_交并补" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="集合_交并补 - 2020.09.07 at 03h 45m 30s.xml">
-      <configuration name="集合_交并补" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="集合_交并补_交集 - 2020.09.07 at 03h 45m 37s.xml">
-      <configuration name="集合_交并补.交集" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="集合_交并补_交集 - 2020.09.07 at 03h 46m 11s.xml">
       <configuration name="集合_交并补.交集" configurationId="JUnit" />
     </history-entry>
@@ -870,9 +853,21 @@
     <history-entry file="集合_交并差_测试 - 2020.09.07 at 04h 24m 48s.xml">
       <configuration name="集合_交并差.测试" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="集合_交并差_测试 - 2020.09.08 at 11h 39m 34s.xml">
+      <configuration name="集合_交并差.测试" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="集合_交并差_测试 - 2020.09.08 at 11h 39m 49s.xml">
+      <configuration name="集合_交并差.测试" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="集合_交并差_测试 - 2020.09.08 at 11h 40m 24s.xml">
+      <configuration name="集合_交并差.测试" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="集合_交并差_测试 - 2020.09.08 at 11h 40m 31s.xml">
+      <configuration name="集合_交并差.测试" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94340000" />
+    <option name="totallyTimeSpent" value="94611000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -900,7 +895,7 @@
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32855436" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.22424893" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.22424893" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32618025" />
@@ -976,7 +971,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="2020-8-28 updata .gitignore 3" />
     <MESSAGE value="2020-8-28 java.time.LocalDateTime;" />
     <MESSAGE value="2020-8-28 枚举类" />
     <MESSAGE value="2020-8-28 枚举类 2" />
@@ -1001,16 +995,10 @@
     <MESSAGE value="加速编译：停用Kotlin插件" />
     <MESSAGE value="集合并集" />
     <MESSAGE value="交并补一起测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="交并补一起测试" />
+    <MESSAGE value="交并补一起测试." />
+    <option name="LAST_COMMIT_MESSAGE" value="交并补一起测试." />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="529" column="36" selection-start-line="529" selection-start-column="36" selection-end-line="529" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/基础语法/Hello/HelloWorldJava.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
@@ -1411,10 +1399,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/HashSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="104" column="11" selection-start-line="104" selection-start-column="11" selection-end-line="104" selection-end-column="11" />
+          <folding>
+            <element signature="e#3740#3741#0" expanded="true" />
+            <element signature="e#3777#3778#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/数据结构与算法/数据结构/集合Set/集合_交并差.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="52" column="32" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
+        <state relative-caret-position="243">
+          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1473,11 +1472,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>基础语法</last-edited>
+          <last-edited>核心基础</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

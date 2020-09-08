@@ -1,5 +1,5 @@
 /* 2020/9/4 14:33 */
-package 排序;/* 2020/9/4 14:33 */
+package 算法.排序;/* 2020/9/4 14:33 */
 
 import java.util.*; //import java.io.*;
 

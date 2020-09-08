@@ -1,4 +1,4 @@
-package 排序;/* 2020/8/24 0:06 */
+package 算法.排序;/* 2020/8/24 0:06 */
 
 import com.sun.scenario.effect.Merge;
 import org.junit.Test;
