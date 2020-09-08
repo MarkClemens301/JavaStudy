@@ -23,13 +23,13 @@
     <bookmark url="file://$PROJECT_DIR$/核心基础/_11集合/Properties配置文件.java" line="30" />
     <bookmark url="file://$PROJECT_DIR$/多线程/线程创建/ThreadTest.java" line="12" />
     <bookmark url="file://$PROJECT_DIR$/多线程/线程创建/ThreadTest.java" line="8" />
+    <bookmark url="file://$PROJECT_DIR$/数据结构与算法/算法/排序/按词频排序.java" line="23" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b1a51bc-5d2d-4290-820a-2890820de1c3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/数据结构与算法/剑指Offer复习/_03数组中的重复数字.java" afterDir="false" />
+    <list default="true" id="8b1a51bc-5d2d-4290-820a-2890820de1c3" name="Default Changelist" comment="JZ04 二维有序数组查找数字">
+      <change afterPath="$PROJECT_DIR$/数据结构与算法/剑指Offer复习/Solution20.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据结构与算法/剑指Offer复习/_04二维有序数组查找.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础语法/Test/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/基础语法/Hello/MainTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础语法/排序算法/quickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/数据结构与算法/算法/排序/quickSort.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/BasicGrammar/target/" />
     <ignored path="$PROJECT_DIR$/设计模式/target/" />
@@ -53,10 +53,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/数据结构与算法/算法/排序/按词频排序.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+            <state relative-caret-position="88">
+              <caret line="22" column="12" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#924#935#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -65,8 +66,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/数据结构与算法/算法/排序/quickSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="359">
+              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -77,17 +78,41 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/基础语法/Hello/MainTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+            <state relative-caret-position="373">
+              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/数据结构与算法/剑指Offer复习/_03数组中的重复数字.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-81">
+              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/数据结构与算法/剑指Offer复习/_03数组中的重复数字.java">
+        <entry file="file://$PROJECT_DIR$/数据结构与算法/剑指Offer复习/_04二维有序数组查找.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+            <state relative-caret-position="325">
+              <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/数据结构与算法/剑指Offer复习/Solution20.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -124,9 +149,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/BasicGrammar/工具类使用/SortOfCustomer.java" />
-        <option value="$PROJECT_DIR$/BasicGrammar/工具类使用/Sort自定义排序.java" />
-        <option value="$PROJECT_DIR$/BasicGrammar/工具类使用/ArraysListTool.java" />
         <option value="$PROJECT_DIR$/BasicGrammar/工具类使用/List2Array.java" />
         <option value="$PROJECT_DIR$/BasicGrammar/工具类使用/AtomicIntegerTest.java" />
         <option value="$PROJECT_DIR$/BasicGrammar/排序算法/quickSort.java" />
@@ -175,6 +197,9 @@
         <option value="$PROJECT_DIR$/数据结构与算法/算法/排序/quickSort.java" />
         <option value="$PROJECT_DIR$/基础语法/Hello/MainTest.java" />
         <option value="$PROJECT_DIR$/数据结构与算法/剑指Offer复习/_03数组中的重复数字.java" />
+        <option value="$PROJECT_DIR$/数据结构与算法/剑指Offer复习/_04二维数组查找.java" />
+        <option value="$PROJECT_DIR$/数据结构与算法/剑指Offer复习/_04二维有序数组查找.java" />
+        <option value="$PROJECT_DIR$/数据结构与算法/剑指Offer复习/Solution20.java" />
       </list>
     </option>
   </component>
@@ -249,6 +274,12 @@
             <path>
               <item name="JavaStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="数据结构与算法" type="462c0819:PsiDirectoryNode" />
+              <item name="剑指Offer复习" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaStudy" type="462c0819:PsiDirectoryNode" />
               <item name="设计模式" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -262,7 +293,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599539031039" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599547934511" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="D:/Program Files/Java/junit4.13/junit-4.13-beta-1.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -285,7 +316,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit._03数组中的重复数字.t">
+  <component name="RunManager" selected="JUnit._04二维有序数组查找.t">
     <configuration name="集合_交并差" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="数据结构与算法" />
       <extension name="coverage">
@@ -326,6 +357,22 @@
       </extension>
       <option name="PACKAGE_NAME" value="剑指Offer复习" />
       <option name="MAIN_CLASS_NAME" value="剑指Offer复习._03数组中的重复数字" />
+      <option name="METHOD_NAME" value="t" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_04二维有序数组查找.t" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="数据结构与算法" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="剑指Offer复习.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="剑指Offer复习" />
+      <option name="MAIN_CLASS_NAME" value="剑指Offer复习._04二维有序数组查找" />
       <option name="METHOD_NAME" value="t" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -417,9 +464,11 @@
       <item itemvalue="JUnit.集合_交并差" />
       <item itemvalue="JUnit._03数组中的重复数字.t" />
       <item itemvalue="JUnit._03数组中的重复数字" />
+      <item itemvalue="JUnit._04二维有序数组查找.t" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit._04二维有序数组查找.t" />
         <item itemvalue="JUnit._03数组中的重复数字.t" />
         <item itemvalue="JUnit._03数组中的重复数字" />
         <item itemvalue="JUnit.集合_交并差" />
@@ -495,14 +544,7 @@
       <workItem from="1599423973535" duration="13000" />
       <workItem from="1599450632347" duration="31000" />
       <workItem from="1599536220238" duration="408000" />
-      <workItem from="1599536735666" duration="2165000" />
-    </task>
-    <task id="LOCAL-00054" summary="2020-8-23 Java正则表达式（特殊），如匹配&quot;\&quot;(\\)要用&quot;\\\\&quot;。">
-      <created>1598149855889</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1598149855889</updated>
+      <workItem from="1599536735666" duration="3897000" />
     </task>
     <task id="LOCAL-00055" summary="2020-8-23 非递归原地快排，手写">
       <created>1598151537815</created>
@@ -840,16 +882,17 @@
       <option name="project" value="LOCAL" />
       <updated>1599536793993</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="JZ03 数组中的重复数字">
+      <created>1599539056270</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1599539056270</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="集合_交并差 - 2020.09.07 at 04h 23m 05s.xml">
-      <configuration name="集合_交并差" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="集合_交并差_差集 - 2020.09.07 at 04h 23m 59s.xml">
-      <configuration name="集合_交并差.差集" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="集合_交并差_差集 - 2020.09.07 at 04h 24m 05s.xml">
       <configuration name="集合_交并差.差集" configurationId="JUnit" />
     </history-entry>
@@ -874,9 +917,15 @@
     <history-entry file="_03数组中的重复数字 - 2020.09.08 at 12h 21m 10s.xml">
       <configuration name="_03数组中的重复数字" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="_03数组中的重复数字_t - 2020.09.08 at 12h 23m 51s.xml">
+      <configuration name="_03数组中的重复数字.t" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_04二维有序数组查找_t - 2020.09.08 at 14h 45m 25s.xml">
+      <configuration name="_04二维有序数组查找.t" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96776000" />
+    <option name="totallyTimeSpent" value="98508000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -891,7 +940,7 @@
     <frame x="850" y="63" width="1056" height="1007" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49787235" weight="0.20201005" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49787235" visible="true" weight="0.20201005" />
       <window_info id="Designer" order="1" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -899,7 +948,7 @@
       <window_info anchor="bottom" id="Problems" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32939914" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.3298969" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.3298969" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.39904422" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -907,7 +956,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.22336769" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32618025" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.325315" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -980,8 +1029,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="2020-8-28 枚举类" />
-    <MESSAGE value="2020-8-28 枚举类 2" />
     <MESSAGE value="2020-8-28 注解" />
     <MESSAGE value="2020-8-28 Properties 配置文件，中文编码问题" />
     <MESSAGE value="2020-8-28 Array2List" />
@@ -1005,37 +1052,11 @@
     <MESSAGE value="交并补一起测试" />
     <MESSAGE value="交并补一起测试." />
     <MESSAGE value="调整目录结构，算法" />
-    <option name="LAST_COMMIT_MESSAGE" value="调整目录结构，算法" />
+    <MESSAGE value="JZ03 数组中的重复数字" />
+    <MESSAGE value="JZ04 二维有序数组查找数字" />
+    <option name="LAST_COMMIT_MESSAGE" value="JZ04 二维有序数组查找数字" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/基础语法/Hello/HelloWorld.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#85#86#0" expanded="true" />
-            <element signature="e#145#146#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/基础语法/Hello/ScannerInput.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/多线程/原子类/AtomicIntegerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/设计模式/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1395,37 +1416,65 @@
     <entry file="file://$PROJECT_DIR$/核心基础/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/数据结构与算法/算法/排序/按词频排序.java">
+    <entry file="file://$PROJECT_DIR$/数据结构与算法/剑指Offer复习/_04二维数组查找.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据结构与算法/算法/排序/quickSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="135">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/基础语法/Hello/MainTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        <state relative-caret-position="373">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构与算法/算法/排序/quickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构与算法/算法/排序/按词频排序.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="22" column="12" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#924#935#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/数据结构与算法/剑指Offer复习/_03数组中的重复数字.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+        <state relative-caret-position="-81">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构与算法/剑指Offer复习/Solution20.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构与算法/剑指Offer复习/_04二维有序数组查找.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
