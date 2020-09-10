@@ -26,11 +26,10 @@
     <bookmark url="file://$PROJECT_DIR$/数据结构与算法/算法/排序/按词频排序.java" line="23" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b1a51bc-5d2d-4290-820a-2890820de1c3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/核心基础/集合框架/TestHashMap.java" afterDir="false" />
+    <list default="true" id="8b1a51bc-5d2d-4290-820a-2890820de1c3" name="Default Changelist" comment="排除 ./idea">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/核心基础/设计模式/设计模式.md" beforeDir="false" afterPath="$PROJECT_DIR$/核心基础/设计模式/设计模式23种.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/核心基础/集合框架/TestHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/核心基础/集合框架/TestHashMap.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/BasicGrammar/target/" />
     <ignored path="$PROJECT_DIR$/设计模式/target/" />
@@ -54,23 +53,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/核心基础/集合框架/TestHashMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+            <state relative-caret-position="289">
+              <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/HashMap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="280" column="20" selection-start-line="280" selection-start-column="20" selection-end-line="280" selection-end-column="20" />
-              <folding>
-                <element signature="e#19327#19328#0" expanded="true" />
-                <element signature="e#19410#19411#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -79,8 +65,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+            <state relative-caret-position="553">
+              <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -196,7 +182,7 @@
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <showMembers ProjectPane="false" />
-      <showExcludedFiles Scope="false" ProjectPane="false" />
+      <showExcludedFiles Scope="true" ProjectPane="true" />
       <autoscrollFromSource ProjectPane="true" />
       <sortByType ProjectPane="false" />
       <foldersAlwaysOnTop value="true" />
@@ -263,7 +249,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599731230697" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599731800880" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/核心基础/设计模式/A创建型" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -499,14 +485,7 @@
       <workItem from="1599675482130" duration="1028000" />
       <workItem from="1599722035431" duration="3470000" />
       <workItem from="1599726674011" duration="166000" />
-      <workItem from="1599726877317" duration="4348000" />
-    </task>
-    <task id="LOCAL-00071" summary="2020-8-27 String isSame">
-      <created>1598543377267</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1598543377267</updated>
+      <workItem from="1599726877317" duration="4918000" />
     </task>
     <task id="LOCAL-00072" summary="2020-8-27 String isSame 2">
       <created>1598543887450</created>
@@ -844,7 +823,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599729480021</updated>
     </task>
-    <option name="localTasksCounter" value="120" />
+    <task id="LOCAL-00120" summary="排除 ./idea">
+      <created>1599731243694</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1599731243694</updated>
+    </task>
+    <option name="localTasksCounter" value="121" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -880,7 +866,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112159000" />
+    <option name="totallyTimeSpent" value="112729000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -895,7 +881,7 @@
     <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49787235" visible="true" weight="0.14453334" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49787235" visible="true" weight="0.14453334" />
       <window_info id="Designer" order="1" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -903,12 +889,12 @@
       <window_info anchor="bottom" id="Problems" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32875144" />
-      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.27682403" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.27682403" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.39904422" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32855436" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.20493563" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.20493563" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5008" side_tool="true" weight="0.32939914" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4992" weight="0.21459228" />
@@ -985,7 +971,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="杂记 IDEA性能配置、快捷键" />
     <MESSAGE value="新增包：动态数组、集合、映射" />
     <MESSAGE value="集合求交集" />
     <MESSAGE value="集合求交集 2" />
@@ -1010,7 +995,8 @@
     <MESSAGE value="markdown更新" />
     <MESSAGE value="设计模式，配适器" />
     <MESSAGE value="设计模式，桥接：抽象和实现分离开来，使他们独立变化" />
-    <option name="LAST_COMMIT_MESSAGE" value="设计模式，桥接：抽象和实现分离开来，使他们独立变化" />
+    <MESSAGE value="排除 ./idea" />
+    <option name="LAST_COMMIT_MESSAGE" value="排除 ./idea" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
@@ -1406,8 +1392,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/核心基础/集合框架/TestHashMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+        <state relative-caret-position="289">
+          <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1416,8 +1402,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+        <state relative-caret-position="553">
+          <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
         </state>
       </provider>
     </entry>

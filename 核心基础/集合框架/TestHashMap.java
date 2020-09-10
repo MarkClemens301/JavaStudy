@@ -26,7 +26,6 @@ public class TestHashMap {//
     }
 
     /**
-     *
      */
     @Test
     public void testConSyn() {
