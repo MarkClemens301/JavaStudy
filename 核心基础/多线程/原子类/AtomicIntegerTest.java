@@ -1,4 +1,4 @@
-package 原子类;
+package 多线程.原子类;
 
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicLong;
@@ -29,7 +29,7 @@ public class AtomicIntegerTest {
     }
 
     public static void main(String[] args) {
-        System.out.println("原子类");
+        System.out.println("多线程/原子类");
         ;
     }
 

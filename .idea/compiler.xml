@@ -8,7 +8,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="基础语法" />
-        <module name="多线程" />
         <module name="数据结构与算法" />
         <module name="核心基础" />
       </profile>
