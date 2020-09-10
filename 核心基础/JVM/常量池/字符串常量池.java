@@ -16,8 +16,7 @@ public class 字符串常量池 {//
 /*
 反编译工具（自带）
 TODO
-    cd /d D:\ProgramData\_Code_root\java\JavaPro\LeetCode\target\classes\JavaCore\JVM\常量池
-    javap -verbose TestString.class
+ javap -verbose .\核心基础\target\classes\JVM\常量池\字符串常量池.class
 */
 /*
 反编译结果

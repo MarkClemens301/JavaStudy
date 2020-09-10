@@ -27,19 +27,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b1a51bc-5d2d-4290-820a-2890820de1c3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/核心基础/JVM/常量池/字符串常量池.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/多线程/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/多线程/原子类/AtomicIntegerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/核心基础/多线程/原子类/AtomicIntegerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/多线程/多线程.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/多线程/线程创建/RunnableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/核心基础/多线程/线程创建/RunnableTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/多线程/线程创建/ThreadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/核心基础/多线程/线程创建/ThreadTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/核心基础/Java语法/_10枚举类/Season1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/核心基础/Java语法/_10枚举类/枚举类enum.java" beforeDir="false" afterPath="$PROJECT_DIR$/核心基础/Java语法/_10枚举类/枚举类enum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/核心基础/JVM/常量池/字符串常量池.java" beforeDir="false" afterPath="$PROJECT_DIR$/核心基础/JVM/常量池/字符串常量池.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/BasicGrammar/target/" />
     <ignored path="$PROJECT_DIR$/设计模式/target/" />
@@ -99,8 +88,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/核心基础/JVM/常量池/字符串常量池.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+            <state relative-caret-position="195">
+              <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -258,19 +247,6 @@
               <item name="JavaStudy" type="462c0819:PsiDirectoryNode" />
               <item name="核心基础" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="JavaStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="核心基础" type="462c0819:PsiDirectoryNode" />
-              <item name="JVM" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="核心基础" type="462c0819:PsiDirectoryNode" />
-              <item name="JVM" type="462c0819:PsiDirectoryNode" />
-              <item name="常量池" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -281,7 +257,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599726040913" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599726417182" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="D:/Program Files/Java/junit4.13/junit-4.13-beta-1.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -515,14 +491,7 @@
       <workItem from="1599584498119" duration="2710000" />
       <workItem from="1599613872325" duration="1216000" />
       <workItem from="1599675482130" duration="1028000" />
-      <workItem from="1599722035431" duration="2842000" />
-    </task>
-    <task id="LOCAL-00061" summary="2020-8-24 原地快排、归并排序，过程输出测试">
-      <created>1598207687988</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1598207687988</updated>
+      <workItem from="1599722035431" duration="3217000" />
     </task>
     <task id="LOCAL-00062" summary="2020-8-24 背包问题之多维费用 dp压缩">
       <created>1598284429612</created>
@@ -860,7 +829,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599725716489</updated>
     </task>
-    <option name="localTasksCounter" value="110" />
+    <task id="LOCAL-00110" summary="JVM测试，字符串常量池">
+      <created>1599726066835</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1599726066835</updated>
+    </task>
+    <option name="localTasksCounter" value="111" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -896,7 +872,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107017000" />
+    <option name="totallyTimeSpent" value="107392000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -911,7 +887,7 @@
     <frame x="850" y="63" width="1056" height="1007" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49787235" visible="true" weight="0.2201005" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49787235" visible="true" weight="0.2201005" />
       <window_info id="Designer" order="1" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -919,12 +895,12 @@
       <window_info anchor="bottom" id="Problems" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32939914" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.32939914" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.32875144" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.39904422" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32855436" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.20922747" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.9656357" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5008" side_tool="true" weight="0.32939914" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4992" weight="0.21459228" />
@@ -1001,7 +977,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="2020-8-30" />
     <MESSAGE value="2020-8-31 深度优先搜索" />
     <MESSAGE value="更新markdown" />
     <MESSAGE value="更新markdown 资源" />
@@ -1026,7 +1001,8 @@
     <MESSAGE value="创建常用数据结构 ListNode TreeNode" />
     <MESSAGE value="创建常用数据结构 ListNode TreeNode." />
     <MESSAGE value="调整目录结构，更加紧凑" />
-    <option name="LAST_COMMIT_MESSAGE" value="调整目录结构，更加紧凑" />
+    <MESSAGE value="JVM测试，字符串常量池" />
+    <option name="LAST_COMMIT_MESSAGE" value="JVM测试，字符串常量池" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
@@ -1445,8 +1421,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/核心基础/JVM/常量池/字符串常量池.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        <state relative-caret-position="195">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
         </state>
       </provider>
     </entry>
