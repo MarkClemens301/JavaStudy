@@ -48,7 +48,7 @@ public class WaitNotify {//创建、生命周期、同步机制
         produce.start();
 
         try {
-            System.out.println("先join生产者线程，后join消费者线程");
+            System.out.println("\n先join生产者线程，后join消费者线程");
             produce.join();//先进行完
             consume.join();//后进行
         } catch (InterruptedException e) {
@@ -62,14 +62,14 @@ public class WaitNotify {//创建、生命周期、同步机制
         @Override
         public void run() {
             synchronized (obj) {
-                System.out.println("0.进入生产者线程");
+                System.out.println("\n0.进入生产者线程");
                 try {
                     System.out.println("1.开始生产");
                     TimeUnit.MILLISECONDS.sleep(200);
                     System.out.println("2.生产完毕");
                     flag = true;
                     obj.notify();//通知消费者
-                    System.out.println("2.1 我已结束生产");
+                    System.out.println("2.1 我已结束生产  通知其他线程，但不释放锁，继续进行  (调用.notify)");
                     TimeUnit.MILLISECONDS.sleep(100);//模拟其他消耗
                     System.out.println("3.退出生产者线程");
                 } catch (InterruptedException e) {
@@ -84,25 +84,25 @@ public class WaitNotify {//创建、生命周期、同步机制
         @Override
         public void run() {
             synchronized (obj) {
-                System.out.println("进入消费者线程");
-                System.out.println("wait flag: " + flag);
+                System.out.println("\n-进入消费者线程");
+                System.out.println("-wait flag: " + flag);
                 while (!flag) {
                     try {
-                        System.out.println("flag==false, 还没生产；.wait 释放锁，开始等待");
+                        System.out.println("-flag==false: 还没生产；释放锁，开始等待！！  (调用.wait)");
                         obj.wait();//阻塞~等待~
-                        System.out.println("结束等待");
+                        System.out.println("-wait flag: " + flag);
+                        System.out.println("-收到消息，并等生产者线程运行结束 后：结束消费者的等待、准备消费  (被唤醒，.wait结束)");
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
                 }
-                System.out.println("wait flag: " + flag);
-                System.out.println("开始消费");
+                System.out.println("-开始消费");
                 try {
                     TimeUnit.MILLISECONDS.sleep(150);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
-                System.out.println("消费完毕，消费线程结束");
+                System.out.println("-消费完毕，消费线程结束");
             }
         }
     }
