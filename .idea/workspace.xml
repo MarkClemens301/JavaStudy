@@ -27,12 +27,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b1a51bc-5d2d-4290-820a-2890820de1c3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/核心基础/设计模式/C结构型/C1_配适器_Adapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/核心基础/设计模式/C结构型/C2_桥接_Bridge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/核心基础/设计模式/设计模式.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/核心基础/设计模式/DM01_单例模式/单例模式.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/核心基础/设计模式/C结构型/C2_桥接_Bridge.java" beforeDir="false" afterPath="$PROJECT_DIR$/核心基础/设计模式/C结构型/C2_桥接_Bridge.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/BasicGrammar/target/" />
     <ignored path="$PROJECT_DIR$/设计模式/target/" />
@@ -66,24 +62,41 @@
         <entry file="file://$PROJECT_DIR$/核心基础/设计模式/C结构型/C1_配适器_Adapter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="510">
-              <caret line="48" selection-start-line="48" selection-end-line="48" />
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/核心基础/设计模式/C结构型/C2_桥接_Bridge.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#422#423#0" expanded="true" />
+                <element signature="e#450#451#0" expanded="true" />
+                <element signature="e#760#761#0" expanded="true" />
+                <element signature="e#807#808#0" expanded="true" />
+                <element signature="e#846#847#0" expanded="true" />
+                <element signature="e#894#895#0" expanded="true" />
+                <element signature="e#941#942#0" expanded="true" />
+                <element signature="e#997#998#0" expanded="true" />
+                <element signature="e#1064#1065#0" expanded="true" />
+                <element signature="e#1114#1115#0" expanded="true" />
+                <element signature="e#1153#1154#0" expanded="true" />
+                <element signature="e#1204#1205#0" expanded="true" />
+                <element signature="e#1251#1252#0" expanded="true" />
+                <element signature="e#1310#1311#0" expanded="true" />
+                <element signature="e#1425#1426#0" expanded="true" />
+                <element signature="e#1450#1451#0" expanded="true" />
+                <element signature="e#1939#1940#0" expanded="true" />
+                <element signature="e#1964#1965#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/核心基础/设计模式/C结构型/C2_桥接_Bridge.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="128" column="16" selection-start-line="128" selection-start-column="16" selection-end-line="128" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/核心基础/设计模式/A创建型/DM01_单例模式/单例模式.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
@@ -168,10 +181,10 @@
         <option value="$PROJECT_DIR$/核心基础/设计模式/A创建型/A1懒汉式单例.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/核心基础/设计模式/DM01_单例模式/单例模式.java" />
-        <option value="$PROJECT_DIR$/核心基础/设计模式/A创建型/DM01_单例模式/单例模式.java" />
         <option value="$PROJECT_DIR$/核心基础/设计模式/C结构型/C1_配适器_Adapter.java" />
-        <option value="$PROJECT_DIR$/核心基础/设计模式/C结构型/C2_桥接_Bridge.java" />
         <option value="$PROJECT_DIR$/核心基础/设计模式/设计模式.md" />
+        <option value="$PROJECT_DIR$/核心基础/设计模式/A创建型/DM01_单例模式/单例模式.java" />
+        <option value="$PROJECT_DIR$/核心基础/设计模式/C结构型/C2_桥接_Bridge.java" />
       </list>
     </option>
   </component>
@@ -248,6 +261,29 @@
               <item name="核心基础" type="462c0819:PsiDirectoryNode" />
               <item name="设计模式" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JavaStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="核心基础" type="462c0819:PsiDirectoryNode" />
+              <item name="设计模式" type="462c0819:PsiDirectoryNode" />
+              <item name="C结构型" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="核心基础" type="462c0819:PsiDirectoryNode" />
+              <item name="设计模式" type="462c0819:PsiDirectoryNode" />
+              <item name="C结构型" type="462c0819:PsiDirectoryNode" />
+              <item name="C1_配适器_Adapter.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="JavaStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="核心基础" type="462c0819:PsiDirectoryNode" />
+              <item name="设计模式" type="462c0819:PsiDirectoryNode" />
+              <item name="C结构型" type="462c0819:PsiDirectoryNode" />
+              <item name="C2_桥接_Bridge.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -257,7 +293,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599729225011" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599729421948" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/核心基础/设计模式/A创建型" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -490,14 +526,7 @@
       <workItem from="1599675482130" duration="1028000" />
       <workItem from="1599722035431" duration="3470000" />
       <workItem from="1599726674011" duration="166000" />
-      <workItem from="1599726877317" duration="2345000" />
-    </task>
-    <task id="LOCAL-00068" summary="2020-8-27 String.indexOf">
-      <created>1598524633811</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1598524633811</updated>
+      <workItem from="1599726877317" duration="2541000" />
     </task>
     <task id="LOCAL-00069" summary="2020-8-27 String.indexOf 2">
       <created>1598524826554</created>
@@ -835,7 +864,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599728923503</updated>
     </task>
-    <option name="localTasksCounter" value="117" />
+    <task id="LOCAL-00117" summary="设计模式，配适器">
+      <created>1599729240299</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1599729240299</updated>
+    </task>
+    <option name="localTasksCounter" value="118" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -871,7 +907,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110156000" />
+    <option name="totallyTimeSpent" value="110352000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -976,7 +1012,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Runnable Test" />
     <MESSAGE value="杂记" />
     <MESSAGE value="杂记 IDEA性能配置、快捷键" />
     <MESSAGE value="新增包：动态数组、集合、映射" />
@@ -1001,7 +1036,8 @@
     <MESSAGE value="修复版本控制问题 am1" />
     <MESSAGE value="修复版本控制问题 .md说明" />
     <MESSAGE value="markdown更新" />
-    <option name="LAST_COMMIT_MESSAGE" value="markdown更新" />
+    <MESSAGE value="设计模式，配适器" />
+    <option name="LAST_COMMIT_MESSAGE" value="设计模式，配适器" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
@@ -1357,17 +1393,7 @@
     <entry file="file://$PROJECT_DIR$/核心基础/设计模式/C结构型/C1_配适器_Adapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/核心基础/设计模式/C结构型/C2_桥接_Bridge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="128" column="16" selection-start-line="128" selection-start-column="16" selection-end-line="128" selection-end-column="16" />
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
         </state>
       </provider>
     </entry>
@@ -1385,6 +1411,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/核心基础/设计模式/C结构型/C2_桥接_Bridge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+          <folding>
+            <element signature="e#422#423#0" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+            <element signature="e#760#761#0" expanded="true" />
+            <element signature="e#807#808#0" expanded="true" />
+            <element signature="e#846#847#0" expanded="true" />
+            <element signature="e#894#895#0" expanded="true" />
+            <element signature="e#941#942#0" expanded="true" />
+            <element signature="e#997#998#0" expanded="true" />
+            <element signature="e#1064#1065#0" expanded="true" />
+            <element signature="e#1114#1115#0" expanded="true" />
+            <element signature="e#1153#1154#0" expanded="true" />
+            <element signature="e#1204#1205#0" expanded="true" />
+            <element signature="e#1251#1252#0" expanded="true" />
+            <element signature="e#1310#1311#0" expanded="true" />
+            <element signature="e#1425#1426#0" expanded="true" />
+            <element signature="e#1450#1451#0" expanded="true" />
+            <element signature="e#1939#1940#0" expanded="true" />
+            <element signature="e#1964#1965#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

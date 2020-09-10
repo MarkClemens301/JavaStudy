@@ -14,6 +14,10 @@ public interface C2_桥接_Bridge {
  * 桥接模式，将遥控器 和◇---- 电视分离，从而独立改变二者的实现。
  * 遥控器聚合了电视的功能
  */
+
+/**
+ * 抽象部分二，遥控器
+ */
 //Abstraction 遥控器
 abstract class RemoteControl {
     protected TV tv;
@@ -29,6 +33,9 @@ abstract class RemoteControl {
     public abstract void tuneChannel();
 }
 
+/**
+ * 抽象部分一，电视
+ */
 //Implementor 电视
 abstract class TV {
     public abstract void on();
@@ -38,7 +45,9 @@ abstract class TV {
     public abstract void tuneChannel();
 }
 
-
+/**
+ * 实现部分一，电视
+ */
 class Sony extends TV {
     @Override
     public void on() {
@@ -73,6 +82,9 @@ class KangJia extends TV {
     }
 }
 
+/**
+ * 实现部分二，遥控器
+ */
 class ConcreteRemoteControl1 extends RemoteControl {
     public ConcreteRemoteControl1(TV tv) {
         super(tv);
@@ -121,6 +133,9 @@ class ConcreteRemoteControl2 extends RemoteControl {
     }
 }
 
+/**
+ * 测试，桥接模式
+ */
 class ClentC2 {
     public static void main(String[] args) {
         //遥控器一，连接康佳电视
