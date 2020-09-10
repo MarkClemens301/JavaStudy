@@ -26,10 +26,9 @@
     <bookmark url="file://$PROJECT_DIR$/数据结构与算法/算法/排序/按词频排序.java" line="23" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b1a51bc-5d2d-4290-820a-2890820de1c3" name="Default Changelist" comment="排除 ./idea">
+    <list default="true" id="8b1a51bc-5d2d-4290-820a-2890820de1c3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/核心基础/集合框架/TestHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/核心基础/集合框架/TestHashMap.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/BasicGrammar/target/" />
     <ignored path="$PROJECT_DIR$/设计模式/target/" />
@@ -66,7 +65,7 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="553">
-              <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
+              <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -249,7 +248,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599731800880" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599731892320" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/核心基础/设计模式/A创建型" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -485,14 +484,7 @@
       <workItem from="1599675482130" duration="1028000" />
       <workItem from="1599722035431" duration="3470000" />
       <workItem from="1599726674011" duration="166000" />
-      <workItem from="1599726877317" duration="4918000" />
-    </task>
-    <task id="LOCAL-00072" summary="2020-8-27 String isSame 2">
-      <created>1598543887450</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1598543887450</updated>
+      <workItem from="1599726877317" duration="5015000" />
     </task>
     <task id="LOCAL-00073" summary="2020-8-28 Calendar.getInstance();">
       <created>1598545733041</created>
@@ -830,7 +822,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599731243694</updated>
     </task>
-    <option name="localTasksCounter" value="121" />
+    <task id="LOCAL-00121" summary="排除 ./idea am1">
+      <created>1599731816571</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1599731816571</updated>
+    </task>
+    <option name="localTasksCounter" value="122" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -866,7 +865,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112729000" />
+    <option name="totallyTimeSpent" value="112826000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -971,7 +970,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="新增包：动态数组、集合、映射" />
     <MESSAGE value="集合求交集" />
     <MESSAGE value="集合求交集 2" />
     <MESSAGE value="集合求交集，测试" />
@@ -996,7 +994,8 @@
     <MESSAGE value="设计模式，配适器" />
     <MESSAGE value="设计模式，桥接：抽象和实现分离开来，使他们独立变化" />
     <MESSAGE value="排除 ./idea" />
-    <option name="LAST_COMMIT_MESSAGE" value="排除 ./idea" />
+    <MESSAGE value="排除 ./idea am1" />
+    <option name="LAST_COMMIT_MESSAGE" value="排除 ./idea am1" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
@@ -1403,7 +1402,7 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="553">
-          <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
+          <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
         </state>
       </provider>
     </entry>

@@ -26,4 +26,5 @@ hs_err_pid*
 ClassOut/
 ClassOut/**/*
 .idea/
+.idea/*.xml
 .idea/**/*
