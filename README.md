@@ -165,6 +165,13 @@ custom IntelliJ IDEA VM options # idea64.exe.vmoptions
 - 白色，版本控制，已提交，无改动
 - 灰色，忽略的文件
 
+## Git中删除.idea
+
+- echo .idea >> .gitignore
+- git rm --cached -r .idea
+- //git add .gitignore
+- git commit -am 'remove idea'
+- git push
 
 # TODO
 

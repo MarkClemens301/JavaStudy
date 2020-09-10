@@ -23,8 +23,7 @@
 hs_err_pid*
 
 # multilevel dirs
-ClassOut/
+ClassOut
 ClassOut/**/*
-.idea/
-.idea/*.xml
+.idea
 .idea/**/*
