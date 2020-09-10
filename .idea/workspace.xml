@@ -28,7 +28,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8b1a51bc-5d2d-4290-820a-2890820de1c3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/核心基础/JVM/常量池/字符串常量池.java" beforeDir="false" afterPath="$PROJECT_DIR$/核心基础/JVM/常量池/字符串常量池.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/BasicGrammar/target/" />
     <ignored path="$PROJECT_DIR$/设计模式/target/" />
@@ -88,8 +87,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/核心基础/JVM/常量池/字符串常量池.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+            <state relative-caret-position="176">
+              <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -193,7 +192,7 @@
   <component name="MavenRunner">
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="850" />
     <option name="y" value="63" />
     <option name="width" value="1056" />
@@ -247,6 +246,12 @@
               <item name="JavaStudy" type="462c0819:PsiDirectoryNode" />
               <item name="核心基础" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JavaStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="核心基础" type="462c0819:PsiDirectoryNode" />
+              <item name="JVM" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -257,7 +262,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599726417182" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599726573802" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="D:/Program Files/Java/junit4.13/junit-4.13-beta-1.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -280,7 +285,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.字符串常量池">
+  <component name="RunManager" selected="Application.A1懒汉式单例">
     <configuration name="单例模式" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="设计模式.DM01_单例模式.单例模式" />
       <module name="核心基础" />
@@ -307,17 +312,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_07重建二叉树" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="数据结构与算法" />
+    <configuration name="A1懒汉式单例" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="设计模式.A创建型.A1懒汉式单例" />
+      <module name="核心基础" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="剑指Offer复习.*" />
+          <option name="PATTERN" value="设计模式.A创建型.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="剑指Offer复习" />
-      <option name="MAIN_CLASS_NAME" value="剑指Offer复习._07重建二叉树" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -403,19 +406,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit._07重建二叉树" />
       <item itemvalue="Application.单例模式" />
       <item itemvalue="JUnit.枚举类enum.test2" />
       <item itemvalue="JUnit.枚举类enum.test" />
       <item itemvalue="Application.字符串常量池" />
+      <item itemvalue="Application.A1懒汉式单例" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.A1懒汉式单例" />
         <item itemvalue="Application.字符串常量池" />
         <item itemvalue="JUnit.枚举类enum.test" />
         <item itemvalue="JUnit.枚举类enum.test2" />
         <item itemvalue="Application.单例模式" />
-        <item itemvalue="JUnit._07重建二叉树" />
       </list>
     </recent_temporary>
   </component>
@@ -491,14 +494,7 @@
       <workItem from="1599584498119" duration="2710000" />
       <workItem from="1599613872325" duration="1216000" />
       <workItem from="1599675482130" duration="1028000" />
-      <workItem from="1599722035431" duration="3217000" />
-    </task>
-    <task id="LOCAL-00062" summary="2020-8-24 背包问题之多维费用 dp压缩">
-      <created>1598284429612</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1598284429613</updated>
+      <workItem from="1599722035431" duration="3227000" />
     </task>
     <task id="LOCAL-00063" summary="2020-8-24 背包问题之多维费用 dp压缩  +输入检查">
       <created>1598284548156</created>
@@ -836,7 +832,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599726066835</updated>
     </task>
-    <option name="localTasksCounter" value="111" />
+    <task id="LOCAL-00111" summary="JVM测试，字符串常量池 am1">
+      <created>1599726423060</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1599726423060</updated>
+    </task>
+    <option name="localTasksCounter" value="112" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -872,7 +875,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107392000" />
+    <option name="totallyTimeSpent" value="107402000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -885,9 +888,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="850" y="63" width="1056" height="1007" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49787235" visible="true" weight="0.2201005" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49787235" visible="true" weight="0.2201005" />
       <window_info id="Designer" order="1" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -977,7 +979,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="2020-8-31 深度优先搜索" />
     <MESSAGE value="更新markdown" />
     <MESSAGE value="更新markdown 资源" />
     <MESSAGE value="非递归的归并排序，使用双队列解决。" />
@@ -1002,7 +1003,8 @@
     <MESSAGE value="创建常用数据结构 ListNode TreeNode." />
     <MESSAGE value="调整目录结构，更加紧凑" />
     <MESSAGE value="JVM测试，字符串常量池" />
-    <option name="LAST_COMMIT_MESSAGE" value="JVM测试，字符串常量池" />
+    <MESSAGE value="JVM测试，字符串常量池 am1" />
+    <option name="LAST_COMMIT_MESSAGE" value="JVM测试，字符串常量池 am1" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
@@ -1421,8 +1423,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/核心基础/JVM/常量池/字符串常量池.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        <state relative-caret-position="176">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
         </state>
       </provider>
     </entry>
