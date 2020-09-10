@@ -165,6 +165,13 @@ custom IntelliJ IDEA VM options # idea64.exe.vmoptions
 3.停用无关插件
 Settings.Plugins: 搜索并停用Kotlin插件，disable
 
+4.版本控制
+红色，未加入版本控制
+绿色，版本控制，暂未提交
+蓝色，版本控制，已提交，有改动
+白色，版本控制，已提交，无改动
+灰色，忽略的文件
+
 # TODO
 
 算法.非递归快排 --review
