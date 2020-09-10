@@ -1,4 +1,4 @@
-package DM01_单例模式;
+package 设计模式.DM01_单例模式;
 
 public class 单例模式 { //饿汉式，线程安全
     /*

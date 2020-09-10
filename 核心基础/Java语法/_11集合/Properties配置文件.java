@@ -1,12 +1,11 @@
-package _11集合;/* 2020/8/28 18:23 */
+package Java语法._11集合;/* 2020/8/28 18:23 */
 
 import org.junit.Test;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.*; //import java.io.*;
+import java.util.Properties;
 
 public class Properties配置文件 {
     // TODO: 2020/8/28 项目编码必须是utf-8 否者.properties 文件读取乱码
@@ -14,7 +13,7 @@ public class Properties配置文件 {
     public void test() {
         InputStreamReader isr = null;
         try {
-            String file = ".\\_11集合\\jdbc.properties";
+            String file = ".\\Java语法._11集合\\jdbc.properties";
 
             //Properties 配置文件，中文编码问题
             new Properties().load(new InputStreamReader(new FileInputStream(file), "utf-8"));//

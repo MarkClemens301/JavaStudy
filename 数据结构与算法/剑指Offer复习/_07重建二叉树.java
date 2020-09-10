@@ -30,25 +30,39 @@ public class _07重建二叉树 {
     //    }
     //}
 
-    private int[] preorder;
+    private int[] preOrder;
     private Map<Integer, Integer> inMap;
 
-    public TreeNode buildTree(int[] preorder, int[] inrder) {
-        this.preorder = preorder;
+    public TreeNode buildTree(int[] preOrder, int[] inOrder) {//保证输入合理
+        //preOrder 全局
+        this.preOrder = preOrder;
+        //inOrder val-place映射
         inMap = new HashMap<>();
-        for (int i = 0; i < inrder.length; i++) {
-            inMap.put(inrder[i], i);
+        for (int i = 0; i < inOrder.length; i++) {
+            inMap.put(inOrder[i], i);
         }
-        return buildTree(0, preorder.length - 1, 0, inrder.length - 1);
+        //递归
+        return buildTree(0, preOrder.length - 1, 0, inOrder.length - 1);
     }
 
-    private TreeNode buildTree(int preL, int preR, int inL, int inR) {
-        if (preL > preR || inL > inR) return null;
-        int val = preorder[preL];//前序索引2节点值
-        int pivot = inMap.get(val);//节点值2中序索引
+    /*
+    提纲：
+    val pL.. ..pR
+    iL.. pivot ..iR
+     */
+    private TreeNode buildTree(int pL, int pR, int iL, int iR) {
+        //终止条件
+        if (pL > pR || iL > iR) {
+            return null;
+        }
+        //根节点
+        int val = preOrder[pL];//前序位置2val
+        int pivot = inMap.get(val);//val2中序位置
         TreeNode root = new TreeNode(val);
-        root.left = buildTree(preL + 1, preL + (pivot - inL), inL, pivot - 1);
-        root.right = buildTree(preL + (pivot - inL) + 1, preR, pivot + 1, inR);
-        return root;//
+        //左子树、右子树
+        root.left = buildTree(pL + 1, pL + (pivot - iL), iL, pivot - 1);
+        root.right = buildTree(pL + (pivot - iL) + 1, pR, pivot + 1, iR);
+        //返回
+        return root;
     }
 }

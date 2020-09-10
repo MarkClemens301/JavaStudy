@@ -1,8 +1,8 @@
-package _9常用类;/* 2020/8/27 23:33 */
+package Java语法._9常用类;/* 2020/8/27 23:33 */
 
 import org.junit.Test;
 
-import java.util.*; //import java.io.*;
+import java.util.Arrays;
 import java.util.stream.Collectors;
 
 public class String类 {

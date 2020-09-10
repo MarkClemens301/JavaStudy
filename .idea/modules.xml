@@ -7,7 +7,6 @@
       <module fileurl="file://$PROJECT_DIR$/多线程/多线程.iml" filepath="$PROJECT_DIR$/多线程/多线程.iml" />
       <module fileurl="file://$PROJECT_DIR$/数据结构与算法/数据结构与算法.iml" filepath="$PROJECT_DIR$/数据结构与算法/数据结构与算法.iml" />
       <module fileurl="file://$PROJECT_DIR$/核心基础/核心基础.iml" filepath="$PROJECT_DIR$/核心基础/核心基础.iml" />
-      <module fileurl="file://$PROJECT_DIR$/设计模式/设计模式.iml" filepath="$PROJECT_DIR$/设计模式/设计模式.iml" />
     </modules>
   </component>
 </project>

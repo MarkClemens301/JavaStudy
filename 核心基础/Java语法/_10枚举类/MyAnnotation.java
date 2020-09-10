@@ -1,9 +1,9 @@
-package _10枚举类;/* 2020/8/28 17:04 */
+package Java语法._10枚举类;/* 2020/8/28 17:04 */
 
-import org.junit.Test;
-
-import java.lang.annotation.*;
-import java.util.*; //import java.io.*;
+import java.lang.annotation.Inherited;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
 
 import static java.lang.annotation.ElementType.*;
 
