@@ -119,17 +119,13 @@ Ctrl-Shift-Enter 自动补全
 
 Maven项目运行之前有明显卡顿（编译、Parsing缓慢），严重影响代码体验和测试效率。
 
-*解决方案*：
-
-（具体原因可以谷歌，我也是先查的资料再设置）
+*解决方案*：（具体原因可以谷歌，我也是先查的资料再设置）
 
 1.配置Maven: 
 
-Settings.Maven里Threads(-c option)设置为 `4C`
-
-.Runner里VM Options设置为 `-DarchetypeCatalog=internal`
-
-修改配置文件，适当位置插入如下内容
+- Settings.Maven里Threads(-c option)设置为 `4C`
+- .Runner里VM Options设置为 `-DarchetypeCatalog=internal`
+- 修改配置文件，适当位置插入如下内容
 ...IDEA\plugins\maven\lib\maven3\conf\settings.xml
 ```xml
 <offline>true</offline>
@@ -163,14 +159,14 @@ custom IntelliJ IDEA VM options # idea64.exe.vmoptions
 ```
 
 3.停用无关插件
-Settings.Plugins: 搜索并停用Kotlin插件，disable
+- Settings.Plugins: 搜索并停用Kotlin插件，disable
 
 4.版本控制
-红色，未加入版本控制
-绿色，版本控制，暂未提交
-蓝色，版本控制，已提交，有改动
-白色，版本控制，已提交，无改动
-灰色，忽略的文件
+- 红色，未加入版本控制
+- 绿色，版本控制，暂未提交
+- 蓝色，版本控制，已提交，有改动
+- 白色，版本控制，已提交，无改动
+- 灰色，忽略的文件
 
 # TODO
 
