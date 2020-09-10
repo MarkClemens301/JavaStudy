@@ -1,12 +1,17 @@
-# JavaStudy <JavaLearn>
+JavaStudy <JavaLearn>
+---
 
-一个学习与复习用的Repos.
+一个学习与复习JAVA相关编程知识的Repos.
 
 Create by Mark Clemens, a java learner and user.
 
+# 目录 <Contents>
+
+[TOC]
+
+---
 
 # Intro
-
 A project for beginners to learn Java.
 
 ## HelloWorld
@@ -29,12 +34,12 @@ Java编程第一步：HelloWorld程序
 
 执行完成。
 
-
-# 目录 <Contents>
+...
 
 ## 文件结构 <Files Structure>
 
 未同步更新此目录结构...
+
 ```bash 2020-08
 README.md
 基础语法
@@ -68,20 +73,71 @@ D:.
             └─工具类
 ```
 
-## 基础语法
+---
+
+# Java基础
 
 <Remains to be updated.>
 
+## Java语言
 
-## 操作系统
+## 面向对象
 
-### 进程和线程
+## 集合框架
+
+## Java8新特性
+
+## JVM与性能调优
+
+
+--- 
+
+# 多线程与并发
+
+## 并发理论
+
+## 线程的创建方式
+
+## 锁
+
+## 线程池、参数
+
+
+---
+
+# 数据库
+
+## SQL语句
+
+## 索引、数据结构
+
+## 事务
+
+## 慢查询识别与优化
+
+---
+
+# 操作系统
+
+这部分暂时不全，只是记录了近期了解的知识点。
+
+## 内存管理
+
+## 进程的通信方式
+
+## 线程的通信方式
+
+## 进程的上下文切换
+
+## IO多路复用
+
+## 进程和线程
 
 - 进程 Process
 - 线程 Thread
 - 进程的调度
 
-### 内存管理
+## 内存管理
 
 - 虚拟内存
 - 分段
@@ -89,16 +145,64 @@ D:.
 - 多级页表
 - 段页式内存管理
 - Linux内存管理
-    - 页式内存管理
+  - 页式内存管理
 
+---
 
-## 学习资源
+# 计算机网络
+
+## OSI参考模型
+
+## TCP\UDP\HTTP(S)
+
+## 网络编程
+
+---
+
+# 学习资源
+
+## 网络资源
 
 - Cyc2018/CS-Note
 - Aobing/JavaFamily
 - NowCoder
 - 负雪明烛 算法模板
 
+--
+
+# 工具
+
+Version Control System
+
+## VCS版本控制
+
+- 红色，未加入版本控制
+- 绿色，版本控制，暂未提交
+- 蓝色，版本控制，已提交，有改动
+- 白色，版本控制，已提交，无改动
+- 灰色，忽略的文件
+
+## Git中删除.idea 文件夹
+
+- echo .idea >> .gitignore
+- git rm --cached -r .idea
+- git commit -am "remove .idea"
+- git push
+
+## Git本地提交、远程提交
+提交本地库
+- git init
+- git add .
+- git commit -m "test"
+
+更新远程库
+- git pull --rebase origin master
+- git push -u origin master
+
+## Maven
+
+
+---
 
 # 杂记
 
@@ -157,21 +261,6 @@ custom IntelliJ IDEA VM options # idea64.exe.vmoptions
 3.停用无关插件
 - Settings.Plugins: 搜索并停用Kotlin插件，disable
 
-## VCS版本控制
-
-- 红色，未加入版本控制
-- 绿色，版本控制，暂未提交
-- 蓝色，版本控制，已提交，有改动
-- 白色，版本控制，已提交，无改动
-- 灰色，忽略的文件
-
-## Git中删除.idea
-
-- echo .idea >> .gitignore
-- git rm --cached -r .idea
-- //git add .gitignore
-- git commit -am 'remove idea'
-- git push
 
 # TODO
 
