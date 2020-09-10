@@ -1,5 +1,7 @@
 package 多线程.线程通信1;/* 2020/9/10 23:22 */
 
+import java.util.concurrent.TimeUnit;
+
 public class WaitNotify {//创建、生命周期、同步机制
     /**
      * wait 线程等待，进入阻塞状态
@@ -25,6 +27,83 @@ public class WaitNotify {//创建、生命周期、同步机制
      * 备注: Lock类对于锁的实现，不会令线程进入阻塞状态；而是进入等待状态。 LockSupport.park();
      * .notify 唤醒第一个wait 的线程 .notifyAll 唤醒所有wait 的线程
      * 但是.notify 不释放锁！
+     * <p>
+     * .sleep 属于Thread 类，线程不会释放锁，阻塞，让出CPU给其他线程；
+     * .wait 属于Object 类，线程会释放锁，阻塞。
      */
 
+    private static final Object obj = new Object();
+    private static boolean flag = false;
+
+    public static void main(String[] args) {
+        Thread produce = new Thread(new Produce());
+        Thread consume = new Thread(new Comsume());
+        System.out.println("消费者先启动，生产者后启动");
+        consume.start();
+        try {
+            Thread.sleep(100);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        produce.start();
+
+        try {
+            System.out.println("先join生产者线程，后join消费者线程");
+            produce.join();//先进行完
+            consume.join();//后进行
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+
+    //生产者线程
+    static class Produce implements Runnable {//static 便于main 调用
+
+        @Override
+        public void run() {
+            synchronized (obj) {
+                System.out.println("0.进入生产者线程");
+                try {
+                    System.out.println("1.开始生产");
+                    TimeUnit.MILLISECONDS.sleep(200);
+                    System.out.println("2.生产完毕");
+                    flag = true;
+                    obj.notify();//通知消费者
+                    System.out.println("2.1 我已结束生产");
+                    TimeUnit.MILLISECONDS.sleep(100);//模拟其他消耗
+                    System.out.println("3.退出生产者线程");
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+    }
+
+    //消费者线程
+    static class Comsume implements Runnable {
+        @Override
+        public void run() {
+            synchronized (obj) {
+                System.out.println("进入消费者线程");
+                System.out.println("wait flag: " + flag);
+                while (!flag) {
+                    try {
+                        System.out.println("flag==false, 还没生产；.wait 释放锁，开始等待");
+                        obj.wait();//阻塞~等待~
+                        System.out.println("结束等待");
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                }
+                System.out.println("wait flag: " + flag);
+                System.out.println("开始消费");
+                try {
+                    TimeUnit.MILLISECONDS.sleep(150);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+                System.out.println("消费完毕，消费线程结束");
+            }
+        }
+    }
 }
