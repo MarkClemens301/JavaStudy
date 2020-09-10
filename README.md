@@ -264,5 +264,5 @@ custom IntelliJ IDEA VM options # idea64.exe.vmoptions
 
 # TODO
 
-算法.非递归快排 --review
-设计模式
+- 算法.非递归快排 need review
+- 设计模式
