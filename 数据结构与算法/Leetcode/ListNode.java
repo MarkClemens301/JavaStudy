@@ -10,4 +10,18 @@ public class ListNode {
     public ListNode(int val) {
         this.val = val;
     }
+
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        ListNode head = this;
+        while (head != null) {
+            sb.append(head.val).append(',');
+            head = head.next;
+        }
+        if (this != null) {
+            sb.deleteCharAt(sb.length() - 1);
+        }
+        return sb.toString();
+    }
 }
