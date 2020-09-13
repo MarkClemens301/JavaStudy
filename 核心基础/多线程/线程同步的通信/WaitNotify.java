@@ -1,4 +1,4 @@
-package 多线程.线程通信1;/* 2020/9/10 23:22 */
+package 多线程.线程同步的通信;/* 2020/9/10 23:22 */
 
 import java.util.concurrent.TimeUnit;
 
