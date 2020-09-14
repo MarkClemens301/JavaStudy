@@ -7,7 +7,7 @@ import java.util.HashMap;
 import java.util.Hashtable;
 import java.util.Map;
 
-public class TestMap {//
+public class Map_ {//
 
     /**
      * HashMap线程不安全，
@@ -106,7 +106,7 @@ public class TestMap {//
                 if (i == 3) {
                     //notify();
                     try {
-                        //TestMap.this.wait();//释放锁
+                        //Map_.this.wait();//释放锁
                         tmap.wait();//释放锁
                     } catch (InterruptedException e) {
                         e.printStackTrace();

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Vector;
 
-public class TestList {//
+public class List_ {//
 
     /**
      * .add 前，初始容量0

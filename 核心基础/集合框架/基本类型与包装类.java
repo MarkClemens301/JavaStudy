@@ -7,12 +7,19 @@ import java.util.PriorityQueue;
 
 public class 基本类型与包装类 {//
 
+    /**
+     * 包装类
+     * 基本数据类型 int4 char2 byte1
+     */
     @Test
     public void t() {
-        Integer i = new Integer(0);
+        Integer i = new Integer(0);//整型常量池，-128~127
         System.out.println(i);
     }
 
+    /**
+     * 优先队列
+     */
     @Test
     public void t1() {
         PriorityQueue<Object> pq = new PriorityQueue<>();
