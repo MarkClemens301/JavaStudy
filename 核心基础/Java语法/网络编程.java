@@ -14,12 +14,16 @@ public class 网络编程 {//
 
     @Test
     public void testTCP() {
-
     }
 }
 
 
 class Client {
+    public static void main(String[] args) {
+        Client c = new Client();
+        c.client();
+    }
+
     //客户端发送数据给服务端
     public void client() {
         InetAddress inet;
@@ -56,6 +60,11 @@ class Client {
 }
 
 class Server {
+    public static void main(String[] args) {
+        Server s = new Server();
+        s.server();
+    }
+
     //服务端从客户端接收数据
     public void server() {
         ServerSocket ss = null;
@@ -75,12 +84,21 @@ class Server {
             int len;
             while ((len = is.read(buffer)) != -1) {
                 baos.write(buffer, 0, len);//
-            }
+            }// 输出
             System.out.println(baos.toString());
+            System.out.println("收到了来自 " +
+                    socket.getInetAddress().getHostAddress() + "的数据 ");
         } catch (IOException e) {
             e.printStackTrace();
-        }finally {
+        } finally {
             //5. 关闭资源
+            if (baos != null) {
+                try {
+                    baos.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
             if (is != null) {
                 try {
                     is.close();
