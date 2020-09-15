@@ -1,9 +1,8 @@
 package 算法.排序;/* 2020/8/24 0:06 */
 
-import com.sun.scenario.effect.Merge;
 import org.junit.Test;
 
-import java.util.*; //import java.io.*;
+import java.util.Arrays;
 
 /*
 分治思想
@@ -38,8 +37,11 @@ public class 归并排序 {
         mergeSort(arr, 0, arr.length - 1);
     }
 
+    /**
+     * merge 函数尤为重要
+     */
     public void mergeSort(int[] arr, int left, int right) {
-        if (left >= right) return;
+        if (left >= right) return;//
         int mid = (left + right) / 2; //mid划归左区间
         //二路归并排序
         mergeSort(arr, left, mid);

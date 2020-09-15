@@ -22,6 +22,13 @@ public class 原地快排 {
         quickSort(nums, 0, nums.length - 1);
     }
 
+    /**
+     * 运行partition, 得到partitionIndex
+     * 区间划开为，[left, par-1] [par+1, right]
+     * 对子区间进行快排
+     *
+     * partition 函数尤为重要
+     */
     private void quickSort(int[] nums, int left, int right) {
         boolean needPrint = true; //todo 打印每次pivot结果
         //if (left >= right) return;
@@ -36,6 +43,10 @@ public class 原地快排 {
         }
     }
 
+    /**
+     * 大值指针index = pivot+1、遍历指针i
+     * if(nums[i] < nums[pivot]) swap(i, index++); 找小值
+     */
     private int partition(int[] nums, int left, int right) {
         int pivot = left, index = pivot + 1;
         for (int i = index; i <= right; i++) {

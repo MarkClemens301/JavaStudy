@@ -20,6 +20,12 @@ public class 原地快排_递归栈 {
         System.out.println(s.replaceAll("\\[|\\]|,", ""));
     }
 
+    /**
+     * 和递归的唯一不同是，
+     * stack.push(left, pivot-1);
+     * stack.push(pivot+1, right);
+     * 需要判断边界问题！ left < pivot-1
+     */
     public void quickSort(int[] nums) {
         //quickSort(nums, 0, nums.length - 1);
         int left = 0, right = nums.length - 1;
@@ -40,7 +46,7 @@ public class 原地快排_递归栈 {
             }
         }
     }
-    // TODO: 2020/8/21 用栈实现的非递归快排，下回再写 2020-8-23 adds
+    // TODO: 2020/8/21 用栈实现的非递归快排，下回再写 2020-8-23 已写
 
     private int partition(int[] nums, int left, int right) {
         int pivot = left, index = pivot + 1;
