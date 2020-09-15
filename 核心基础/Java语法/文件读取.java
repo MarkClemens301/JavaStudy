@@ -6,8 +6,13 @@ import java.io.*;
 
 public class 文件读取 {//
 
-    //这里的Project 和
-    public static void main(String[] args) throws Exception {//main 相对路径为当前的 Project 下
+    /**
+     * 文本文件  字符流处理 FileReader
+     * 非文本文件 字节流处理  FileInputStream
+     */
+
+    /* main 相对路径为当前的 Project 下 */
+    public static void main(String[] args) throws Exception {
         File file = new File("核心基础/Java语法/1.txt");//文件句柄 File类
         FileInputStream fis = new FileInputStream(file);//节点流-访问文件（字节输入流） 写入内存
         InputStreamReader isr = new InputStreamReader(fis);//处理流.转换流（字符输入流）
