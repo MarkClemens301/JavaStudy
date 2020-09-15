@@ -32,7 +32,7 @@ public class 归并排序_递归栈 {
     /* 非递归版本 */
     private void mergeSortLoop(int[] arr, int left, int right) {
         if (left >= right) return;
-        LinkedList<int[]> queue4M = new LinkedList<>();//用于记录数组合并的节点位置
+        LinkedList<int[]> queue4M = new LinkedList<>();//!!
         Queue<int[]> queue = new LinkedList<>();//用于子问题分解
         queue.offer(new int[]{left, right});
         while (!queue.isEmpty()) {

@@ -3,7 +3,9 @@ package 算法.排序;/* 2020/9/5 10:44 */
 
 import org.junit.Test;
 
-import java.util.*; //import java.io.*;
+import java.util.Comparator;
+import java.util.HashMap;
+import java.util.PriorityQueue;
 
 public class 按词频排序 {
     @Test
@@ -20,7 +22,7 @@ public class 按词频排序 {
         for (char c : s.toCharArray()) {
             freq.put(c, 1 + freq.getOrDefault(c, 0));
         }
-        //排序
+        //排序!!
         Comparator com = new Comparator() {
             @Override
             public int compare(Object o1, Object o2) {
@@ -30,7 +32,7 @@ public class 按词频排序 {
         };
         PriorityQueue<Character> pq = new PriorityQueue<Character>(com);
         for (Character c : freq.keySet()) {
-            pq.offer(c);//
+            pq.offer(c);//key
         }
         //收集
         while (!pq.isEmpty()) {
