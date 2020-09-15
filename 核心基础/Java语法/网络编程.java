@@ -13,29 +13,60 @@ import java.net.Socket;
 public class 网络编程 {//
 
     @Test
+    public void tServer() {
+        new Server().server();
+    }
+
+    @Test
+    public void tClient() {
+        new Client().client();
+    }
+
+    @Test
     public void testTCP() {
+        Server s = new Server();
+        Client c = new Client();
+        //两个线程
+        new Thread(s).start();
+        try {
+            Thread.sleep(100);
+            System.out.println("... ...");
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        new Thread(c).start();
+        System.out.println("857 857 ...");
+
+        //通信：客户端发数据给服务端口
     }
 }
 
 
-class Client {
+class Client implements Runnable {
+    @Override
+    public void run() {
+        client();
+    }
+
     public static void main(String[] args) {
         Client c = new Client();
         c.client();
     }
-
     //客户端发送数据给服务端
+
     public void client() {
         InetAddress inet;
         Socket socket = null;
         OutputStream os = null;
         try {
             //1. 创建Socket 对象，指明服务器的IP 和端口号
-            inet = InetAddress.getByName("192.168.14.100");
+            //inet = InetAddress.getByName("192.168.14.100");
+            inet = InetAddress.getByName("127.0.0.1");//127.0.0.1是回送地址,指本地机,用来测试使用。 9090
             socket = new Socket(inet, 8899);
             //2. 获取输出流
             os = socket.getOutputStream();//
             //3. 数据的写操作
+            System.out.println("我a要发数据了");
             os.write("你好，我是客户mk".getBytes());
         } catch (IOException e) {
             e.printStackTrace();
@@ -59,13 +90,18 @@ class Client {
     }
 }
 
-class Server {
+class Server implements Runnable {
+    @Override
+    public void run() {
+        server();
+    }
+
     public static void main(String[] args) {
         Server s = new Server();
         s.server();
     }
-
     //服务端从客户端接收数据
+
     public void server() {
         ServerSocket ss = null;
         Socket socket = null;
@@ -86,7 +122,7 @@ class Server {
                 baos.write(buffer, 0, len);//
             }// 输出
             System.out.println(baos.toString());
-            System.out.println("收到了来自 " +
+            System.out.println("wadaxi服务端857， 收到了来自 " +
                     socket.getInetAddress().getHostAddress() + "的数据 ");
         } catch (IOException e) {
             e.printStackTrace();
