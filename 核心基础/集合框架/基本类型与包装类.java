@@ -12,7 +12,7 @@ public class 基本类型与包装类 {//
      * 基本数据类型 int4 char2 byte1
      */
     @Test
-    public void t() {
+    public void tWrapperClass() {
         Integer i = new Integer(0);//整型常量池，-128~127
         System.out.println(i);
     }
@@ -21,7 +21,7 @@ public class 基本类型与包装类 {//
      * 优先队列
      */
     @Test
-    public void t1() {
+    public void tPriorityQueue() {
         PriorityQueue<Object> pq = new PriorityQueue<>();
         Arrays.sort(new int[]{1, 5, 2});
     }

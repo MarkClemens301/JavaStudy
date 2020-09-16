@@ -13,29 +13,18 @@ import java.net.Socket;
 public class 网络编程 {//
 
     @Test
-    public void tServer() {
-        new Server().server();
-    }
-
-    @Test
-    public void tClient() {
-        new Client().client();
-    }
-
-    @Test
     public void testTCP() {
         Server s = new Server();
         Client c = new Client();
         //两个线程
         new Thread(s).start();
         try {
-            Thread.sleep(100);
-            System.out.println("... ...");
+            System.out.println("... start the server ...");
+            Thread.sleep(1000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
         new Thread(c).start();
-        System.out.println("857 857 ...");
 
         //通信：客户端发数据给服务端口
     }
@@ -66,8 +55,9 @@ class Client implements Runnable {
             //2. 获取输出流
             os = socket.getOutputStream();//
             //3. 数据的写操作
-            System.out.println("我a要发数据了");
-            os.write("你好，我是客户mk".getBytes());
+            System.out.println("客户端: 我客户端要发数据了");
+            os.write("*客户端: 你好，我是客户mk，我就是数据".getBytes());
+            System.out.println("客户端: 客户端发送完毕");
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
@@ -121,9 +111,10 @@ class Server implements Runnable {
             while ((len = is.read(buffer)) != -1) {
                 baos.write(buffer, 0, len);//
             }// 输出
-            System.out.println(baos.toString());
-            System.out.println("wadaxi服务端857， 收到了来自 " +
+            System.out.println("服务端收到: " + baos.toString());
+            System.out.println("服务端说: wadaxi服务端857， 收到了来自 " +
                     socket.getInetAddress().getHostAddress() + "的数据 ");
+            System.out.println("服务端说: 857 857 ...");
         } catch (IOException e) {
             e.printStackTrace();
         } finally {

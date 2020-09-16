@@ -7,7 +7,7 @@ import java.util.HashMap;
 import java.util.Hashtable;
 import java.util.Map;
 
-public class Map_ {//
+public class Map线程安全 {//
 
     /**
      * HashMap线程不安全，
@@ -106,7 +106,7 @@ public class Map_ {//
                 if (i == 3) {
                     //notify();
                     try {
-                        //Map_.this.wait();//释放锁
+                        //Map线程安全.this.wait();//释放锁
                         tmap.wait();//释放锁
                     } catch (InterruptedException e) {
                         e.printStackTrace();
@@ -114,5 +114,24 @@ public class Map_ {//
                 }
             }
         }
+    }
+}
+
+class HashableVsHashMap {//
+
+    /**
+     * 源码
+     * HashMap 的null 处理
+     * return (key == null) ? 0 : (h = key.hashCode()) ^ (h >>> 16);
+     * 区别：
+     * 对null 值的容忍度不一样，HashMap 允许键值均为null, 因为hash 时会进行处理
+     * Hashtable 使用fail-safe 机制，读到的数据不一定是最新的数据。
+     */
+    @Test
+    public void t() {
+        Hashtable<Integer, Integer> hash = new Hashtable<>();
+        HashMap<Integer, Integer> hashMap = new HashMap<>();
+        hash.put(1, 0);
+        System.out.println(hash);
     }
 }
