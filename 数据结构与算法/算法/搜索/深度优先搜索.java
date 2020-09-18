@@ -12,16 +12,17 @@ public class 深度优先搜索 {
                 {false, true, true},
         };
         m.tracking(map, 0, 0, 0);
-        System.out.println(m.step);
+        System.out.println("min path len: " + m.step);
     }
 
     private int tarx, tary, step;
     int[][] dirs = {{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
 
+    //最短路径优先使用BFS
     boolean tracking(boolean[][] map, int x, int y, int step) {//用深搜(回溯)来找最短距离试试
         if (!map[x][y]) return false;
         if (x == tarx && y == tary) {
-            System.out.println(step);//
+            //System.out.println(step);//
             this.step = Math.min(this.step, step);
             return true;
         }
