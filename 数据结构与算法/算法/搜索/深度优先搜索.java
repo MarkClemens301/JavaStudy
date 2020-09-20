@@ -6,6 +6,7 @@ public class 深度优先搜索 {
         m.tarx = 1;
         m.tary = 2;
         m.step = Integer.MAX_VALUE;//
+
         boolean[][] map = {
                 {true, false, true},
                 {true, true, true},
