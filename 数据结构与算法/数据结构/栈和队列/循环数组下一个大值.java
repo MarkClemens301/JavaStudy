@@ -22,10 +22,10 @@ public class 循环数组下一个大值 {//
         for (int i = 0; i < 2 * n; i++) {
             int num = nums[i % n];
             while (!prePos.isEmpty() && nums[(int) prePos.peek()] < num) {
-                nums[(int) prePos.pop()] = num;
+                res[(int) prePos.pop()] = num;//
             }
             if (i < n) {
-                prePos.push(i);
+                prePos.push(i);//下一次num 以前的位置
             }
         }
         return res;
