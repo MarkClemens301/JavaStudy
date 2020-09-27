@@ -1,10 +1,19 @@
 package 集合框架;/* 2020/9/11 2:20 */
 
+import org.junit.Test;
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Vector;
 
 public class List_ {//
+
+    @Test
+    public void t() {
+        ArrayList<Object> lis = new ArrayList<>(5);
+        lis.add(12);
+        System.out.println(lis);
+    }
 
     /**
      * .add 前，初始容量0
