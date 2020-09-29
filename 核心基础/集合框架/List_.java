@@ -14,6 +14,9 @@ public class List_ {//
         lis.add(12);
         System.out.println(lis);
 
+
+
+
     }
 
     /**
