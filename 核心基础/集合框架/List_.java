@@ -13,10 +13,6 @@ public class List_ {//
         ArrayList<Object> lis = new ArrayList<>(5);
         lis.add(12);
         System.out.println(lis);
-
-
-
-
     }
 
     /**

@@ -90,3 +90,7 @@ public class 死锁 {//
         thread1.start();
     }
 }
+/*
+解除死锁的办法
+
+ */
