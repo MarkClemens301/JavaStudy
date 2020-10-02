@@ -19,11 +19,12 @@ public class UserService {//
 
     public Object getUserInfo(String userId) throws Exception {
         long currentTimeMillis = System.currentTimeMillis();
-        //Callable
+        //异步编程： Callable  VS Runnable
+        /* 底层中，Callable 的call 方法由 Runnable 的run 方法执行。*/
         Callable userInfoCallable = new Callable() {
             @Override
             public Object call() {
-                String name = Thread.currentThread().getName();
+                String name = Thread.currentThread().getName() + ".user";
                 System.out.println(name);
                 return name;
             }
@@ -31,7 +32,7 @@ public class UserService {//
         Callable otherInfoCallable = new Callable() {
             @Override
             public Object call() {
-                String name = Thread.currentThread().getName();
+                String name = Thread.currentThread().getName() + ".other";
                 System.out.println(name);
                 return name;
             }
