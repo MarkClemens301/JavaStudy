@@ -21,7 +21,7 @@ public class MarkFutureTask<V> implements Runnable {
             this.result = callable.call();//赋值  生产者
         } catch (Exception e) {
             e.printStackTrace();
-            state = "ERROR";
+            state = "ERROR";//
         } finally {
             state = "DONE";
             Thread waiter = waiters.poll();
@@ -34,7 +34,8 @@ public class MarkFutureTask<V> implements Runnable {
 
     /* 主线程 -- 获取结果 */
     public V get() throws Exception {/* 如果没有执行完毕，则进入等待*/
-        /* 使用生产者消费者模式实现多线程等待，
+        /*
+        使用【生产者消费者模式】实现多线程等待，
         让一个线程进入等待，
         线程状态
         */
