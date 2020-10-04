@@ -37,7 +37,7 @@ public class MarkFutureTask<V> implements Runnable {
         /*
         使用【生产者消费者模式】实现多线程等待，
         让一个线程进入等待，
-        线程状态（6个）：
+        线程状态（6个）K：
         NEW RUNNABLE BLOCKED WAITING TIME_WAITED TERMINATED
         */
         Thread thread = Thread.currentThread();

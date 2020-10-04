@@ -201,6 +201,16 @@ Version Control System
 
 ## Maven
 
+## Linux & VScode
+- Visual Studio Code
+- 快速配置java 环境
+  - `sudo apt install openjdk-8-jre-headless`  
+  - `sudo apt install openjdk-8-jdk-headless`  
+  - 测试
+    - `javac` `java`
+- VScode安装可找网上教程
+- 扩展插件：Code Runner、Java Test Runner、Java Extention Pack
+
 
 ---
 
