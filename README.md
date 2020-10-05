@@ -209,8 +209,7 @@ Version Control System
   - 测试
     - `javac` `java`
 - VScode安装可找网上教程
-- 扩展插件：Code Runner、Java Test Runner、Java Extention Pack
-
+- 扩展插件：Code Runner、Java Test Runner、Java Extention Pack 
 
 ---
 
