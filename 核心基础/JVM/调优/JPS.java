@@ -10,6 +10,7 @@ public class JPS {//
         for (int i = 0; i < 100; i++) {
             System.out.println("count: " + i);
             Thread.sleep(1000);
+
         }
     }
 }
