@@ -210,6 +210,12 @@ Version Control System
     - `javac` `java`
 - VScode安装可找网上教程
 - 扩展插件：Code Runner、Java Test Runner、Java Extention Pack 
+- man 汉化
+  - apt install manpages-zh
+
+## Linux 常用命令
+- cd
+- pwd
 
 ---
 
