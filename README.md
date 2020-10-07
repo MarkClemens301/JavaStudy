@@ -214,8 +214,13 @@ Version Control System
   - apt install manpages-zh
 
 ## Linux 常用命令
-- cd
-- pwd
+- 目录操作
+  - cd
+  - pwd
+  - mv test test_
+  - cp a.txt ~/a.txt
+  - rm -rf
+
 
 ---
 
