@@ -220,7 +220,20 @@ Version Control System
   - mv test test_
   - cp a.txt ~/a.txt
   - rm -rf
-
+  - mkdir
+- 文件查看
+  - cat/tac
+  - more/less
+  - head/tail
+  - nl (show numbered line)
+- 文件编辑
+  - vi test (create a file named test, and textual edit)
+  - apt install vim
+  - set number
+  - touch test (change timestamps, create a file if not exists)
+  - apt install gedit
+  - gedit test (graphic edit)
+  - wc
 
 ---
 
