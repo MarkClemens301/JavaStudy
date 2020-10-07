@@ -220,7 +220,7 @@ Version Control System
   - mv test test_
   - cp a.txt ~/a.txt
   - rm -rf
-  - mkdir
+  - mkdir -p test/sub_test //TODO
 - 文件查看
   - cat/tac
   - more/less
@@ -234,6 +234,18 @@ Version Control System
   - apt install gedit
   - gedit test (graphic edit)
   - wc
+- 时间查看
+  - date
+  - cal (calendar) / ncal
+- 其他
+  - echo
+  - which java (return one)
+  - whereis java (return all)
+- 进程查看
+  - top -o %MEM
+  - ps /jps (java processes snapshot)
+
+
 
 ---
 
