@@ -1,3 +1,12 @@
+# Ignore
+*.xml
+*.iml
+target/
+.idea/
+.svn/
+ClassOut/
+*/多线程/example/
+
 # Compiled class file
 *.class
 
@@ -21,9 +30,3 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
-
-# multilevel dirs
-ClassOut
-ClassOut/**/*
-.idea
-.idea/**/*
