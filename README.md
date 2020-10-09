@@ -243,7 +243,8 @@ Version Control System
   - whereis java (return all)
 - 进程查看
   - top -o %MEM
-  - ps /jps (java processes snapshot)
+  - ps -a /jps (java processes snapshot)
+  - kill
 
 
 
