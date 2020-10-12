@@ -7,6 +7,7 @@ public class 最长公共子序列 {//
     @Test
     public void t() {
         System.out.println(longestCommonSubsequence("abcde", "ace"));//3
+        System.out.println(longestCommonSubsequence("abc", "def"));//0
     }
 
     /*
