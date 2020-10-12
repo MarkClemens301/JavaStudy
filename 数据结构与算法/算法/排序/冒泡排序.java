@@ -14,8 +14,8 @@ public class 冒泡排序 {//
         if (arr == null || arr.length == 0) return;
         int n = arr.length;
         for (int i = 0; i < n; i++) {
-            for (int j = 1; j < n - i; j++) {
-                if (arr[j] < arr[j - 1]) {
+            for (int j = 1; j < n - i; j++) {//冒泡
+                if (arr[j] < arr[j - 1]) {//上浮一步
                     int tmp = arr[j];
                     arr[j] = arr[j - 1];
                     arr[j - 1] = tmp;
