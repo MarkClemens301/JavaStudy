@@ -2,12 +2,10 @@ package 算法.动态规划;/* 2020/8/24 23:41 */
 
 import org.junit.Test;
 
-import java.util.*; //import java.io.*;
-
 /*
 474. Ones and Zeroes (Medium)
 
-Leetcode / 力扣
+Node / 力扣
 
 Input: Array = {"10", "0001", "111001", "1", "0"}, m = 5, n = 3
 Output: 4

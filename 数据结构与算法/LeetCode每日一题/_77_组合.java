@@ -1,4 +1,4 @@
-package 练习题;/* 2020/9/15 0:24 */
+package LeetCode每日一题;/* 2020/9/15 0:24 */
 
 import org.junit.Test;
 

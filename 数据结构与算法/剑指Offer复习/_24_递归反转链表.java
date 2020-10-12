@@ -1,6 +1,6 @@
 package 剑指Offer复习;/* 2020/9/14 1:08 */
 
-import Leetcode.ListNode;
+import Node.ListNode;
 import org.junit.Test;
 
 public class _24_递归反转链表 {//

@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class 冒泡排序 {//
 
     public static void main(String[] args) {
-        int[] arr = {2, 5, 8, 9, 9, 6, 6, 4, 45, 68, 0, 1};
+        int[] arr = {2, 5, 8, 9, 9, 6, 6, 8949, 4, 45, 68, 0, 1};
         new 冒泡排序().sort(arr);
         System.out.println(Arrays.toString(arr));
     }

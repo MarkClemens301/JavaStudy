@@ -1,4 +1,4 @@
-package Leetcode;/* 2020/9/9 1:23 */
+package Node;/* 2020/9/9 1:23 */
 
 public class TreeNode {//全都公开，供其他包调用，省去getter、setter
     public int val = 0;

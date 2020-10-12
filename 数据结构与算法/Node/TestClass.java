@@ -1,4 +1,4 @@
-package Leetcode;/* 2020/9/9 1:31 */
+package Node;/* 2020/9/9 1:31 */
 
 import org.junit.Test;
 

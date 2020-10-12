@@ -2,7 +2,7 @@ package 算法.动态规划;/* 2020/10/10 0:16 */
 
 import org.junit.Test;
 
-import java.util.*;//
+import java.util.Arrays;
 
 public class 数组的等差递增子区间 {//
     @Test
@@ -38,7 +38,7 @@ public class 数组的等差递增子区间 {//
 /*
 413. Arithmetic Slices (Medium)
 
-Leetcode / 力扣
+Node / 力扣
 
 A = [0, 1, 2, 3, 4]
 

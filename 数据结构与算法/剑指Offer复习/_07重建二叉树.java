@@ -1,6 +1,6 @@
 package 剑指Offer复习;/* 2020/9/9 1:01 */
 
-import Leetcode.TreeNode;
+import Node.TreeNode;
 import org.junit.Test;
 
 import java.util.HashMap;

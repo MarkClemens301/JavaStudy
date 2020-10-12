@@ -30,7 +30,7 @@ public class 数组区间和 {//
 1. 数组区间和
 303. Range Sum Query - Immutable (Easy)
 
-Leetcode / 力扣
+Node / 力扣
 
 Given nums = [-2, 0, 3, -5, 2, -1]
 
