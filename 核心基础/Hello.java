@@ -1,0 +1,21 @@
+import org.junit.Test;
+
+import java.util.concurrent.locks.ReentrantLock;
+import java.util.concurrent.locks.ReentrantReadWriteLock;
+
+public class Hello {//
+
+    public static void main(String[] args) {
+        new Object();
+    }
+
+    @Test
+    public void t1() {
+        Object obj = new Object();
+        synchronized (obj) {
+            obj = new String("213");
+        }
+        new ReentrantReadWriteLock();//读写锁、非独占式
+        new ReentrantLock();//可重入锁
+    }
+}
