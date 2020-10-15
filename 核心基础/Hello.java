@@ -16,6 +16,6 @@ public class Hello {//
             obj = new String("213");
         }
         new ReentrantReadWriteLock();//读写锁、非独占式
-        new ReentrantLock();//可重入锁
+        new ReentrantLock();//可重入锁、独占式
     }
 }
