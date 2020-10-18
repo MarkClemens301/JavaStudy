@@ -1,6 +1,8 @@
 /* 2020/9/6 10:45 */
 package 多线程.线程创建;/* 2020/9/6 10:45 */
-
+/*
+多线程实例
+ */
 public class RunnableTest {
     public static void main(String args[]) throws InterruptedException {
         Thread.currentThread().setPriority(3);//main Thread
