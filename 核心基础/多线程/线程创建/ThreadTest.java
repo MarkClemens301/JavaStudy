@@ -1,9 +1,11 @@
 /* 2020/9/6 10:45 */
 package 多线程.线程创建;/* 2020/9/6 10:45 */
+
 /*
 设置线程优先级、名称
 setPriority(1); 优先级最高
  */
+
 public class ThreadTest {
     public static void main(String[] args) {
         //my

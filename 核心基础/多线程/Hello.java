@@ -11,6 +11,7 @@ public class Hello {//
 
     @Test
     public void t1() throws Exception {//线程的创建、使用
+        Boolean aBoolean = new Boolean(true);//"true"
         AtomicInteger aInt = new AtomicInteger();//原子类
         System.out.println(aInt);
         //1. Thread
