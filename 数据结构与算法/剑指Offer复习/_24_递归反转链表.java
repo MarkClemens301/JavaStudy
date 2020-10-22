@@ -15,7 +15,7 @@ public class _24_递归反转链表 {//
         System.out.println(res);
     }
 
-    ListNode reverseList(ListNode node) {
+    ListNode reverseList_ori(ListNode node) {
         if (node == null || node.next == null) {
             return node;
         }
@@ -23,5 +23,15 @@ public class _24_递归反转链表 {//
         (node.next).next = node;
         (node).next = null;
         return head;//
+    }
+
+    ListNode reverseList(ListNode node) {
+        if (node == null || node.next == null) {
+            return node;
+        }
+        ListNode head = reverseList(node.next);
+        (node.next).next = node;
+        (node).next = null;
+        return head;
     }
 }
