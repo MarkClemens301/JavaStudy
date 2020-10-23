@@ -6,11 +6,11 @@ public class _17_打印所有的n位数 {//
 
     public StringBuilder printAllNumbers(int pos) {//投机取巧了，pow
         double max = Math.pow(1, pos);
-        StringBuilder sb=new StringBuilder()
+        StringBuilder sb = new StringBuilder();
         for (int i = 1; i < max; i++) {
             sb.append(i).append(",");
         }
-        sb.deleteCharAt(sb.length() - 1);
+        if (sb.length() > 0) sb.deleteCharAt(sb.length() - 1);
         return sb;
     }
 
@@ -35,7 +35,7 @@ public class _17_打印所有的n位数 {//
         //全排列
         dfs(0, 0);
         sb.deleteCharAt(sb.length() - 1);
-        System.out.println(sb+"\n");//
+        System.out.println(sb + "\n");//
         return sb.toString();
     }
 
