@@ -16,7 +16,7 @@ public class _18_删除不重复链表中的节点 {//
     public ListNode deleteNode(ListNode head, int val) {
         if(head==null || head.val == val) return head;
         ListNode pre = head, cur = head.next;
-        while (cur != null || cur.val != val) {
+        while (cur != null && cur.val != val) {//&&
             pre = pre.next;
             cur = cur.next;
         }
