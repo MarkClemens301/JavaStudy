@@ -2,16 +2,18 @@ package 剑指Offer复习;/* 2020/9/13 20:10 */
 
 import org.junit.Test;
 
+import java.util.Arrays;
+
 public class _17_打印所有的n位数 {//
 
-    public StringBuilder printAllNumbers(int pos) {//投机取巧了，pow
-        double max = Math.pow(1, pos);
-        StringBuilder sb = new StringBuilder();
+    public int[] printAllNumbers(int pos) {//投机取巧了，pow
+        double max = Math.pow(10, pos);//10, not 1.
+        int[] res = new int[(int) (max - 1)];
         for (int i = 1; i < max; i++) {
-            sb.append(i).append(",");
+            res[i - 1] = i;
         }
-        if (sb.length() > 0) sb.deleteCharAt(sb.length() - 1);
-        return sb;
+        System.out.println(Arrays.toString(res));
+        return res;
     }
 
     @Test
@@ -39,7 +41,7 @@ public class _17_打印所有的n位数 {//
         return sb.toString();
     }
 
-    void dfs(int pos, int nine) {
+    void dfs(int pos, int nine) {//应该用上深搜
         if (pos == len) {
             String s = new String(nums).substring(len - size);
             if (!s.equals("0")) sb.append(s).append(',');
