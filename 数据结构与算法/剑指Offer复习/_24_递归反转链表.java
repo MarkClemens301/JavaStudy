@@ -26,9 +26,7 @@ public class _24_递归反转链表 {//
     }
 
     ListNode reverseList(ListNode node) {
-        if (node == null || node.next == null) {
-            return node;
-        }
+        if(node == null || node.next == null) return node;
         ListNode head = reverseList(node.next);
         (node.next).next = node;
         (node).next = null;
