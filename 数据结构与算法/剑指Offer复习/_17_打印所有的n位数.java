@@ -22,6 +22,7 @@ public class _17_打印所有的n位数 {//
         printNumbers(1);
         printNumbers(2);
         printNumbers(3);
+
     }
 
     StringBuilder sb;
