@@ -6,7 +6,7 @@ import java.util.Arrays;
 
 public class _17_打印所有的n位数 {//
 
-    public int[] printAllNumbers(int pos) {//投机取巧了，pow
+    public int[] printAllNumbers(int pos) {//投机取巧了，Math.pow(,)
         double max = Math.pow(10, pos);//10, not 1.
         int[] res = new int[(int) (max - 1)];
         for (int i = 1; i < max; i++) {
@@ -22,38 +22,34 @@ public class _17_打印所有的n位数 {//
         printNumbers(1);
         printNumbers(2);
         printNumbers(3);
-
     }
 
-    StringBuilder sb;
-    char[] nums;
-    int len, size;//len为最大的长度，size可变长度
-    char[] bits = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9'};
+    int depth, len;
 
     String printNumbers(int n) {
-        sb = new StringBuilder();
-        nums = new char[n];
+        StringBuilder sb = new StringBuilder();
+        depth = 1;//must global variable
         len = n;
-        size = 1;//
-        //全排列
-        dfs(0, 0);
-        sb.deleteCharAt(sb.length() - 1);
-        System.out.println(sb + "\n");//
+        char[] nums = new char[n];
+        dfs(0, 0, nums, sb);
+        if (sb.length() != 0) sb.deleteCharAt(sb.length() - 1);
+        System.out.println(sb);
         return sb.toString();
     }
 
-    void dfs(int pos, int nine) {//应该用上深搜
-        if (pos == len) {
-            String s = new String(nums).substring(len - size);
+    void dfs(int pos, int count9, char[] nums, StringBuilder sb) {
+        if (pos == len) {//最首位,len -- max_depth
+            String s = new String(nums).substring(len - depth);
             if (!s.equals("0")) sb.append(s).append(',');
-            if (nine == size) size++;//9 99 999 ..
-            return;//递归一定不要忘了
+            if (count9 == depth) depth++;
+            return;//remember return
         }
-        for (char bit : bits) {
-            if (bit == '9') nine++;//本轮循环只发生一次
-            nums[pos] = bit;
-            dfs(pos + 1, nine);
+        char[] bits = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9'};
+        for (char i : bits) {
+            if (i == '9') count9++;
+            nums[pos] = i;
+            dfs(pos + 1, count9, nums, sb);
         }
-        nine--;//循环后复原
+        count9--;
     }
 }
