@@ -43,12 +43,8 @@ public class _14_剪绳子 {//
     }
 
     public int cuttingRope(int n) {
-        if (n == 2) {
-            return 1;//1*1
-        }
-        if (n == 3) {
-            return 2;//1*2
-        }
+        if (n == 2) return 1;//1*1
+        if (n == 3) return 2;//1*2
         long res = 1L;
         int p = 1000000007;
         //大数 循环取余
@@ -70,9 +66,9 @@ public class _14_剪绳子 {//
             = x^1 * (x^2)^1 * {[((x^2)^2)^2]^1}
             = x^1 * (x^2)^1 * [((x^2)^2)^2]^1 * {[((x^2)^2)^2]^1}^0
              */
-            if (n % 2 != 0) res = res * x % p;
-            x = x * x % p;
-            n /= 2;
+            if (n % 2 != 0) res = res * x % p;//留一个 or 直到只剩下一个大元素
+            x = x * x % p;//元素大小
+            n /= 2;//元素个数
         }
         return res;
     }
