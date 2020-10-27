@@ -79,4 +79,5 @@ public class _14_剪绳子 {//
         System.out.println(fastMod(2, 11, 1000000007));
         System.out.println(fastMod(3, 30, 1000000007));
     }
+
 }
