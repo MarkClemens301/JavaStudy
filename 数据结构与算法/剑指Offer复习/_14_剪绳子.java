@@ -88,6 +88,6 @@ public class _14_剪绳子 {//
             x = x * x % p;
             n >>= 1;
         }
-        return -1;
+        return res;
     }
 }
