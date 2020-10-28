@@ -8,7 +8,7 @@ import java.util.Set;
 public class _3_无重复字符的最长子串 {//
 
     @Test
-    public void t() {
+    public void t() {//3 1 3
         System.out.println(lengthOfLongestSubstring("abcabcbb"));
         System.out.println(lengthOfLongestSubstring("bbbbb"));
         System.out.println(lengthOfLongestSubstring("pwwkew"));
@@ -21,7 +21,7 @@ public class _3_无重复字符的最长子串 {//
         for (int i = 0; i < n; i++) {
             Set set = new HashSet();
             for (int j = i; j < n; j++) {
-                if (!set.add(s.charAt(i)) && maxLength < set.size()) {
+                if (!set.add(s.charAt(j)) && maxLength < set.size()) {
                     maxLength = set.size();
                     break;
                 }
