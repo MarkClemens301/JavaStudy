@@ -4,6 +4,17 @@ import Node.TreeNode;
 import org.junit.Test;
 
 public class _26_树的子结构 {//
+    @Test
+    public void t2() {
+        TreeNode A = new TreeNode(3);
+        A.left = new TreeNode(4);
+        A.right = new TreeNode(5);
+        A.left.left = new TreeNode(1);
+        A.left.right = new TreeNode(2);
+        TreeNode B = new TreeNode(4);
+        B.left = new TreeNode(1);
+        System.out.println(isSubStructure(A, B));//true
+    }
 
     @Test
     public void t() {
@@ -12,7 +23,7 @@ public class _26_树的子结构 {//
         A.right= new TreeNode(3);
         TreeNode B = new TreeNode(3);
         B.right = new TreeNode(1);
-        System.out.println(isSubStructure(A, B));
+        System.out.println(isSubStructure(A, B));//false
     }
 
     public boolean isSubStructure(TreeNode A, TreeNode B) {
