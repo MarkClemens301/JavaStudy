@@ -16,8 +16,9 @@ public class _27_二叉树的镜像 {//
         root.left.right = new TreeNode(3);
         root.right.left = new TreeNode(6);
         root.right.right = new TreeNode(9);
+        System.out.println(root);
         System.out.println(mirrorTree(root));//4-27-1369 //4-72-9631
-        System.out.println(mirrorTreeIter(root));//4-27-1369 //4-72-9631
+        System.out.println(mirrorTreeIter(root));
     }
 
     TreeNode mirrorTree(TreeNode root) {//递归
