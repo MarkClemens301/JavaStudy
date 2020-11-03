@@ -6,6 +6,9 @@ import org.junit.Test;
 import java.util.Stack;
 
 public class _27_二叉树的镜像 {//
+    public static void main(String[] args) {
+        System.out.println("hello");
+    }
 
     @Test
     public void t() {
