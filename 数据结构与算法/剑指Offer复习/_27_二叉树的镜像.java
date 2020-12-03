@@ -8,10 +8,12 @@ import java.util.Stack;
 public class _27_二叉树的镜像 {//
     public static void main(String[] args) {
         System.out.println("hello");
+        System.out.println("TEST");
     }
 
     @Test
     public void t() {
+        System.out.println("test");
         TreeNode root = new TreeNode(4);
         root.left = new TreeNode(2);
         root.right = new TreeNode(7);
