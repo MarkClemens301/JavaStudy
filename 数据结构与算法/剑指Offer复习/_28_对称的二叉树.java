@@ -6,7 +6,6 @@ import org.junit.Test;
 import java.util.*;//
 
 public class _28_对称的二叉树 {//
-
     @Test
     public void t() {
         TreeNode root = new TreeNode(1);
