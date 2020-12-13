@@ -9,5 +9,7 @@ public class _31_栈的压入_弹出序列 {//
     public void t() {
     }
 
+    public boolean validateStackSequences(int[] pushed, int[] popped) {
 
+    }
 }
