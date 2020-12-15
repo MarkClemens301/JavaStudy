@@ -2,7 +2,7 @@ package 剑指Offer复习;/* 2020/12/13 23:57 */
 
 import org.junit.Test;
 
-import java.util.*;//
+import java.util.Stack;
 
 /*
 // 输入：pushed = [1,2,3,4,5], popped = [4,5,3,2,1]
@@ -11,7 +11,7 @@ import java.util.*;//
 // 输入：pushed = [1,2,3,4,5], popped = [4,3,5,1,2]
 //输出：false  // 1 不能在 2 之前弹出。
  */
-public class _31_栈的压入_弹出序列 {//
+public class _31_栈的压入_弹出序列 {//给定一个栈的压入序列，判断是否有能产生给定的弹出序列。
 
     @Test
     public void t() {
