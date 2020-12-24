@@ -20,7 +20,7 @@ import org.junit.Test;
 
 import java.util.*;//
 
-public class _32_1_从上到下打印二叉树 {//
+public class _32_1_从上到下打印二叉树 {//一次性返回
 
     @Test
     public void t() {
@@ -28,7 +28,7 @@ public class _32_1_从上到下打印二叉树 {//
         root.left = new TreeNode(9);
         root.right = new TreeNode(20);
         root.right.left = new TreeNode(15);
-        root.right.right = new TreeNode(17);
+        root.right.right = new TreeNode(7);
 
         int[] arr = levelOrder(root);
         System.out.println(Arrays.toString(arr));
