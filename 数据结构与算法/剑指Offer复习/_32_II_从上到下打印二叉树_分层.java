@@ -25,7 +25,7 @@ import org.junit.Test;
 
 import java.util.*;//
 
-public class _32_II_从上到下打印二叉树 {//按层返回
+public class _32_II_从上到下打印二叉树_分层 {//按层返回
 
     @Test
     public void test() {
