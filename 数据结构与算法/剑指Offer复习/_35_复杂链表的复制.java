@@ -54,6 +54,7 @@ public class _35_复杂链表的复制 {//
      */
     @Test
     public void test() {
+        //head = [[7,null],[13,0],[11,4],[10,2],[1,0]]
     }
 
     public Node copyRandomList(Node head) {
