@@ -46,7 +46,6 @@ class Node {
 
 public class _35_复杂链表的复制 {//
 
-
     /**
      * 本题困难。
      * 解法多种：1.HashMap 2.深搜 3.广搜 4.迭代 5.迭代优化（节点复制）。
@@ -56,9 +55,31 @@ public class _35_复杂链表的复制 {//
     @Test
     public void test() {
         //head = [[7,null],[13,0],[11,4],[10,2],[1,0]]
+        System.out.println(copyRandomList(null));
     }
 
+    //todo HashMap法,迭代法；前一种简单
     public Node copyRandomList(Node head) {
-        return new Node(0);
+        if (head == null) {
+            return null;
+        }
+        Map<Node, Node> map = new HashMap<>();
+
+        //copy node
+        Node cur = head;
+        while (cur != null) {
+            map.put(cur, new Node(cur.val));
+            cur = cur.next;
+        }
+
+        //copy link
+        cur = head;
+        while (cur != null) {
+            map.get(cur).next = map.get(cur.next);
+            map.get(cur).random = map.get(cur.random);
+            cur = cur.next;
+        }
+
+        return map.get(head);
     }
 }
