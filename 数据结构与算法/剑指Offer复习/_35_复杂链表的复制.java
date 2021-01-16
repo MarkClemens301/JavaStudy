@@ -85,6 +85,10 @@ public class _35_复杂链表的复制 {//
 
     // 迭代法(邻居位置复制插入，分离)
     public Node copyRandomList_(Node head) {
+        if (head == null) {
+            return null;
+        }
+        
         return null;
     }
 }
