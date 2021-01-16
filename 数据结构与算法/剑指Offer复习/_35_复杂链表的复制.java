@@ -42,9 +42,83 @@ class Node {
         this.next = null;
         this.random = null;
     }
+
+    @Override
+    public String toString() {
+        List<String> res = new ArrayList<>();
+        Map<Integer, Integer> place = new HashMap<>();
+        //record random place 【map】
+        Node cur = this;
+        int i = 0;
+        while (cur != null) {
+            place.put(cur.val, i++);
+            cur = cur.next;
+        }
+        System.out.println(place);
+        //output val and random 【String.format(,,)】
+        cur = this;
+        while (cur != null) {
+            String randOrder;//random指针所指向的节点位置序号
+            if (cur.random != null) {
+                randOrder = String.valueOf(place.get(cur.random.val));
+            } else {
+                randOrder = "null";
+            }
+            res.add(String.format("[%s,%s]", cur.val, randOrder));
+            cur = cur.next;
+        }
+        return res.toString();
+    }
 }
 
 public class _35_复杂链表的复制 {//
+
+    //生成示例一
+    @Deprecated
+    public Node genRandomList1() {
+        //head = [[7,null],[13,0],[11,4],[10,2],[1,0]]
+        Node head = new Node(7);
+        // 0
+        Node cur = head;
+        cur.next = new Node(13);
+        cur.random = null;
+        // 1
+        cur = cur.next;
+        cur.next = new Node(11);
+        cur.random = head;
+        // 2
+        cur = cur.next;
+        cur.next = new Node(10);
+        //cur.random = head;
+        // 3
+        cur = cur.next;
+        cur.next = new Node(1);
+        cur.random = head.next.next;
+        // 4
+        cur = cur.next;
+        cur.next = null;
+        cur.random = head;
+        // 2r
+        head.next.next.random = cur;
+        return head;
+    }
+
+    //生成示例二
+    @Deprecated
+    public Node genRandomList2() {
+        //head = [[1,1],[2,1]]
+        Node head = new Node(1);
+        // 0
+        Node cur = head;
+        cur.next = new Node(2);
+        // 1
+        cur = cur.next;
+        cur.next = null;
+        cur.random = cur;
+        // 0r
+        head.random = cur;
+        return head;
+    }
 
     /**
      * 本题困难。
@@ -54,8 +128,11 @@ public class _35_复杂链表的复制 {//
      */
     @Test
     public void test() {
-        //head = [[7,null],[13,0],[11,4],[10,2],[1,0]]
-        System.out.println(copyRandomList(null));
+        Node head;
+        head = genRandomList1();
+        System.out.println(copyRandomList(head));
+        head = genRandomList2();
+        System.out.println(copyRandomList(head));
     }
 
     //todo HashMap法,迭代法；前一种简单
@@ -83,12 +160,35 @@ public class _35_复杂链表的复制 {//
         return map.get(head);
     }
 
-    // 迭代法(邻居位置复制插入，分离)
+    // 2.迭代法(邻居位置复制插入，分离)
     public Node copyRandomList_(Node head) {
         if (head == null) {
             return null;
         }
-        
-        return null;
+        // val next
+        Node cur = head;
+        while (cur != null) {
+            Node newNode = new Node(cur.val);
+            newNode.next = cur.next;
+            cur.next = newNode;
+            cur = cur.next.next;
+        }
+        // random
+        cur = head;
+        while (cur != null) {
+            cur.next.random = (cur.random != null) ? cur.random.next : null;
+            cur = cur.next.next;
+        }
+        // depart
+        Node newHead = head.next;
+        cur = head;
+        Node newCur = head.next;
+        while (cur != null) {
+            cur.next = cur.next.next;
+            cur = cur.next;
+            newCur.next = (newCur.next != null) ? newCur.next.next : null;
+            newCur = newCur.next;
+        }
+        return newHead;
     }
 }
