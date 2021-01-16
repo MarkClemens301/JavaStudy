@@ -82,4 +82,9 @@ public class _35_复杂链表的复制 {//
 
         return map.get(head);
     }
+
+    // 迭代法(邻居位置复制插入，分离)
+    public Node copyRandomList_(Node head) {
+        return null;
+    }
 }
