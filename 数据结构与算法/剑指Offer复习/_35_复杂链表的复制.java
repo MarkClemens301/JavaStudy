@@ -73,6 +73,10 @@ class Node {
 
 public class _35_复杂链表的复制 {//
 
+    /*
+    {1=4, 7=0, 10=3, 11=2, 13=1}
+[[7,null], [13,0], [11,4], [10,2], [1,0]]
+     */
     //生成示例一
     @Deprecated
     public Node genRandomList1() {
@@ -103,6 +107,10 @@ public class _35_复杂链表的复制 {//
         return head;
     }
 
+    /*
+{1=0, 2=1}
+[[1,1], [2,1]]
+     */
     //生成示例二
     @Deprecated
     public Node genRandomList2() {
