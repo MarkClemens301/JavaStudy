@@ -1,4 +1,5 @@
 package 剑指Offer复习;/* 2021/1/6 12:50 */
+
 /*
 // 示例 1：
 //
@@ -47,7 +48,7 @@ class Node {
     public String toString() {
         List<String> res = new ArrayList<>();
         Map<Integer, Integer> place = new HashMap<>();
-        //record random place 【map】
+        // record random place 【map】
         Node cur = this;
         int i = 0;
         while (cur != null) {
@@ -55,10 +56,10 @@ class Node {
             cur = cur.next;
         }
         System.out.println(place);
-        //output val and random 【String.format(,,)】
+        // output val and random 【String.format(,,)】
         cur = this;
         while (cur != null) {
-            String randOrder;//random指针所指向的节点位置序号
+            String randOrder;// random指针所指向的节点位置序号
             if (cur.random != null) {
                 randOrder = String.valueOf(place.get(cur.random.val));
             } else {
@@ -74,13 +75,12 @@ class Node {
 public class _35_复杂链表的复制 {//
 
     /*
-    {1=4, 7=0, 10=3, 11=2, 13=1}
-[[7,null], [13,0], [11,4], [10,2], [1,0]]
+     * {1=4, 7=0, 10=3, 11=2, 13=1} [[7,null], [13,0], [11,4], [10,2], [1,0]]
      */
-    //生成示例一
+    // 生成示例一
     @Deprecated
     public Node genRandomList1() {
-        //head = [[7,null],[13,0],[11,4],[10,2],[1,0]]
+        // head = [[7,null],[13,0],[11,4],[10,2],[1,0]]
         Node head = new Node(7);
         // 0
         Node cur = head;
@@ -93,7 +93,7 @@ public class _35_复杂链表的复制 {//
         // 2
         cur = cur.next;
         cur.next = new Node(10);
-        //cur.random = head;
+        // cur.random = head;
         // 3
         cur = cur.next;
         cur.next = new Node(1);
@@ -108,13 +108,12 @@ public class _35_复杂链表的复制 {//
     }
 
     /*
-{1=0, 2=1}
-[[1,1], [2,1]]
+     * {1=0, 2=1} [[1,1], [2,1]]
      */
-    //生成示例二
+    // 生成示例二
     @Deprecated
     public Node genRandomList2() {
-        //head = [[1,1],[2,1]]
+        // head = [[1,1],[2,1]]
         Node head = new Node(1);
         // 0
         Node cur = head;
@@ -129,9 +128,7 @@ public class _35_复杂链表的复制 {//
     }
 
     /**
-     * 本题困难。
-     * 解法多种：1.HashMap 2.深搜 3.广搜 4.迭代 5.迭代优化（节点复制）。
-     * 重点掌握HashMap和迭代优化两种。
+     * 本题困难。 解法多种：1.HashMap 2.深搜 3.广搜 4.迭代 5.迭代优化（节点复制）。 重点掌握HashMap和迭代优化两种。
      * https://leetcode-cn.com/problems/fu-za-lian-biao-de-fu-zhi-lcof/solution/tong-guo-hashmaplai-shi-xian-by-try-62/
      */
     @Test
@@ -143,21 +140,21 @@ public class _35_复杂链表的复制 {//
         System.out.println(copyRandomList(head));
     }
 
-    //todo HashMap法,迭代法；前一种简单
+    // todo HashMap法,迭代法；前一种简单
     public Node copyRandomList(Node head) {
         if (head == null) {
             return null;
         }
         Map<Node, Node> map = new HashMap<>();
 
-        //copy node
+        // copy node
         Node cur = head;
         while (cur != null) {
             map.put(cur, new Node(cur.val));
             cur = cur.next;
         }
 
-        //copy link
+        // copy link
         cur = head;
         while (cur != null) {
             map.get(cur).next = map.get(cur.next);
