@@ -5,8 +5,17 @@ import org.junit.Test;
 import java.util.*;//
 
 public class _37_序列化二叉树 {//
+
     @Test
     public void t() {
         System.out.println("hello");
     }
+
+    public String serialize(Node.TreeNode root) {
+        if (root == null) {
+            return "[]";
+        }
+        return "[]";
+    }
+
 }
