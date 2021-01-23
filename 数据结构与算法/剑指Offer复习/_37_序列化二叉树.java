@@ -11,7 +11,7 @@ public class _37_序列化二叉树 {//
         System.out.println("hello");
     }
 
-    public String serialize(Node.TreeNode root) {
+    public String serialize(TreeNode root) {
         if (root == null) {
             return "[]";
         }
