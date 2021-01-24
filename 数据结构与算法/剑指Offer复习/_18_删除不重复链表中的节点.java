@@ -1,6 +1,6 @@
 package 剑指Offer复习;/* 2020/10/23 22:39 */
 
-import Node.ListNode;
+import Nodes.ListNode;
 import org.junit.Test;
 /*
 // 输入: head = [4,5,1,9], val = 5

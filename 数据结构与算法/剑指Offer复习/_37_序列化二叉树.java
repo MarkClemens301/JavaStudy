@@ -1,8 +1,7 @@
 package 剑指Offer复习;/* 2021/1/21 23:41 */
 
+import Nodes.TreeNode; //模块名改为Nodes
 import org.junit.Test;
-
-import java.util.*;//
 
 public class _37_序列化二叉树 {//
 
@@ -17,5 +16,6 @@ public class _37_序列化二叉树 {//
         }
         return "[]";
     }
+
 
 }

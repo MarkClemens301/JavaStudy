@@ -1,6 +1,6 @@
 package 剑指Offer复习;/* 2020/10/31 23:52 */
 
-import Node.TreeNode;
+import Nodes.TreeNode;
 import org.junit.Test;
 
 public class _26_树的子结构 {//

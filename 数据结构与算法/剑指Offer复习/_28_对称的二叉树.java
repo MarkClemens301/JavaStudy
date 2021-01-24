@@ -1,9 +1,7 @@
 package 剑指Offer复习;/* 2020/12/3 15:51 */
 
-import Node.TreeNode;
+import Nodes.TreeNode;
 import org.junit.Test;
-
-import java.util.*;//
 
 public class _28_对称的二叉树 {//
     @Test

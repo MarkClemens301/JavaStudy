@@ -15,7 +15,7 @@ package 剑指Offer复习;/* 2020/12/21 23:53 */
 // [3,9,20,15,7]
  */
 
-import Node.TreeNode;
+import Nodes.TreeNode;
 import org.junit.Test;
 
 import java.util.*;//

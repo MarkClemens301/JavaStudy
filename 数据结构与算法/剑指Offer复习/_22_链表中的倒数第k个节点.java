@@ -1,6 +1,6 @@
 package 剑指Offer复习;/* 2020/10/23 22:14 */
 
-import Node.ListNode;
+import Nodes.ListNode;
 import org.junit.Test;
 
 /*

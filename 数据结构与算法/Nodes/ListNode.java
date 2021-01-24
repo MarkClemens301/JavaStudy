@@ -1,4 +1,4 @@
-package Node;/* 2020/9/9 1:24 */
+package Nodes;/* 2020/9/9 1:24 */
 
 public class ListNode {
     public int val = 0;

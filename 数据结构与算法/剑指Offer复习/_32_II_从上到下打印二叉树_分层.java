@@ -19,8 +19,7 @@ package 剑指Offer复习;/* 2020/12/24 14:10 */
 //]
  */
 
-import Node.ListNode;
-import Node.TreeNode;
+import Nodes.TreeNode;
 import org.junit.Test;
 
 import java.util.*;//
