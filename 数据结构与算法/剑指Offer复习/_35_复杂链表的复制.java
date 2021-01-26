@@ -28,49 +28,10 @@ package 剑指Offer复习;/* 2021/1/6 12:50 */
 ////解释：给定的链表为空（空指针），因此返回 null。
  */
 
+import Nodes.Node;
 import org.junit.Test;
 
 import java.util.*;//
-
-// Definition for a Node.
-class Node {
-    int val;
-    Node next;
-    Node random;
-
-    public Node(int val) {
-        this.val = val;
-        this.next = null;
-        this.random = null;
-    }
-
-    @Override
-    public String toString() {
-        List<String> res = new ArrayList<>();
-        Map<Integer, Integer> place = new HashMap<>();
-        // record random place 【map】
-        Node cur = this;
-        int i = 0;
-        while (cur != null) {
-            place.put(cur.val, i++);
-            cur = cur.next;
-        }
-        System.out.println(place);
-        // output val and random 【String.format(,,)】
-        cur = this;
-        while (cur != null) {
-            String randOrder;// random指针所指向的节点位置序号
-            if (cur.random != null) {
-                randOrder = String.valueOf(place.get(cur.random.val));
-            } else {
-                randOrder = "null";
-            }
-            res.add(String.format("[%s,%s]", cur.val, randOrder));
-            cur = cur.next;
-        }
-        return res.toString();
-    }
-}
 
 public class _35_复杂链表的复制 {//
 
