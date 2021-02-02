@@ -25,32 +25,38 @@ public class _38_字符串的排列 {//
         System.out.println(Arrays.toString(res));
     }
 
+
     List<String> res;//结果存储
     char[] chars;//回溯容器
 
-    public String[] permutation(String s) {//排列 main
+    public String[] permutation(String s) {//main 全排列
         res = new LinkedList<>();
         chars = s.toCharArray();
-        dfs(0);
-        return res.toArray(new String[0]);
+
+        dfs(0);//首位开始全排列过程
+
+        return res.toArray(new String[0]);//list2arr
     }
 
-    public void dfs(int x) {//回溯，注意剪枝
-        if (x == chars.length - 1) {// len-1 位置已经用set筛选过了 不必担心重复
-            res.add(String.valueOf(chars));
-            return;
+    public void dfs(int x) {//dfs回溯，剪枝处理
+        //同一位置不能放不同的字符，但是'a'不能放两次：：set的作用
+        if (x == chars.length - 1) {
+            res.add(String.valueOf(chars));//到达最后一位，直接存结果；经过剪枝判断才到这里的
         }
-        Set<Character> set = new HashSet<>();
+        //剪枝容器
+        HashSet<Character> set = new HashSet<>();
+        //回溯
         for (int i = x; i < chars.length; i++) {
             if (set.contains(chars[i])) continue;
             set.add(chars[i]);
-            swap(x, i);//把第i个位置上的元素放到前面位置x上去
-            dfs(x + 1);
+
+            swap(x, i);
+            dfs(x + 1);//走下一位
             swap(x, i);
         }
     }
 
-    public void swap(int x, int y) {//字符位置交换
+    public void swap(int x, int y) {//两个位置的字符对换
         char tmp = chars[x];
         chars[x] = chars[y];
         chars[y] = tmp;
