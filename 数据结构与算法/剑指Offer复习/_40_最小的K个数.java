@@ -17,8 +17,11 @@ import java.util.*;//
 public class _40_最小的K个数 {//
     @Test
     public void test() {
-        Integer[] res = getLeastNumbers(new int[]{0, 1, 2, 1}, 1);
-        System.out.println(res);
+        Integer[] res;
+        res = getLeastNumbers(new int[]{0, 1, 2, 1}, 1);
+        System.out.println(Arrays.toString(res));
+        res = getLeastNumbers(new int[]{0, 1, 2, 1}, 3);
+        System.out.println(Arrays.toString(res));
     }
 
     public Integer[] getLeastNumbers(int[] arr, int k) {
