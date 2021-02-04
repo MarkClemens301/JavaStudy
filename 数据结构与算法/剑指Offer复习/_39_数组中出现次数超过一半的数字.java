@@ -18,7 +18,7 @@ public class _39_数组中出现次数超过一半的数字 {//
         System.out.println(res);
     }
     //方法一：HashMap计数法
-    //方法二：摩尔计数法（抵消法）/因为是半数
+    //方法二：摩尔计数法（抵消法）/TODO 精髓：先找到出现次数最多的那个数字
     public int majorityElement(int[] arr) {
         int maj = -1, vote = 0;
         for (int i : arr) {
