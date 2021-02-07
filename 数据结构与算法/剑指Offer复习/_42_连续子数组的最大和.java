@@ -23,6 +23,7 @@ public class _42_连续子数组的最大和 {//
         dp.add(nums[0]);
         for (int i = 1; i < nums.length; i++) {
             //TODO
+            boolean flag = false;
 
         }
         return Collections.max(dp);
