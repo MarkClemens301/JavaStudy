@@ -13,4 +13,19 @@ package 剑指Offer复习;/* 2021/2/4 22:55 */
 import java.util.*;//
 
 public class _42_连续子数组的最大和 {//
+
+    //动态规划
+    public int maxSubArray(int[] nums) {
+        if (nums == null) {
+            return -1;
+        }
+        List<Integer> dp = new ArrayList<>();
+        dp.add(nums[0]);
+        for (int i = 1; i < nums.length; i++) {
+            //TODO
+            
+        }
+        return Collections.max(dp);
+    }
+
 }
