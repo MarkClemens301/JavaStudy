@@ -10,9 +10,16 @@ package 剑指Offer复习;/* 2021/2/4 22:55 */
 //解释: 连续子数组 [4,-1,2,1] 的和最大，为 6。
  */
 
+import org.junit.Test;
+
 import java.util.*;//
 
 public class _42_连续子数组的最大和 {//
+    @Test
+    public void test1(){
+        System.out.println("RUN");
+        System.out.println(maxSubArray(new int[]{-2, -1}));
+    }
 
     //动态规划
     public int maxSubArray(int[] nums) {
@@ -23,8 +30,8 @@ public class _42_连续子数组的最大和 {//
         dp.add(nums[0]);
         for (int i = 1; i < nums.length; i++) {
             //TODO
-            boolean flag = false;
-
+            boolean flag = dp.get(i - 1) <= 0;
+            dp.add(nums[i] + (flag ? 0 : dp.get(i - 1)));
         }
         return Collections.max(dp);
     }
