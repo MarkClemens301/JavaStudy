@@ -14,6 +14,8 @@ public class _43_n以内数字出现1的次数 {//
     @Test
     public void test() {
         System.out.println(countDigitOne(12));
+        System.out.println(countDigitOne(122));
+        System.out.println(countDigitOne_(122));
     }
 
     //先用暴力法
@@ -29,9 +31,21 @@ public class _43_n以内数字出现1的次数 {//
         return countOne;
     }
 
+    //递归
     public int countDigitOne_(int num) {
         int countOne = 0;
+        if (num <= 0) return 0;
+        if (num <= 9) return 1;
+        // 首位 单位 剩余各位
+        String s = String.valueOf(num);
+        int high = s.charAt(0) - '0';
+        int pow = (int) Math.pow(10, s.length() - 1);
+        int last = num - high * pow;
         // TODO: 其他办法
-        return countOne;
+        if (high == 1) { // 1234 -- count(1000~1234) \ count(0~999)
+            return (last + 1) + countDigitOne_(last) + countDigitOne_(pow - 1);
+        } else { //3456 -- count(3000~3456) \ count[(0/1/2)999] \ count((1)XXX)
+            return countDigitOne_(last) + high * countDigitOne_(pow-1) + pow;
+        }
     }
 }
