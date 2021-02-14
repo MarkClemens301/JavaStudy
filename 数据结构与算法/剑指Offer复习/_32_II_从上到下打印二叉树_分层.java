@@ -41,8 +41,8 @@ public class _32_II_从上到下打印二叉树_分层 {//按层返回
         if (root == null) return new ArrayList<>();
 
         List<List<Integer>> res = new LinkedList<>();
-        //DFS(root, res, 0);
-        BFS(root, res);
+        DFS(root, res, 0);
+        //BFS(root, res);
 
         return res;
     }
@@ -50,7 +50,7 @@ public class _32_II_从上到下打印二叉树_分层 {//按层返回
     private void DFS(TreeNode root, List<List<Integer>> res, int level) {//动态数组的维护，从左至右
         if (root == null) return;
 
-        if (level > res.size() - 1) res.add(new ArrayList<>());
+        if (res.size() <= level) res.add(new ArrayList<>());//TODO 网友提示改为<=;  cause initLevel=0
         res.get(level).add(root.val);
 
         DFS(root.left, res, level + 1);

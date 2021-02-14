@@ -10,7 +10,7 @@ import org.junit.Test;
 
 import java.util.*;//
 
-public class _44_数字序列中的第n位数 {//
+public class _44_数字序列中的第n位数 {//[难题]
 
     @Test
     public void ts() {
