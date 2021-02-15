@@ -7,18 +7,34 @@ package 剑指Offer复习;/* 2021/2/14 23:01 */
 // 输入: [3,30,34,5,9]
 //输出: "3033459"
  */
+
 import org.junit.Test;
 
 import java.util.*;//
 
 public class _45_把数组排成最小的数 {//
+
     @Test
     public void test() {
-        System.out.println(minNumber(new int[]{1, 2, 5, 12, 26}));
+        System.out.println(minNumber(new int[]
+                {1, 2, 5, 12, 26}
+        ));
     }
 
     public String minNumber(int[] nums) {
         //TODO
-        return "";
+        ArrayList<String> sList = new ArrayList<>();
+        for (int num : nums) {
+            sList.add(String.valueOf(num));
+        }
+        sList.sort(
+                (x1, x2) -> (x1 + x2).compareTo(x2 + x1)
+        );//TODO
+
+        StringBuilder sb = new StringBuilder();
+        for (String num : sList) {
+            sb.append(num);
+        }
+        return sb.toString();
     }
 }
