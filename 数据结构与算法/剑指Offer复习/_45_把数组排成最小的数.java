@@ -29,7 +29,7 @@ public class _45_把数组排成最小的数 {//
         }
         sList.sort(
                 (x1, x2) -> (x1 + x2).compareTo(x2 + x1)
-        );//TODO
+        );//TODO 关键一步
 
         StringBuilder sb = new StringBuilder();
         for (String num : sList) {
