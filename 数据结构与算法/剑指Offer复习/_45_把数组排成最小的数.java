@@ -21,20 +21,20 @@ public class _45_把数组排成最小的数 {//
         ));
     }
 
-    public String minNumber(int[] nums) {
-        //TODO
-        ArrayList<String> sList = new ArrayList<>();
+    public String minNumber(int[] nums) {//List.sort
+        List<String> sList = new ArrayList<>();
         for (int num : nums) {
             sList.add(String.valueOf(num));
         }
-        sList.sort(
-                (x1, x2) -> (x1 + x2).compareTo(x2 + x1)
-        );//TODO 关键一步
-
+        sList.sort((s1, s2) -> (s1 + s2).compareTo(s2 + s1)); //key point
         StringBuilder sb = new StringBuilder();
-        for (String num : sList) {
-            sb.append(num);
+        for (String s : sList) {
+            sb.append(s);
         }
         return sb.toString();
+    }
+
+    private void fastSort(String[] ss, int L, int R) {//手写快排
+        //todo
     }
 }
