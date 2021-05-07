@@ -17,7 +17,7 @@ public class _04二维有序数组查找 {
         }
         int n = matrix.length, m = matrix[0].length;
         int i = 0, j = m - 1;
-        while (i < n && j >= 0) {
+        while (i < n && j >= 0) { //暴力遍历，要考虑有序这个信息
             if (matrix[i][j] == target) return true;
             if (matrix[i][j] < target) i++;
             else j--;
