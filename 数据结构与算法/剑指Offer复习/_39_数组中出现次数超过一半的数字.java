@@ -31,4 +31,5 @@ public class _39_数组中出现次数超过一半的数字 {//
         }
         return (count * 2 > arr.length) ? maj : -1;//过半就输出maj
     }
+    //tomorrow
 }
