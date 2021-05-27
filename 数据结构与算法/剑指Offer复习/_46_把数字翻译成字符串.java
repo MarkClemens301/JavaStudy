@@ -31,7 +31,7 @@ public class _46_把数字翻译成字符串 {//
         dp[0] = 0;
         dp[1] = 1;
         //第n个数的前两个数组合位于10~25，那么dp[n]=dp[n-1]+dp[n-2]
-        //TODO 未完待续   今天迁移了一百多个本地github repos 没来得及写代码
+        //TODO 未完待续   今天迁移了一百多个本地github repos 没来得及写代码...
         return 0;
     }
 }
