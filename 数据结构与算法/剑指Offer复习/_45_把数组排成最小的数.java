@@ -13,6 +13,10 @@ import org.junit.Test;
 import java.util.*;//
 
 public class _45_把数组排成最小的数 {//
+    public static void main(String[] args) {
+        _45_把数组排成最小的数 m=new _45_把数组排成最小的数();
+        m.test();
+    }
 
     @Test
     public void test() {

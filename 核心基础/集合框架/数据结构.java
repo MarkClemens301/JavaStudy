@@ -2,11 +2,16 @@ package 集合框架;/* 2020/9/16 10:09 */
 
 import org.junit.Test;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.concurrent.ConcurrentHashMap;
 
 public class 数据结构 {//
+    public static void main(String[] args) {
+        数据结构 m=new 数据结构();
+        m.数据结构();
+    }
 
     @Test
     public void 数据结构() {
@@ -15,5 +20,7 @@ public class 数据结构 {//
         new LinkedHashMap<>();//Entry
         new Object();
         new ConcurrentHashMap<>();
+        new ArrayList();
+        System.out.println("est--");
     }
 }

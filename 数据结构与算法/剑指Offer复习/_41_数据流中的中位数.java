@@ -1,4 +1,4 @@
-package 剑指Offer复习;/* 2021/2/4 22:30 */
+// package 剑指Offer复习;/* 2021/2/4 22:30 */
 /*
 如何得到一个数据流中的中位数？如果从数据流中读出奇数个数值，那么中位数就是所有数值排序之后位于中间的数值。
 // [2,3,4] 的中位数是 3
@@ -23,6 +23,11 @@ import org.junit.Test;
 import java.util.*;//
 
 public class _41_数据流中的中位数 {//
+    
+    public static void main(String[] args) {
+        _41_数据流中的中位数 m=new _41_数据流中的中位数();
+        m.test();
+    }
 
     @Test
     public void test() {
