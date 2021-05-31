@@ -5,6 +5,7 @@ target/
 .idea/
 .svn/
 ClassOut/
+outputs/
 */多线程/example/
 
 # Compiled class file
