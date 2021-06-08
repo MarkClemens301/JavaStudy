@@ -40,7 +40,7 @@ public class _46_把数字翻译成字符串 {//
         //test git tool 2021-5-27
         for (int i = 2; i <= ss.length; i++) {
             int tmp = (ss[i - 2] - '0') * 10 + (ss[i - 1] - '0');
-            if (tmp > 9 && tmp < 26) dp[i] = dp[i - 1] + dp[i - 2];//可以组合
+            if (tmp > 9 && tmp < 26) dp[i] = dp[i - 1] + dp[i - 2];//可以组合 2021-6-9
             else dp[i] = dp[i - 1]; //不可以组合
         }
         return dp[dp.length - 1];///28 share
