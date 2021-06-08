@@ -18,24 +18,31 @@ import org.junit.Test;
 import java.util.*;//
 
 public class _46_把数字翻译成字符串 {//
+
     @Test
     public void t1() {
         System.out.println("'hello'");
         System.out.println(translateNum(12258));
     }
+
     public static void main(String[] args) {
-        _46_把数字翻译成字符串 m=new _46_把数字翻译成字符串();
+        _46_把数字翻译成字符串 m = new _46_把数字翻译成字符串();
         m.t1();
     }
 
     public int translateNum(int num) {
         char[] ss = String.valueOf(num).toCharArray();
-        int[] dp = new int[ss.length];
-        dp[0] = 0;
+        int[] dp = new int[ss.length + 1];
+        dp[0] = 1;
         dp[1] = 1;
-        //第n个数的前两个数组合位于10~25，那么dp[n]=dp[n-1]+dp[n-2]
+        //第n个数的前两个数组合位于10~25，那么dp[n]=dp[n-1]+dp[n-2] //todo 动态规划
         //TODO 未完待续   今天迁移了一百多个本地github repos 没来得及写代码...--test
         //test git tool 2021-5-27
-        return 0;///28 share
+        for (int i = 2; i <= ss.length; i++) {
+            int tmp = (ss[i - 2] - '0') * 10 + (ss[i - 1] - '0');
+            if (tmp > 9 && tmp < 26) dp[i] = dp[i - 1] + dp[i - 2];//可以组合
+            else dp[i] = dp[i - 1]; //不可以组合
+        }
+        return dp[dp.length - 1];///28 share
     }
 }
