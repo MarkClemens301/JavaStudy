@@ -1,11 +1,9 @@
 # Ignore
 *.xml
 *.iml
-target/
 .idea/
 .svn/
-ClassOut/
-outputs/
+target/
 Target/
 .classpath
 .project
