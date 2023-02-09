@@ -4,9 +4,25 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.mark</groupId>
-    <artifactId>基础语法</artifactId>
+    <name>基础语法</name>
+    <artifactId>basic-grammer</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <parent>
+        <groupId>com.mark</groupId>
+        <artifactId>JavaStudy</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
 
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <sourceDirectory>${basedir}/</sourceDirectory>
+        <directory>${basedir}/../Target/${project.artifactId}</directory>
+    </build>
 </project>

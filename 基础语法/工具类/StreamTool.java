@@ -1,9 +1,9 @@
-package 工具类;/* 2020/8/20 8:59 */
+/* 2020/8/20 8:59 */
+package 工具类;
 
 import org.junit.Test;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -21,8 +21,7 @@ public class StreamTool {
         //Stream: stream创建 filter转换 count聚合
 
         int countNull;
-        countNull = (int) list.stream()
-                .filter(num -> num == null).count();
+        countNull = (int) list.stream().filter(num -> num == null).count();
         System.out.println("countNull = " + countNull);
 
 
@@ -31,9 +30,7 @@ public class StreamTool {
         Stream sS = Stream.of("taobao");
 
         //转换Stream  distinct filter
-        String dis = (String) iS.distinct()
-                .map(x -> x.toString())
-                .collect(Collectors.joining(","));
+        String dis = (String) iS.distinct().map(x -> x.toString()).collect(Collectors.joining(","));
         //汇聚 count reduce collect
         System.out.println(dis);
 

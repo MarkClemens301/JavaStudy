@@ -6,7 +6,9 @@ target/
 .svn/
 ClassOut/
 outputs/
-*/多线程/example/
+Target/
+.classpath
+.project
 
 # Compiled class file
 *.class
