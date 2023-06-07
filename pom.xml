@@ -13,7 +13,14 @@
         <module>基础语法</module>
         <module>核心基础</module>
         <module>数据结构与算法</module>
+        <module>Demo01</module>
     </modules>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
 
     <dependencyManagement>
         <dependencies>
