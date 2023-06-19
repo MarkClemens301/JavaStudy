@@ -2,6 +2,25 @@ JavaStudy <JavaLearn>
 ---
 
 
+
+## Java
+
+
+```java
+// region 使用region
+
+// endregion
+```
+
+```xml
+<!--region 使用region-->
+<!--...-->
+<!--endregion-->
+```
+
+
+
+
 # GIT 操作
 
 
