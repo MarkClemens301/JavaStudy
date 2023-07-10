@@ -13,7 +13,7 @@
         <module>基础语法</module>
         <module>核心基础</module>
         <module>数据结构与算法</module>
-        <module>Demo01</module>
+        <module>interview01</module>
     </modules>
 
     <properties>

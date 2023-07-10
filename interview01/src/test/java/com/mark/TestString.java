@@ -1,3 +1,5 @@
+package com.mark;
+
 import org.apache.commons.io.EndianUtils;
 import org.junit.Test;
 
