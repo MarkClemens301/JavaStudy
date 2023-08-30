@@ -1,5 +1,6 @@
 package 数据结构.集合Set;/* 2020/9/7 3:35 */
 
+import org.junit.After;
 import org.junit.Test;
 
 import java.util.*;//
@@ -17,6 +18,13 @@ public class 集合_交并差 {
         set2.addAll(Arrays.asList(2, 3, 4));
         System.out.println(set1);
         System.out.println(set2);
+    }
+
+    @After
+    public void tearDown() {
+        if (set != null && !set.isEmpty()) {
+            set.clear();
+        }
     }
 
     /*
@@ -51,5 +59,9 @@ public class 集合_交并差 {
         差集();
         set.clear();
         System.out.println(set);
+
+        System.out.println("set1.retainAll(set2) = " + set1.retainAll(set2)); // set1 ^ set2
+        System.out.println("set1.removeAll(set2) = " + set1.removeAll(set2)); // set1 - set2
+        System.out.println("set1.addAll(set2) = " + set1.addAll(set2)); //set1 + set2
     }
 }
