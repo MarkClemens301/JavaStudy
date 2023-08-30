@@ -53,6 +53,8 @@ git add .
 git restore --staged .  # 从暂存区移出来。
 git commit -m $msg
 
+git restore --staged .
+
 
 @gitbash 中文乱码问题
 git config --global core.quotepath false
